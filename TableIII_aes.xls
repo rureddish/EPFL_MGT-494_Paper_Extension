@@ -1,0 +1,30 @@
+	(1)	(2)
+	AES	AES
+Animal plow cultivation variable (v39): Using Ethnologue - pop weighted	-0.736***	-0.920***
+	(0.084)	(0.100)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	0.312**	0.325**
+	(0.129)	(0.133)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-0.322***	-0.004
+	(0.083)	(0.102)
+presence of large animals	0.174	0.296**
+	(0.111)	(0.145)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	0.080**	0.062
+	(0.040)	(0.043)
+Settlement patterns (v30)	0.048**	0.018
+	(0.021)	(0.026)
+continent==Asia		0.200*
+		(0.121)
+continent==Europe		0.614***
+		(0.134)
+continent==North America		-0.046
+		(0.085)
+continent==Oceania		0.171
+		(0.138)
+continent==South America		0.108
+		(0.105)
+Constant	2.020***	1.813***
+	(0.171)	(0.209)
+Observations	321	321
+R-squared	0.25	0.30
+Robust standard errors in parentheses		
+* significant at 10%; ** significant at 5%; *** significant at 1%		

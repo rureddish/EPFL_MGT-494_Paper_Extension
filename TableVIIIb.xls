@@ -1,0 +1,36 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+	Female labor force participation in 2000	Female labor force participation in 2000	Percent of firms with female ownership (in latest survey year)	Percent of firms with female ownership (in latest survey year)	Women in Politics in 2000, WDI	Women in Politics in 2000, WDI
+Plough negative crops	18.928***	19.571***	6.072	9.134	-2.975	-2.868
+	(6.506)	(6.329)	(9.926)	(10.401)	(6.093)	(6.258)
+Plough positive crops	-10.644***	-11.299***	-13.164**	-12.692**	-5.800**	-6.840**
+	(3.816)	(4.285)	(5.610)	(6.214)	(2.534)	(2.790)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	9.826***	11.393***	6.040	8.472	4.680*	4.024
+	(3.618)	(4.281)	(5.610)	(6.558)	(2.778)	(2.684)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-12.930***	-13.854***	-11.371***	-6.844	-5.448**	-4.137*
+	(2.718)	(3.104)	(4.217)	(5.822)	(2.205)	(2.427)
+presence of large animals	-6.389	-4.789	-1.092	6.734	-5.460	-3.743
+	(5.852)	(6.098)	(10.709)	(10.768)	(3.576)	(4.195)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	0.541	0.707	-0.190	-1.417	-0.034	-0.033
+	(1.301)	(1.288)	(1.790)	(1.786)	(0.753)	(0.757)
+Settlement patterns (v30)	0.002	0.193	0.907	0.068	0.305	0.216
+	(0.682)	(0.747)	(1.123)	(1.215)	(0.488)	(0.520)
+ln (income)	-34.494***	-33.074***	10.915	5.722	-3.914	-3.716
+	(6.281)	(6.755)	(10.582)	(10.982)	(4.039)	(4.233)
+ln (income) ^2	2.093***	2.025***	-0.683	-0.464	0.377	0.362
+	(0.394)	(0.417)	(0.730)	(0.742)	(0.274)	(0.279)
+continent==Asia		-0.298		7.043		-1.186
+		(3.910)		(5.821)		(2.079)
+continent==Europe		-2.663		14.672*		3.177
+		(4.512)		(8.148)		(3.111)
+continent==North America		-4.762		12.297**		-1.849
+		(3.208)		(4.914)		(2.364)
+continent==Oceania		3.305		18.377***		0.278
+		(6.677)		(5.990)		(3.476)
+continent==South America		1.065		12.492**		2.066
+		(3.818)		(5.002)		(2.860)
+Constant	191.839***	182.824***	-2.734	10.402	27.793*	25.625
+	(25.283)	(27.026)	(39.428)	(41.067)	(15.090)	(15.763)
+Observations	160	160	122	122	140	140
+R-squared	0.47	0.48	0.13	0.19	0.30	0.33
+Robust standard errors in parentheses						
+* significant at 10%; ** significant at 5%; *** significant at 1%						

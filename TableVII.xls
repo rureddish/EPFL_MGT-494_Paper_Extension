@@ -1,0 +1,70 @@
+	(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000	Female labor force participation in 2000
+Animal plow cultivation variable (v39): Using Ethnologue - pop weighted	-10.892***	-12.714***	-12.356***	-12.336***	-12.721***	-14.618***	-9.913***	-9.234**
+	(3.848)	(3.255)	(2.993)	(3.019)	(3.364)	(3.482)	(3.160)	(4.301)
+intensity of agriculture	2.761							0.490
+	(3.590)							(4.390)
+Dependence on hunting for subsistence (v2): Using Ethnologue - pop weighted	66.843**							6.050
+	(33.658)							(44.139)
+Dependence on animal husbandry for subsistence (v4): Using Ethnologue - pop weig	-17.726							-10.883
+	(12.558)							(11.815)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	6.547*	4.113	5.840	6.279	9.271**	6.620	4.594	8.863*
+	(3.583)	(3.995)	(4.003)	(3.818)	(4.007)	(4.348)	(3.633)	(4.974)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-10.723***	-13.683***	-9.611***	-9.373***	-7.192**	-9.519***	-3.199	-8.537**
+	(2.609)	(3.227)	(2.551)	(2.640)	(3.028)	(2.810)	(2.492)	(3.600)
+presence of large animals	9.804	-3.511	-1.990	-1.775	-10.824*	-2.193	0.397	-4.540
+	(6.610)	(6.113)	(5.384)	(5.545)	(5.650)	(5.899)	(4.629)	(6.171)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	1.440	0.834	0.819	0.744	1.390	1.528	1.306	2.302
+	(1.538)	(1.490)	(1.539)	(1.540)	(1.548)	(1.725)	(1.313)	(1.524)
+Settlement patterns (v30)	-0.086	1.181	1.161	1.156	1.375*	1.287	0.065	-0.635
+	(1.266)	(0.919)	(0.797)	(0.804)	(0.814)	(0.922)	(0.755)	(1.356)
+ln (income)	-32.930***	-29.328***	-34.785***	-34.582***	-37.807***	-39.010***	-30.516***	-26.806***
+	(6.628)	(7.333)	(6.617)	(6.722)	(6.682)	(9.739)	(6.312)	(9.778)
+ln (income) ^2	1.928***	1.709***	2.052***	2.037***	2.304***	2.265***	1.771***	1.515**
+	(0.413)	(0.464)	(0.413)	(0.423)	(0.418)	(0.565)	(0.403)	(0.582)
+absence of inheritance		-4.290						-3.680
+		(4.519)						(5.213)
+matrilocal societies		-0.493						-0.606
+		(8.015)						(9.132)
+patrilocal societies		0.315						0.099
+		(2.987)						(3.446)
+nuclear family		-5.652						-0.792
+		(5.115)						(5.450)
+extended family		-11.678**						-7.132
+		(4.760)						(5.561)
+Year of observation (v102): Using Ethnologue - pop weighted			0.000					0.001
+			(0.001)					(0.002)
+Fraction of catholics in 2000							-14.830***	-9.852*
+							(3.901)	(5.176)
+fraction of protestants in 2000							0.401	6.336
+							(7.943)	(6.338)
+fraction of other christians in 2000							-7.993	-12.995
+							(8.207)	(9.861)
+fraction of muslims in 2000							-23.882***	-22.822***
+							(4.311)	(5.631)
+fraction of hindus in 2000							-29.451***	-23.824**
+							(8.306)	(10.649)
+oil production/GDP						-0.051		2.847
+						(7.728)		(10.062)
+Value Added Agriculture/GDP in 2000						-0.180		-0.092
+						(0.190)		(0.162)
+Value Added Manufacturing/GDP in 2000						0.002		-0.039
+						(0.174)		(0.142)
+Value Added in Service/GDP in 2000						-0.086		-0.097
+						(0.132)		(0.102)
+Communism indicator variable					7.084**			2.296
+					(2.974)			(3.092)
+% European descent					-0.052			-0.071
+					(0.032)			(0.044)
+Years of civil conflict, 1800-2007 - from COW				-0.018				-0.042
+				(0.110)				(0.093)
+Years of interstate conflict, 1800-2007 - from COW				0.030				-0.063
+				(0.156)				(0.134)
+Ruggedness (Terrain Ruggedness Index, 100 m.)				0.012				-0.369
+				(0.770)				(0.801)
+Constant	180.978***	187.502***	193.310***	193.128***	202.961***	218.943***	187.710***	195.671***
+	(27.872)	(26.541)	(26.439)	(27.214)	(26.289)	(45.027)	(24.091)	(39.827)
+Observations	165	163	165	163	153	154	163	142
+R-squared	0.43	0.43	0.40	0.40	0.46	0.40	0.55	0.64
+Robust standard errors in parentheses								
+* significant at 10%; ** significant at 5%; *** significant at 1%								

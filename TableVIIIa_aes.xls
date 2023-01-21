@@ -1,0 +1,36 @@
+	(1)	(2)
+	Animal plow cultivation variable (v39): Using Ethnologue - pop weighted	Animal plow cultivation variable (v39): Using Ethnologue - pop weighted
+Plough positive crops	0.874***	0.717***
+	(0.050)	(0.065)
+Plough negative crops	0.129	0.142
+	(0.101)	(0.103)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	-0.405***	-0.381***
+	(0.062)	(0.079)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-0.049	0.070
+	(0.039)	(0.058)
+presence of large animals	0.191***	0.018
+	(0.056)	(0.061)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	0.129***	0.117***
+	(0.022)	(0.018)
+Settlement patterns (v30)	0.042***	0.034*
+	(0.015)	(0.018)
+ln (income)	-0.243**	-0.078
+	(0.118)	(0.131)
+ln (income) ^2	0.015**	0.006
+	(0.008)	(0.008)
+continent==Asia		0.169**
+		(0.067)
+continent==Europe		0.193**
+		(0.078)
+continent==North America		-0.122**
+		(0.053)
+continent==Oceania		-0.245***
+		(0.068)
+continent==South America		-0.226***
+		(0.073)
+Constant	0.350	-0.167
+	(0.444)	(0.490)
+Observations	312	312
+R-squared	0.75	0.78
+Robust standard errors in parentheses		
+* significant at 10%; ** significant at 5%; *** significant at 1%		

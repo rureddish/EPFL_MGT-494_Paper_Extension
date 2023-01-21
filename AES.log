@@ -1,0 +1,1263 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Dropbox\Paola_Nathan\Paola\QJE_revision_codes_data\ReplicationCodes\AES.log
+  log type:  text
+ opened on:   9 Jan 2013, 17:12:23
+
+. 
+. /* Begin logging */
+. cd "C:\Dropbox\Paola_Nathan\Paola\QJE_revision_codes_data\ReplicationCodes"
+C:\Dropbox\Paola_Nathan\Paola\QJE_revision_codes_data\ReplicationCodes
+
+. use "crosscountry_dataset"
+
+. 
+. /**********
+>  * overall aes
+>  ***********/
+. /* First preserve between aes calculations */
+. *preserve
+. 
+. /* Set up macros */
+. local comp_type = "replace"
+
+. 
+. local rmean_type = "replace"
+
+. local irmean_type = "replace"
+
+. 
+. 
+. /* Create normalized effect estimates */
+. local counter = 1
+
+. gen flag = 1
+
+. foreach y in flfp2000 female_ownership women_politics{
+  2.   sum `y' if plow==0
+  3.   local nm`counter' = 1/r(sd)
+  4.   local comp_sd = r(sd)
+  5.   local comp_mean = r(mean)
+  6.   gen n_`y' = `y' / r(sd)
+  7.   replace flag = . if `y' == .
+  8.   sum `y' if plow>0 & plow~=. 
+  9.   local itt_sd = r(sd)
+ 10.   gen aes`counter' = `y'
+ 11.   local counter = `counter' + 1
+ 12. 
+.   ivreg2 `y' (plow= plow_positive_crops plow_negative_crops) plow economic_complexity agricultural_suitability ln_income ln_income_squared large
+> _animals  political_hierarchies tropical_climate, r first
+ 13.    local comp_type = "append"
+ 14. }
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+    flfp2000 |        55    57.32727    15.26594       33.8       90.5
+(53 missing values generated)
+(53 real changes made, 53 to missing)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+    flfp2000 |       126    48.16587    14.71147       12.6         86
+(53 missing values generated)
+Warning - duplicate variables detected
+Duplicates:         plow
+
+Unable to display first-stage estimates; macro e(first) is missing
+
+Unable to display summary of first-stage estimates; macro e(first) is missing
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      160
+                                                      F(  8,   151) =    12.15
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  38135.72944                Centered R2   =   0.4269
+Total (uncentered) SS   =    455959.99                Uncentered R2 =   0.9521
+Residual SS             =  21857.35529                Root MSE      =    11.69
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                flfp2000 |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -12.03877   2.911577    -4.13   0.000    -17.74535   -6.332182
+     economic_complexity |   .8709292    .742256     1.17   0.241    -.5838659    2.325724
+agricultural_suitability |   8.906234   3.586039     2.48   0.013     1.877726    15.93474
+               ln_income |   -33.8013   6.131504    -5.51   0.000    -45.81882   -21.78377
+       ln_income_squared |   1.960977   .3808629     5.15   0.000     1.214499    2.707454
+           large_animals |  -5.257402   4.993322    -1.05   0.292    -15.04413    4.529329
+   political_hierarchies |   1.400355   1.435996     0.98   0.329    -1.414145    4.214855
+        tropical_climate |  -9.162512   2.472385    -3.71   0.000     -14.0083   -4.316726
+                   _cons |   192.4323   24.93036     7.72   0.000     143.5697    241.2949
+------------------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):        14.254
+                                                   Chi-sq(2) P-val =    0.0008
+------------------------------------------------------------------------------
+Instrumented:
+Included instruments: plow economic_complexity agricultural_suitability
+                      ln_income ln_income_squared large_animals
+                      political_hierarchies tropical_climate
+Excluded instruments: plow_positive_crops plow_negative_crops
+Duplicates:           plow
+------------------------------------------------------------------------------
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+female_own~p |        47     40.4766    17.57225        7.9       86.8
+(103 missing values generated)
+(56 real changes made, 56 to missing)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+female_own~p |        84    33.09524    15.17945        2.8       69.4
+(103 missing values generated)
+Warning - duplicate variables detected
+Duplicates:         plow
+
+Unable to display first-stage estimates; macro e(first) is missing
+
+Unable to display summary of first-stage estimates; macro e(first) is missing
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      122
+                                                      F(  8,   113) =     3.09
+                                                      Prob > F      =   0.0034
+Total (centered) SS     =  27160.33844                Centered R2   =   0.1614
+Total (uncentered) SS   =    176911.49                Uncentered R2 =   0.8712
+Residual SS             =  22777.38031                Root MSE      =    13.66
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+        female_ownership |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -15.11953   3.894071    -3.88   0.000    -22.75177   -7.487291
+     economic_complexity |    1.59934   1.097271     1.46   0.145    -.5512706    3.749951
+agricultural_suitability |    1.40957    5.33815     0.26   0.792    -9.053011    11.87215
+               ln_income |   9.720215   9.685137     1.00   0.316    -9.262305    28.70273
+       ln_income_squared |  -.6379173   .6672864    -0.96   0.339    -1.945774      .66994
+           large_animals |   1.314806   9.654011     0.14   0.892    -17.60671    20.23632
+   political_hierarchies |   1.426367   1.898492     0.75   0.452     -2.29461    5.147343
+        tropical_climate |  -10.18599   3.613022    -2.82   0.005    -17.26738   -3.104594
+                   _cons |  -2.413219   36.92463    -0.07   0.948    -74.78416    69.95772
+------------------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):         1.037
+                                                   Chi-sq(2) P-val =    0.5953
+------------------------------------------------------------------------------
+Instrumented:
+Included instruments: plow economic_complexity agricultural_suitability
+                      ln_income ln_income_squared large_animals
+                      political_hierarchies tropical_climate
+Excluded instruments: plow_positive_crops plow_negative_crops
+Duplicates:           plow
+------------------------------------------------------------------------------
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+women_poli~s |        47     11.3617    7.038483          0         35
+(78 missing values generated)
+(17 real changes made, 17 to missing)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+women_poli~s |       109    12.22018    9.787897          0         43
+(78 missing values generated)
+Warning - duplicate variables detected
+Duplicates:         plow
+
+Unable to display first-stage estimates; macro e(first) is missing
+
+Unable to display summary of first-stage estimates; macro e(first) is missing
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      140
+                                                      F(  8,   131) =     5.16
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  10603.14286                Centered R2   =   0.2890
+Total (uncentered) SS   =        30286                Uncentered R2 =   0.7511
+Residual SS             =  7539.025826                Root MSE      =    7.338
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+          women_politics |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -3.889333   1.669548    -2.33   0.020    -7.161586   -.6170801
+     economic_complexity |   .4751648   .4593229     1.03   0.301    -.4250916    1.375421
+agricultural_suitability |   2.395083   2.603012     0.92   0.358    -2.706727    7.496893
+               ln_income |  -5.657489    4.03947    -1.40   0.161     -13.5747    2.259726
+       ln_income_squared |   .4838683   .2714208     1.78   0.075    -.0481066    1.015843
+           large_animals |  -4.978811   3.515945    -1.42   0.157    -11.86994    1.912315
+   political_hierarchies |   .3425673   .8020766     0.43   0.669    -1.229474    1.914608
+        tropical_climate |  -5.309948   2.022554    -2.63   0.009    -9.274081   -1.345815
+                   _cons |   30.80147   15.10138     2.04   0.041     1.203318    60.39963
+------------------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):         1.843
+                                                   Chi-sq(2) P-val =    0.3978
+------------------------------------------------------------------------------
+Instrumented:
+Included instruments: plow economic_complexity agricultural_suitability
+                      ln_income ln_income_squared large_animals
+                      political_hierarchies tropical_climate
+Excluded instruments: plow_positive_crops plow_negative_crops
+Duplicates:           plow
+------------------------------------------------------------------------------
+
+. 
+. /* Handle rmean calclation here */
+. egen overall_women_rmean = rmean(n_flfp2000 n_female_ownership n_women_politics)
+(40 missing values generated)
+
+. sum overall_women_rmean if plow==0
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+overall_wo~n |        63    2.660161    .8495775          0   4.962431
+
+. local comp_sd = r(sd)
+
+. local comp_mean = r(mean)
+
+. sum overall_women_rmean if plow>0 & plow~=. 
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+overall_wo~n |       131    2.365817    .8907099   .5443258   4.960839
+
+. local itt_sd = r(sd)
+
+. ivreg2 overall_women_rmean (plow= plow_positive_crops plow_negative_crops) plow economic_complexity agricultural_suitability ln_income ln_income
+> _squared large_animals  political_hierarchies tropical_climate, r first
+Warning - duplicate variables detected
+Duplicates:         plow
+
+Unable to display first-stage estimates; macro e(first) is missing
+
+Unable to display summary of first-stage estimates; macro e(first) is missing
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      165
+                                                      F(  8,   156) =    10.96
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  106.6356755                Centered R2   =   0.3267
+Total (uncentered) SS   =  1083.685465                Uncentered R2 =   0.9338
+Residual SS             =  71.79312357                Root MSE      =    .6596
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+     overall_women_rmean |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.7157318   .1420823    -5.04   0.000     -.994208   -.4372556
+     economic_complexity |   .0973194   .0332999     2.92   0.003     .0320528     .162586
+agricultural_suitability |   .2808238   .2029994     1.38   0.167    -.1170476    .6786953
+               ln_income |  -1.366613   .3344868    -4.09   0.000    -2.022195   -.7110312
+       ln_income_squared |   .0901487   .0221809     4.06   0.000     .0466749    .1336226
+           large_animals |  -.4628201   .2901319    -1.60   0.111    -1.031468     .105828
+   political_hierarchies |   .0633363   .0716391     0.88   0.377    -.0770737    .2037463
+        tropical_climate |   -.727568   .1504164    -4.84   0.000    -1.022379   -.4327574
+                   _cons |   7.759363   1.307516     5.93   0.000     5.196678    10.32205
+------------------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):         7.326
+                                                   Chi-sq(2) P-val =    0.0256
+------------------------------------------------------------------------------
+Instrumented:
+Included instruments: plow economic_complexity agricultural_suitability
+                      ln_income ln_income_squared large_animals
+                      political_hierarchies tropical_climate
+Excluded instruments: plow_positive_crops plow_negative_crops
+Duplicates:           plow
+------------------------------------------------------------------------------
+
+. 
+. /* Now handle the IRmean results */
+. foreach y in flfp2000 female_ownership women_politics {
+  2.   gen i`y' = `y' * flag
+  3.   sum `y' if plow==0
+  4.   local sd = r(sd)
+  5.   replace i`y' = i`y' / `sd'
+  6. }
+(126 missing values generated)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+    flfp2000 |        55    57.32727    15.26594       33.8       90.5
+(108 real changes made)
+(126 missing values generated)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+female_own~p |        47     40.4766    17.57225        7.9       86.8
+(108 real changes made)
+(126 missing values generated)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+women_poli~s |        47     11.3617    7.038483          0         35
+(107 real changes made)
+
+. 
+. egen overall_women_irmean = rmean(iflfp2000 ifemale_ownership iwomen_politics)
+(126 missing values generated)
+
+. sum overall_women_irmean if plow==0
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+overa~irmean |        34    2.553876    .4498518   1.585956   3.480377
+
+. local comp_sd = r(sd)
+
+. local comp_mean = r(mean)
+
+. sum overall_women_irmean if plow>0 & plow~=.
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+overa~irmean |        74    2.210826    .6197105   .5443258   3.871848
+
+. local itt_sd = r(sd)
+
+. ivreg2 overall_women_irmean (plow= plow_positive_crops plow_negative_crops)  plow economic_complexity agricultural_suitability ln_income ln_inco
+> me_squared large_animals political_hierarchies tropical_climate, r first
+Warning - duplicate variables detected
+Duplicates:         plow
+
+Unable to display first-stage estimates; macro e(first) is missing
+
+Unable to display summary of first-stage estimates; macro e(first) is missing
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      104
+                                                      F(  8,    95) =     6.19
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  36.83517107                Centered R2   =   0.2840
+Total (uncentered) SS   =  591.3370056                Uncentered R2 =   0.9554
+Residual SS             =  26.37339929                Root MSE      =    .5036
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+    overall_women_irmean |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.7378761   .1364718    -5.41   0.000    -1.005356   -.4703964
+     economic_complexity |    .057731   .0400631     1.44   0.150    -.0207912    .1362532
+agricultural_suitability |   .2941527   .2401878     1.22   0.221    -.1766067    .7649121
+               ln_income |  -.8237878   .3768477    -2.19   0.029    -1.562396   -.0851799
+       ln_income_squared |   .0545914   .0256542     2.13   0.033     .0043101    .1048727
+           large_animals |  -.0626044   .2109172    -0.30   0.767    -.4759946    .3507857
+   political_hierarchies |   .1164143   .0674738     1.73   0.084    -.0158319    .2486604
+        tropical_climate |  -.3501501   .1428384    -2.45   0.014    -.6301082   -.0701919
+                   _cons |   5.095008   1.417577     3.59   0.000     2.316607    7.873408
+------------------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):         4.515
+                                                   Chi-sq(2) P-val =    0.1046
+------------------------------------------------------------------------------
+Instrumented:
+Included instruments: plow economic_complexity agricultural_suitability
+                      ln_income ln_income_squared large_animals
+                      political_hierarchies tropical_climate
+Excluded instruments: plow_positive_crops plow_negative_crops
+Duplicates:           plow
+------------------------------------------------------------------------------
+
+. 
+. 
+. /* Next reshape long */
+. reshape long aes, i(isocode) j(out)
+(note: j = 1 2 3)
+
+Data                               wide   ->   long
+-----------------------------------------------------------------------------
+Number of obs.                      234   ->     702
+Number of variables                  69   ->      68
+j variable (3 values)                     ->   out
+xij variables:
+                         aes1 aes2 aes3   ->   aes
+-----------------------------------------------------------------------------
+
+. label variable aes "overall_women"
+
+. 
+. /* Prepare for the regressions by forming interactions */
+. 
+. xi i.out*plow i.out*plow_positive_crops i.out*plow_negative_crops
+i.out             _Iout_1-3           (naturally coded; _Iout_1 omitted)
+i.out*plow        _IoutXplow_#        (coded as above)
+i.out*plow_po~s   _IoutXplow__#       (coded as above)
+i.out*plow_ne~s   _IoutXplow_a#       (coded as above)
+
+. gen _Iout_1 = 0
+
+. replace _Iout_1 = 1 if out == 1
+(234 real changes made)
+
+. 
+. gen _IoutXplowpos =  _Iout_1*plow_positive_crops
+(93 missing values generated)
+
+. gen _IoutXplowneg =  _Iout_1*plow_negative_crops
+(93 missing values generated)
+
+. gen _IoutXplow    =  _Iout_1*plow 
+(18 missing values generated)
+
+. 
+. 
+. 
+. /* Construct the outcome _x_* interactions */
+. forvalues z = 1/3{
+  2. gen large_animals_`z' =  _Iout_`z'*large_animals
+  3. gen agricultural_suitability_`z' = _Iout_`z'*agricultural_suitability 
+  4. gen economic_complexity_`z' = _Iout_`z'*economic_complexity 
+  5. gen ln_income_`z' = _Iout_`z'*ln_income
+  6. gen ln_income_squared_`z' = _Iout_`z'*ln_income_squared   
+  7. gen political_hierarchies_`z' = _Iout_`z'*political_hierarchies 
+  8. gen tropical_climate_`z' = _Iout_`z'*tropical_climate
+  9. }
+(18 missing values generated)
+(57 missing values generated)
+(18 missing values generated)
+(174 missing values generated)
+(174 missing values generated)
+(18 missing values generated)
+(66 missing values generated)
+(18 missing values generated)
+(57 missing values generated)
+(18 missing values generated)
+(174 missing values generated)
+(174 missing values generated)
+(18 missing values generated)
+(66 missing values generated)
+(18 missing values generated)
+(57 missing values generated)
+(18 missing values generated)
+(174 missing values generated)
+(174 missing values generated)
+(18 missing values generated)
+(66 missing values generated)
+
+. 
+. 
+. 
+. 
+. 
+. 
+. 
+. rename overall_women_irmean AES
+
+. 
+. ****************
+. ***TABLE III****
+. ****************
+. xi: reg  AES            plow agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity, r
+
+Linear regression                                      Number of obs =     321
+                                                       F(  6,   314) =   20.38
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.2541
+                                                       Root MSE      =  .51512
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.7356957    .083608    -8.80   0.000    -.9001984   -.5711929
+agricultural_suitability |   .3119443    .129021     2.42   0.016     .0580894    .5657993
+        tropical_climate |  -.3224397   .0829171    -3.89   0.000    -.4855831   -.1592963
+           large_animals |   .1739442   .1109756     1.57   0.118    -.0444055    .3922939
+   political_hierarchies |   .0799237   .0395494     2.02   0.044     .0021083     .157739
+     economic_complexity |   .0484475   .0208159     2.33   0.021     .0074913    .0894037
+                   _cons |   2.020201   .1705627    11.84   0.000     1.684611    2.355791
+------------------------------------------------------------------------------------------
+
+. su AES if e(sample)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AES |       321    2.314481    .5908422   .5443258   3.871848
+
+. fitstat
+
+Measures of Fit for regress of AES
+
+Log-Lik Intercept Only:     -286.066     Log-Lik Full Model:         -239.003
+D(314):                      478.006     LR(6):                        94.127
+                                         Prob > LR:                     0.000
+R2:                            0.254     Adjusted R2:                   0.240
+AIC:                           1.533     AIC*n:                       492.006
+BIC:                       -1334.227     BIC':                        -59.498
+
+. outreg using TableIII_aes.xls, replace coefastr 3aster se
+
+. xi: reg  AES            plow agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity i.continent, r
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Linear regression                                      Number of obs =     321
+                                                       F( 11,   309) =   14.97
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.3002
+                                                       Root MSE      =  .50297
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.9195097   .0996117    -9.23   0.000    -1.115513   -.7235067
+agricultural_suitability |   .3246687   .1330703     2.44   0.015     .0628301    .5865073
+        tropical_climate |  -.0039173   .1023736    -0.04   0.970    -.2053548    .1975202
+           large_animals |   .2961343   .1453441     2.04   0.042      .010145    .5821237
+   political_hierarchies |    .061982   .0431631     1.44   0.152    -.0229488    .1469128
+     economic_complexity |   .0176412   .0260632     0.68   0.499    -.0336427    .0689251
+           _Icontinent_2 |   .2003494   .1211196     1.65   0.099    -.0379742     .438673
+           _Icontinent_3 |   .6135384   .1342041     4.57   0.000     .3494689    .8776079
+           _Icontinent_4 |  -.0455911   .0852749    -0.53   0.593     -.213384    .1222018
+           _Icontinent_5 |   .1714822   .1384006     1.24   0.216    -.1008446     .443809
+           _Icontinent_6 |   .1078324   .1053692     1.02   0.307    -.0994995    .3151642
+                   _cons |   1.813188   .2091945     8.67   0.000     1.401562    2.224814
+------------------------------------------------------------------------------------------
+
+. fitstat
+
+Measures of Fit for regress of AES
+
+Log-Lik Intercept Only:     -286.066     Log-Lik Full Model:         -228.764
+D(309):                      457.528     LR(11):                      114.605
+                                         Prob > LR:                     0.000
+R2:                            0.300     Adjusted R2:                   0.275
+AIC:                           1.500     AIC*n:                       481.528
+BIC:                       -1325.847     BIC':                        -51.119
+
+. outreg using TableIII_aes.xls, append coefastr 3aster se
+
+. 
+. ****************
+. ***TABLE IV****
+. ****************
+. 
+. xi: reg  AES            plow agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity ln_income ln_inco
+> me_squared, r
+
+Linear regression                                      Number of obs =     315
+                                                       F(  8,   306) =   19.20
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.2790
+                                                       Root MSE      =  .51131
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.7430211   .0803482    -9.25   0.000    -.9011261   -.5849162
+agricultural_suitability |   .2615363   .1393106     1.88   0.061    -.0125917    .5356643
+        tropical_climate |  -.3619968   .0839259    -4.31   0.000    -.5271417    -.196852
+           large_animals |   .0048295   .1211999     0.04   0.968    -.2336611    .2433202
+   political_hierarchies |   .1018236   .0398786     2.55   0.011     .0233526    .1802946
+     economic_complexity |   .0630436    .023111     2.73   0.007     .0175671    .1085201
+               ln_income |  -.7764038   .2213128    -3.51   0.001    -1.211891   -.3409162
+       ln_income_squared |   .0514173   .0150521     3.42   0.001     .0217987     .081036
+                   _cons |   4.910723   .8308504     5.91   0.000      3.27582    6.545626
+------------------------------------------------------------------------------------------
+
+. fitstat
+
+Measures of Fit for regress of AES
+
+Log-Lik Intercept Only:     -282.629     Log-Lik Full Model:         -231.105
+D(306):                      462.211     LR(8):                       103.048
+                                         Prob > LR:                     0.000
+R2:                            0.279     Adjusted R2:                   0.260
+AIC:                           1.524     AIC*n:                       480.211
+BIC:                       -1298.076     BIC':                        -57.027
+
+. su AES if e(sample)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AES |       315    2.312781    .5944532   .5443258   3.871848
+
+. outreg using TableIV_aes.xls, replace coefastr 3aster se
+
+. xi: reg  AES            plow agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity ln_income ln_inco
+> me_squared i.continent, r
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Linear regression                                      Number of obs =     315
+                                                       F( 13,   301) =   16.91
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.3313
+                                                       Root MSE      =  .49651
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |   -.845367   .0906106    -9.33   0.000    -1.023677   -.6670566
+agricultural_suitability |   .3418179   .1394316     2.45   0.015     .0674337    .6162022
+        tropical_climate |  -.0596537   .1006972    -0.59   0.554    -.2578132    .1385059
+           large_animals |   .2013372   .1457418     1.38   0.168    -.0854647     .488139
+   political_hierarchies |   .0698935   .0420292     1.66   0.097    -.0128148    .1526017
+     economic_complexity |   .0266446   .0256132     1.04   0.299     -.023759    .0770482
+               ln_income |  -.8146174    .231074    -3.53   0.000    -1.269343   -.3598923
+       ln_income_squared |   .0510872    .015208     3.36   0.001     .0211598    .0810147
+           _Icontinent_2 |   .2129587   .1169985     1.82   0.070    -.0172799    .4431973
+           _Icontinent_3 |   .6560787   .1315699     4.99   0.000     .3971653     .914992
+           _Icontinent_4 |   .1396354   .1038446     1.34   0.180    -.0647178    .3439887
+           _Icontinent_5 |   .4099545   .1511659     2.71   0.007     .1124787    .7074303
+           _Icontinent_6 |   .2931106   .1131398     2.59   0.010     .0704655    .5157558
+                   _cons |   4.876457   .8884991     5.49   0.000     3.128001    6.624914
+------------------------------------------------------------------------------------------
+
+. fitstat
+
+Measures of Fit for regress of AES
+
+Log-Lik Intercept Only:     -282.629     Log-Lik Full Model:         -219.255
+D(301):                      438.510     LR(13):                      126.749
+                                         Prob > LR:                     0.000
+R2:                            0.331     Adjusted R2:                   0.302
+AIC:                           1.481     AIC*n:                       466.510
+BIC:                       -1293.015     BIC':                        -51.965
+
+. outreg using TableIV_aes.xls, append coefastr 3aster se
+
+. 
+. *****************
+. ***TABLE VIII****
+. *****************
+. 
+. reg  plow plow_positive_crops plow_negative_crops agricultural_suitability tropical_climate large_animals political_hierarchies economic_complex
+> ity ln_income ln_income_squared if AES~=., r 
+
+Linear regression                                      Number of obs =     312
+                                                       F(  9,   302) =  387.34
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.7498
+                                                       Root MSE      =  .23608
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                    plow |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+     plow_positive_crops |   .8741823   .0498761    17.53   0.000     .7760336     .972331
+     plow_negative_crops |   .1286554   .1008942     1.28   0.203    -.0698892    .3272001
+agricultural_suitability |  -.4054315   .0621001    -6.53   0.000    -.5276353   -.2832278
+        tropical_climate |  -.0493609    .039255    -1.26   0.210    -.1266089    .0278871
+           large_animals |    .191181   .0559211     3.42   0.001     .0811367    .3012252
+   political_hierarchies |   .1288939   .0218247     5.91   0.000     .0859462    .1718415
+     economic_complexity |    .041929   .0153982     2.72   0.007     .0116277    .0722303
+               ln_income |  -.2428638    .118044    -2.06   0.041    -.4751568   -.0105708
+       ln_income_squared |   .0153876   .0077339     1.99   0.048     .0001685    .0306067
+                   _cons |   .3500171   .4438751     0.79   0.431    -.5234626    1.223497
+------------------------------------------------------------------------------------------
+
+. outreg using TableVIIIa_aes.xls, replace coefastr 3aster se
+
+. su plow if e(sample)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+        plow |       312    .4753243    .4650585          0          1
+
+. test plow_negative_crops plow_positive_crops
+
+ ( 1)  plow_negative_crops = 0
+ ( 2)  plow_positive_crops = 0
+
+       F(  2,   302) =  159.17
+            Prob > F =    0.0000
+
+. test plow_negative_crops=plow_positive_crops
+
+ ( 1)  - plow_positive_crops + plow_negative_crops = 0
+
+       F(  1,   302) =   55.12
+            Prob > F =    0.0000
+
+. predict resid, resid
+(207 missing values generated)
+
+. reg AES plow resid agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity ln_income ln_income_squared
+> , r 
+
+Linear regression                                      Number of obs =     312
+                                                       F(  9,   302) =   18.33
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.2937
+                                                       Root MSE      =  .50836
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.9183477   .1301229    -7.06   0.000     -1.17441   -.6622853
+                   resid |   .3585809   .2042677     1.76   0.080    -.0433873    .7605491
+agricultural_suitability |   .2412421   .1459763     1.65   0.099    -.0460174    .5285017
+        tropical_climate |  -.4202603   .0941885    -4.46   0.000    -.6056092   -.2349114
+           large_animals |  -.0275223    .125012    -0.22   0.826    -.2735272    .2184826
+   political_hierarchies |   .1567001   .0492099     3.18   0.002     .0598623    .2535379
+     economic_complexity |   .0600552    .022999     2.61   0.009     .0147968    .1053137
+               ln_income |  -.8375498   .2205059    -3.80   0.000    -1.271472   -.4036273
+       ln_income_squared |   .0560641   .0150941     3.71   0.000     .0263611    .0857671
+                   _cons |   5.110047   .8289054     6.16   0.000     3.478886    6.741209
+------------------------------------------------------------------------------------------
+
+. drop resid
+
+. 
+. xi: reg  plow plow_positive_crops plow_negative_crops agricultural_suitability tropical_climate large_animals political_hierarchies economic_com
+> plexity ln_income ln_income_squared i.continent if AES~=., r 
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Linear regression                                      Number of obs =     312
+                                                       F( 13,   297) =       .
+                                                       Prob > F      =       .
+                                                       R-squared     =  0.7837
+                                                       Root MSE      =  .22131
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                    plow |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+     plow_positive_crops |   .7167631   .0648425    11.05   0.000     .5891541     .844372
+     plow_negative_crops |   .1419623   .1027212     1.38   0.168    -.0601914    .3441159
+agricultural_suitability |  -.3809219   .0788601    -4.83   0.000    -.5361173   -.2257264
+        tropical_climate |   .0696398   .0583405     1.19   0.234    -.0451735     .184453
+           large_animals |   .0180034   .0614983     0.29   0.770    -.1030243     .139031
+   political_hierarchies |    .117137   .0179506     6.53   0.000     .0818106    .1524634
+     economic_complexity |   .0335446   .0177679     1.89   0.060    -.0014224    .0685116
+               ln_income |  -.0776855   .1306843    -0.59   0.553    -.3348701    .1794991
+       ln_income_squared |     .00627   .0083577     0.75   0.454    -.0101778    .0227177
+           _Icontinent_2 |   .1689734   .0671488     2.52   0.012     .0368256    .3011212
+           _Icontinent_3 |   .1932394   .0784214     2.46   0.014     .0389074    .3475715
+           _Icontinent_4 |  -.1215253    .052678    -2.31   0.022    -.2251948   -.0178558
+           _Icontinent_5 |  -.2451842   .0675676    -3.63   0.000    -.3781562   -.1122122
+           _Icontinent_6 |  -.2264255   .0729863    -3.10   0.002    -.3700614   -.0827896
+                   _cons |  -.1671535   .4902674    -0.34   0.733    -1.131992    .7976847
+------------------------------------------------------------------------------------------
+
+. outreg using TableVIIIa_aes.xls, append coefastr 3aster se
+
+. su plow if e(sample)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+        plow |       312    .4753243    .4650585          0          1
+
+. test plow_negative_crops plow_positive_crops
+
+ ( 1)  plow_negative_crops = 0
+ ( 2)  plow_positive_crops = 0
+
+       F(  2,   297) =   61.79
+            Prob > F =    0.0000
+
+. test plow_negative_crops=plow_positive_crops
+
+ ( 1)  - plow_positive_crops + plow_negative_crops = 0
+
+       F(  1,   297) =   28.23
+            Prob > F =    0.0000
+
+. predict resid, resid
+(207 missing values generated)
+
+. xi: reg AES plow resid agricultural_suitability tropical_climate large_animals political_hierarchies economic_complexity ln_income ln_income_squ
+> ared i.continent, r 
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Linear regression                                      Number of obs =     312
+                                                       F( 13,   297) =       .
+                                                       Prob > F      =       .
+                                                       R-squared     =  0.3537
+                                                       Root MSE      =  .49039
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -1.313264   .2167315    -6.06   0.000    -1.739789   -.8867404
+                   resid |   .7063827   .2744122     2.57   0.011      .166344    1.246421
+agricultural_suitability |   .2444396   .1438812     1.70   0.090    -.0387163    .5275955
+        tropical_climate |  -.0339836   .1051946    -0.32   0.747    -.2410049    .1730376
+           large_animals |   .2012217   .1433399     1.40   0.161    -.0808689    .4833123
+   political_hierarchies |   .1393648   .0523082     2.66   0.008     .0364231    .2423066
+     economic_complexity |   .0280166   .0241782     1.16   0.247    -.0195656    .0755988
+               ln_income |  -.7257227   .2208214    -3.29   0.001    -1.160296   -.2911498
+       ln_income_squared |   .0472846   .0146485     3.23   0.001     .0184566    .0761125
+           _Icontinent_2 |   .3900023   .1570297     2.48   0.014     .0809705    .6990342
+           _Icontinent_3 |   .8940196   .1808551     4.94   0.000     .5380997    1.249939
+           _Icontinent_4 |   .0133686   .1153439     0.12   0.908    -.2136263    .2403635
+           _Icontinent_5 |   .0241843   .1346208     0.18   0.858    -.2407473    .2891158
+           _Icontinent_6 |   .1768144    .120287     1.47   0.143    -.0599084    .4135372
+                   _cons |   4.416814   .8658153     5.10   0.000     2.712903    6.120724
+------------------------------------------------------------------------------------------
+
+. drop resid
+
+. 
+. xi: reg  AES    plow_positive_crops  plow_negative_crops agricultural_suitability tropical_climate large_animals political_hierarchies economic_
+> complexity ln_income ln_income_squared, r 
+
+Linear regression                                      Number of obs =     312
+                                                       F(  9,   302) =   13.28
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.2640
+                                                       Root MSE      =  .51896
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+     plow_positive_crops |  -.6389387    .119494    -5.35   0.000     -.874085   -.4037924
+     plow_negative_crops |   .6068288   .2179132     2.78   0.006     .1780082    1.035649
+agricultural_suitability |    .435771   .1275016     3.42   0.001      .184867     .686675
+        tropical_climate |  -.4770512   .0988161    -4.83   0.000    -.6715065    -.282596
+           large_animals |  -.1597077   .1366418    -1.17   0.243    -.4285983    .1091829
+   political_hierarchies |   .0513476   .0408196     1.26   0.209    -.0289791    .1316744
+     economic_complexity |   .0208981   .0238725     0.88   0.382    -.0260794    .0678756
+               ln_income |  -.7506005   .2253435    -3.33   0.001    -1.194043   -.3071582
+       ln_income_squared |   .0524723   .0155627     3.37   0.001     .0218472    .0830974
+                   _cons |   4.873711   .8376456     5.82   0.000      3.22535    6.522072
+------------------------------------------------------------------------------------------
+
+. outreg using TableVIIIb_aes.xls, replace coefastr 3aster se
+
+. su AES if e(sample)
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AES |       312    2.309058    .5960899   .5443258   3.871848
+
+. test plow_negative_crops plow_positive_crops
+
+ ( 1)  plow_negative_crops = 0
+ ( 2)  plow_positive_crops = 0
+
+       F(  2,   302) =   29.52
+            Prob > F =    0.0000
+
+. test plow_negative_crops=plow_positive_crops
+
+ ( 1)  - plow_positive_crops + plow_negative_crops = 0
+
+       F(  1,   302) =   38.76
+            Prob > F =    0.0000
+
+. xi: reg  AES            plow_negative_crops plow_positive_crops  agricultural_suitability tropical_climate large_animals political_hierarchies e
+> conomic_complexity ln_income ln_income_squared i.continent, r 
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Linear regression                                      Number of obs =     312
+                                                       F( 13,   297) =       .
+                                                       Prob > F      =       .
+                                                       R-squared     =  0.3286
+                                                       Root MSE      =   .4998
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+     plow_negative_crops |   .6528003   .2149252     3.04   0.003     .2298312     1.07577
+     plow_positive_crops |  -.7735757   .1578038    -4.90   0.000    -1.084131   -.4630204
+agricultural_suitability |   .5569296   .1305731     4.27   0.000     .2999639    .8138953
+        tropical_climate |  -.2322801   .1097702    -2.12   0.035     -.448306   -.0162542
+           large_animals |   .2541041   .1559663     1.63   0.104     -.052835    .5610433
+   political_hierarchies |  -.0049098    .039643    -0.12   0.902    -.0829264    .0731069
+     economic_complexity |  -.0178292   .0243166    -0.73   0.464    -.0656839    .0300254
+               ln_income |  -.7825812   .2296034    -3.41   0.001    -1.234437   -.3307255
+       ln_income_squared |   .0511912   .0152699     3.35   0.001     .0211402    .0812422
+           _Icontinent_2 |    .216151   .1416574     1.53   0.128    -.0626284    .4949303
+           _Icontinent_3 |   .6826988   .1595345     4.28   0.000     .3687375    .9966601
+           _Icontinent_4 |   .2056669   .0941162     2.19   0.030     .0204477     .390886
+           _Icontinent_5 |   .2595866    .104665     2.48   0.014     .0536075    .4655657
+           _Icontinent_6 |   .5083385   .0997142     5.10   0.000     .3121025    .7045744
+                   _cons |   4.712317   .8979502     5.25   0.000     2.945166    6.479468
+------------------------------------------------------------------------------------------
+
+. outreg using TableVIIIb_aes.xls, append coefastr 3aster se
+
+. test plow_negative_crops plow_positive_crops
+
+ ( 1)  plow_negative_crops = 0
+ ( 2)  plow_positive_crops = 0
+
+       F(  2,   297) =   23.72
+            Prob > F =    0.0000
+
+. test plow_negative_crops=plow_positive_crops
+
+ ( 1)  plow_negative_crops - plow_positive_crops = 0
+
+       F(  1,   297) =   41.01
+            Prob > F =    0.0000
+
+. 
+. xi: ivreg2  AES                 (plow= plow_negative_crops plow_positive_crops) agricultural_suitability tropical_climate large_animals politica
+> l_hierarchies economic_complexity ln_income ln_income_squared, r first
+
+First-stage regressions
+-----------------------
+
+First-stage regression of plow:
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      312
+                                                      F(  9,   302) =   387.34
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  67.26289124                Centered R2   =   0.7498
+Total (uncentered) SS   =  137.7540471                Uncentered R2 =   0.8778
+Residual SS             =  16.83230777                Root MSE      =    .2361
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                    plow |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+agricultural_suitability |  -.4054315   .0621001    -6.53   0.000    -.5276353   -.2832278
+        tropical_climate |  -.0493609    .039255    -1.26   0.210    -.1266089    .0278871
+           large_animals |    .191181   .0559211     3.42   0.001     .0811367    .3012252
+   political_hierarchies |   .1288939   .0218247     5.91   0.000     .0859462    .1718415
+     economic_complexity |    .041929   .0153982     2.72   0.007     .0116277    .0722303
+               ln_income |  -.2428638    .118044    -2.06   0.041    -.4751568   -.0105708
+       ln_income_squared |   .0153876   .0077339     1.99   0.048     .0001685    .0306067
+     plow_negative_crops |   .1286554   .1008942     1.28   0.203    -.0698892    .3272001
+     plow_positive_crops |   .8741823   .0498761    17.53   0.000     .7760336     .972331
+                   _cons |   .3500171   .4438751     0.79   0.431    -.5234626    1.223497
+------------------------------------------------------------------------------------------
+Included instruments: agricultural_suitability tropical_climate large_animals
+                      political_hierarchies economic_complexity ln_income
+                      ln_income_squared plow_negative_crops plow_positive_crops
+------------------------------------------------------------------------------
+Partial R-squared of excluded instruments:   0.4967
+Test of excluded instruments:
+  F(  2,   302) =   159.17
+  Prob > F      =   0.0000
+
+
+
+Summary results for first-stage regressions
+-------------------------------------------
+
+Variable    | Shea Partial R2 |   Partial R2    |  F(  2,   302)    P-value
+plow        |     0.4967      |     0.4967      |      159.17       0.0000
+
+NB: first-stage F-stat heteroskedasticity-robust
+
+Underidentification tests
+Ho: matrix of reduced form coefficients has rank=K1-1 (underidentified)
+Ha: matrix has rank=K1 (identified)
+Kleibergen-Paap rk LM statistic             Chi-sq(2)=86.67    P-val=0.0000
+Kleibergen-Paap rk Wald statistic           Chi-sq(2)=328.87   P-val=0.0000
+
+Weak identification test
+Ho: equation is weakly identified
+Kleibergen-Paap Wald rk F statistic               159.17
+See main output for Cragg-Donald weak id test critical values
+
+Weak-instrument-robust inference
+Tests of joint significance of endogenous regressors B1 in main equation
+Ho: B1=0 and overidentifying restrictions are valid
+Anderson-Rubin Wald test     F(2,302)= 29.52     P-val=0.0000
+Anderson-Rubin Wald test     Chi-sq(2)=61.01     P-val=0.0000
+Stock-Wright LM S statistic  Chi-sq(2)=37.50     P-val=0.0000
+
+NB: Underidentification, weak identification and weak-identification-robust
+    test statistics heteroskedasticity-robust
+
+Number of observations               N  =        312
+Number of regressors                 K  =          9
+Number of instruments                L  =         10
+Number of excluded instruments       L1 =          2
+
+IV (2SLS) estimation
+--------------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      312
+                                                      F(  8,   303) =    16.27
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  110.5055132                Centered R2   =   0.2742
+Total (uncentered) SS   =  1774.011017                Uncentered R2 =   0.9548
+Residual SS             =  80.20947777                Root MSE      =     .507
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -.9183477   .1301706    -7.05   0.000    -1.173477   -.6632179
+agricultural_suitability |   .2412421   .1510398     1.60   0.110    -.0547905    .5372748
+        tropical_climate |  -.4202603   .0929637    -4.52   0.000    -.6024657   -.2380549
+           large_animals |  -.0275223   .1210301    -0.23   0.820     -.264737    .2096923
+   political_hierarchies |   .1567001   .0506379     3.09   0.002     .0574517    .2559485
+     economic_complexity |   .0600552   .0237549     2.53   0.011     .0134965     .106614
+               ln_income |  -.8375498   .2224537    -3.77   0.000    -1.273551   -.4015486
+       ln_income_squared |   .0560641    .015161     3.70   0.000     .0263491     .085779
+                   _cons |   5.110047   .8362811     6.11   0.000     3.470967    6.749128
+------------------------------------------------------------------------------------------
+Underidentification test (Kleibergen-Paap rk LM statistic):             86.670
+                                                   Chi-sq(2) P-val =    0.0000
+------------------------------------------------------------------------------
+Weak identification test (Kleibergen-Paap rk Wald F statistic):        159.166
+Stock-Yogo weak ID test critical values: 10% maximal IV size             19.93
+                                         15% maximal IV size             11.59
+                                         20% maximal IV size              8.75
+                                         25% maximal IV size              7.25
+Source: Stock-Yogo (2005).  Reproduced by permission.
+NB: Critical values are for Cragg-Donald F statistic and i.i.d. errors.
+------------------------------------------------------------------------------
+Hansen J statistic (overidentification test of all instruments):        11.682
+                                                   Chi-sq(1) P-val =    0.0006
+------------------------------------------------------------------------------
+Instrumented:         plow
+Included instruments: agricultural_suitability tropical_climate large_animals
+                      political_hierarchies economic_complexity ln_income
+                      ln_income_squared
+Excluded instruments: plow_negative_crops plow_positive_crops
+------------------------------------------------------------------------------
+
+. outreg using TableVIIIc_aes.xls, replace coefastr 3aster se
+
+. xi: ivreg2  AES                 (plow= plow_negative_crops plow_positive_crops) agricultural_suitability tropical_climate large_animals politica
+> l_hierarchies economic_complexity ln_income ln_income_squared i.continent, r first
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+Warning: estimated covariance matrix of moment conditions not of full rank.
+         standard errors and model tests should be interpreted with caution.
+Possible causes:
+         singleton dummy variable (dummy with one 1 and N-1 0s or vice versa)
+partial option may address problem.
+Warning: estimated covariance matrix of moment conditions not of full rank.
+         overidentification statistic not reported, and
+         standard errors and model tests should be interpreted with caution.
+Possible causes:
+         singleton dummy variable (dummy with one 1 and N-1 0s or vice versa)
+partial option may address problem.
+
+First-stage regressions
+-----------------------
+
+First-stage regression of plow:
+
+OLS estimation
+--------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      312
+                                                      F( 14,   297) =   694.95
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  67.26289124                Centered R2   =   0.7837
+Total (uncentered) SS   =  137.7540471                Uncentered R2 =   0.8944
+Residual SS             =  14.54643388                Root MSE      =    .2213
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                    plow |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+agricultural_suitability |  -.3809219   .0788601    -4.83   0.000    -.5361173   -.2257264
+        tropical_climate |   .0696398   .0583405     1.19   0.234    -.0451735     .184453
+           large_animals |   .0180034   .0614983     0.29   0.770    -.1030243     .139031
+   political_hierarchies |    .117137   .0179506     6.53   0.000     .0818106    .1524634
+     economic_complexity |   .0335446   .0177679     1.89   0.060    -.0014224    .0685116
+               ln_income |  -.0776855   .1306843    -0.59   0.553    -.3348701    .1794991
+       ln_income_squared |     .00627   .0083577     0.75   0.454    -.0101778    .0227177
+           _Icontinent_2 |   .1689734   .0671488     2.52   0.012     .0368256    .3011212
+           _Icontinent_3 |   .1932394   .0784214     2.46   0.014     .0389074    .3475715
+           _Icontinent_4 |  -.1215253    .052678    -2.31   0.022    -.2251948   -.0178558
+           _Icontinent_5 |  -.2451842   .0675676    -3.63   0.000    -.3781562   -.1122122
+           _Icontinent_6 |  -.2264255   .0729863    -3.10   0.002    -.3700614   -.0827896
+     plow_negative_crops |   .1419623   .1027212     1.38   0.168    -.0601914    .3441159
+     plow_positive_crops |   .7167631   .0648425    11.05   0.000     .5891541     .844372
+                   _cons |  -.1671535   .4902674    -0.34   0.733    -1.131992    .7976847
+------------------------------------------------------------------------------------------
+Warning: estimated covariance matrix of moment conditions not of full rank.
+         standard errors and model tests should be interpreted with caution.
+Possible causes:
+         singleton dummy variable (dummy with one 1 and N-1 0s or vice versa)
+partial option may address problem.
+------------------------------------------------------------------------------
+Included instruments: agricultural_suitability tropical_climate large_animals
+                      political_hierarchies economic_complexity ln_income
+                      ln_income_squared _Icontinent_2 _Icontinent_3
+                      _Icontinent_4 _Icontinent_5 _Icontinent_6
+                      plow_negative_crops plow_positive_crops
+------------------------------------------------------------------------------
+Partial R-squared of excluded instruments:   0.3436
+Test of excluded instruments:
+  F(  2,   297) =    61.79
+  Prob > F      =   0.0000
+
+
+
+Summary results for first-stage regressions
+-------------------------------------------
+
+Variable    | Shea Partial R2 |   Partial R2    |  F(  2,   297)    P-value
+plow        |     0.3436      |     0.3436      |       61.79       0.0000
+
+NB: first-stage F-stat heteroskedasticity-robust
+
+Underidentification tests
+Ho: matrix of reduced form coefficients has rank=K1-1 (underidentified)
+Ha: matrix has rank=K1 (identified)
+Kleibergen-Paap rk LM statistic             Chi-sq(2)=46.44    P-val=0.0000
+Kleibergen-Paap rk Wald statistic           Chi-sq(2)=129.83   P-val=0.0000
+
+Weak identification test
+Ho: equation is weakly identified
+Kleibergen-Paap Wald rk F statistic                61.79
+See main output for Cragg-Donald weak id test critical values
+
+Weak-instrument-robust inference
+Tests of joint significance of endogenous regressors B1 in main equation
+Ho: B1=0 and overidentifying restrictions are valid
+Anderson-Rubin Wald test     F(2,297)= 23.72     P-val=0.0000
+Anderson-Rubin Wald test     Chi-sq(2)=49.84     P-val=0.0000
+Stock-Wright LM S statistic  Chi-sq(2)=.         P-val=     .
+
+NB: Underidentification, weak identification and weak-identification-robust
+    test statistics heteroskedasticity-robust
+
+Number of observations               N  =        312
+Number of regressors                 K  =         14
+Number of instruments                L  =         15
+Number of excluded instruments       L1 =          2
+
+IV (2SLS) estimation
+--------------------
+
+Estimates efficient for homoskedasticity only
+Statistics robust to heteroskedasticity
+
+                                                      Number of obs =      312
+                                                      F( 13,   298) =    10.72
+                                                      Prob > F      =   0.0000
+Total (centered) SS     =  110.5055132                Centered R2   =   0.2880
+Total (uncentered) SS   =  1774.011017                Uncentered R2 =   0.9556
+Residual SS             =  78.68207054                Root MSE      =    .5022
+
+------------------------------------------------------------------------------------------
+                         |               Robust
+                     AES |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -1.313264   .2237291    -5.87   0.000    -1.751765   -.8747634
+agricultural_suitability |   .2444396   .1554949     1.57   0.116    -.0603247    .5492039
+        tropical_climate |  -.0339836    .104937    -0.32   0.746    -.2396564    .1716891
+           large_animals |   .2012217    .139742     1.44   0.150    -.0726676    .4751109
+   political_hierarchies |   .1393648   .0545981     2.55   0.011     .0323545    .2463752
+     economic_complexity |   .0280166   .0279909     1.00   0.317    -.0268446    .0828777
+               ln_income |  -.7257227   .2306229    -3.15   0.002    -1.177735   -.2737102
+       ln_income_squared |   .0472846   .0151831     3.11   0.002     .0175262    .0770429
+           _Icontinent_2 |   .3900023   .1543203     2.53   0.011     .0875401    .6924645
+           _Icontinent_3 |   .8940196   .1809351     4.94   0.000     .5393933    1.248646
+           _Icontinent_4 |   .0133686   .1261996     0.11   0.916    -.2339781    .2607153
+           _Icontinent_5 |   .0241843    .146122     0.17   0.869    -.2622096    .3105782
+           _Icontinent_6 |   .1768144   .1323169     1.34   0.181     -.082522    .4361508
+                   _cons |   4.416814   .9038322     4.89   0.000     2.645335    6.188292
+------------------------------------------------------------------------------------------
+Underidentification test (Kleibergen-Paap rk LM statistic):             46.444
+                                                   Chi-sq(2) P-val =    0.0000
+------------------------------------------------------------------------------
+Weak identification test (Kleibergen-Paap rk Wald F statistic):         61.795
+Stock-Yogo weak ID test critical values: 10% maximal IV size             19.93
+                                         15% maximal IV size             11.59
+                                         20% maximal IV size              8.75
+                                         25% maximal IV size              7.25
+Source: Stock-Yogo (2005).  Reproduced by permission.
+NB: Critical values are for Cragg-Donald F statistic and i.i.d. errors.
+------------------------------------------------------------------------------
+Warning: estimated covariance matrix of moment conditions not of full rank.
+         overidentification statistic not reported, and
+         standard errors and model tests should be interpreted with caution.
+Possible causes:
+         singleton dummy variable (dummy with one 1 and N-1 0s or vice versa)
+partial option may address problem.
+------------------------------------------------------------------------------
+Instrumented:         plow
+Included instruments: agricultural_suitability tropical_climate large_animals
+                      political_hierarchies economic_complexity ln_income
+                      ln_income_squared _Icontinent_2 _Icontinent_3
+                      _Icontinent_4 _Icontinent_5 _Icontinent_6
+Excluded instruments: plow_negative_crops plow_positive_crops
+------------------------------------------------------------------------------
+
+. outreg using TableVIIIc_aes.xls, append coefastr 3aster se
+
+. xi: ivreg  AES          (plow= plow_negative_crops plow_positive_crops) agricultural_suitability tropical_climate large_animals political_hierar
+> chies economic_complexity ln_income ln_income_squared i.continent
+i.continent       _Icontinent_1-6     (_Icontinent_1 for con~t==Africa omitted)
+
+Instrumental variables (2SLS) regression
+
+      Source |       SS       df       MS              Number of obs =     312
+-------------+------------------------------           F( 13,   298) =    9.83
+       Model |  31.8234427    13  2.44795713           Prob > F      =  0.0000
+    Residual |  78.6820705   298  .264033794           R-squared     =  0.2880
+-------------+------------------------------           Adj R-squared =  0.2569
+       Total |  110.505513   311  .355323194           Root MSE      =  .51384
+
+------------------------------------------------------------------------------------------
+                     AES |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------------------+----------------------------------------------------------------
+                    plow |  -1.313264     .18621    -7.05   0.000    -1.679718   -.9468113
+agricultural_suitability |   .2444396    .135719     1.80   0.073    -.0226494    .5115287
+        tropical_climate |  -.0339836   .1198464    -0.28   0.777    -.2698362    .2018689
+           large_animals |   .2012217   .2189445     0.92   0.359    -.2296515    .6320949
+   political_hierarchies |   .1393648    .049241     2.83   0.005     .0424607     .236269
+     economic_complexity |   .0280166   .0259682     1.08   0.282    -.0230878     .079121
+               ln_income |  -.7257227   .2497881    -2.91   0.004    -1.217295   -.2341506
+       ln_income_squared |   .0472846   .0168486     2.81   0.005     .0141273    .0804418
+           _Icontinent_2 |   .3900023   .1248382     3.12   0.002     .1443262    .6356784
+           _Icontinent_3 |   .8940196   .1772169     5.04   0.000     .5452645    1.242775
+           _Icontinent_4 |   .0133686   .1272713     0.11   0.916    -.2370957     .263833
+           _Icontinent_5 |   .0241843   .3265238     0.07   0.941    -.6184004    .6667689
+           _Icontinent_6 |   .1768144   .1462979     1.21   0.228    -.1110934    .4647222
+                   _cons |   4.416814   .9416489     4.69   0.000      2.56369    6.269938
+------------------------------------------------------------------------------------------
+Instrumented:  plow
+Instruments:   agricultural_suitability tropical_climate large_animals
+               political_hierarchies economic_complexity ln_income ln_income_squared
+               _Icontinent_2 _Icontinent_3 _Icontinent_4 _Icontinent_5 _Icontinent_6
+               plow_negative_crops plow_positive_crops
+------------------------------------------------------------------------------------------
+
+. overid
+
+Tests of overidentifying restrictions:
+Sargan N*R-sq test       10.271  Chi-sq(1)    P-value = 0.0014
+Basmann test             10.110  Chi-sq(1)    P-value = 0.0015
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Dropbox\Paola_Nathan\Paola\QJE_revision_codes_data\ReplicationCodes\AES.log
+  log type:  text
+ closed on:   9 Jan 2013, 17:12:23
+--------------------------------------------------------------------------------------------------------------------------------------------------

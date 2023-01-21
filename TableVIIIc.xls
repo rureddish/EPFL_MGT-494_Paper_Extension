@@ -1,0 +1,33 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+	Female labor force participation in 2000	Female labor force participation in 2000	Percent of firms with female ownership (in latest survey year)	Percent of firms with female ownership (in latest survey year)	Women in Politics in 2000, WDI	Women in Politics in 2000, WDI
+Animal plow cultivation variable (v39): Using Ethnologue - pop weighted	-21.630***	-25.013***	-17.486***	-22.689***	-6.460***	-9.726***
+	(5.252)	(7.513)	(5.533)	(7.620)	(2.334)	(3.750)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	5.824	7.266	0.559	3.154	1.545	0.435
+	(4.150)	(4.438)	(5.665)	(5.983)	(2.742)	(2.827)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-12.271***	-11.967***	-11.279***	-3.390	-6.278***	-4.281*
+	(2.909)	(3.358)	(4.130)	(5.421)	(2.162)	(2.375)
+presence of large animals	-3.918	-5.995	1.705	5.704	-4.651	-3.611
+	(5.112)	(6.171)	(9.794)	(9.865)	(3.482)	(3.746)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	3.772*	3.770**	1.940	1.024	0.928	1.112
+	(1.979)	(1.916)	(2.012)	(1.995)	(0.911)	(0.903)
+Settlement patterns (v30)	1.049	1.411	1.636	0.772	0.525	0.502
+	(0.797)	(0.888)	(1.105)	(1.385)	(0.484)	(0.502)
+ln (income)	-33.466***	-30.119***	9.697	7.531	-5.773	-5.187
+	(6.303)	(6.871)	(9.749)	(9.990)	(4.129)	(4.305)
+ln (income) ^2	1.969***	1.795***	-0.633	-0.578	0.497*	0.462
+	(0.392)	(0.422)	(0.672)	(0.670)	(0.277)	(0.281)
+continent==Asia		2.615		11.159*		0.887
+		(4.697)		(6.170)		(2.435)
+continent==Europe		-0.297		19.581**		5.387
+		(5.261)		(8.159)		(3.361)
+continent==North America		-6.906*		8.415		-2.297
+		(3.655)		(5.132)		(2.400)
+continent==Oceania		-2.805		14.084**		-0.651
+		(7.578)		(6.271)		(3.313)
+continent==South America		-4.273		6.892		0.556
+		(4.917)		(5.226)		(2.763)
+Constant	188.334***	174.573***	-2.340	1.315	30.841**	26.805*
+	(25.883)	(27.967)	(37.071)	(38.865)	(15.498)	(16.000)
+Observations	160	160	122	122	140	140
+Robust standard errors in parentheses						
+* significant at 10%; ** significant at 5%; *** significant at 1%						

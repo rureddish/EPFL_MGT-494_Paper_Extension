@@ -1,0 +1,36 @@
+	(1)	(2)
+	AES	AES
+Plough positive crops	-0.639***	-0.774***
+	(0.119)	(0.158)
+Plough negative crops	0.607***	0.653***
+	(0.218)	(0.215)
+overall (millets, sorghum, wheat, barley, rye): share defined as suitable	0.436***	0.557***
+	(0.128)	(0.131)
+Frac land: tropics and subtropics: using Ethnologue - pop weighted	-0.477***	-0.232**
+	(0.099)	(0.110)
+presence of large animals	-0.160	0.254
+	(0.137)	(0.156)
+Jurisdictional hierarchy beyond local community (v33): Using Ethnologue - pop we	0.051	-0.005
+	(0.041)	(0.040)
+Settlement patterns (v30)	0.021	-0.018
+	(0.024)	(0.024)
+ln (income)	-0.751***	-0.783***
+	(0.225)	(0.230)
+ln (income) ^2	0.052***	0.051***
+	(0.016)	(0.015)
+continent==Asia		0.216
+		(0.142)
+continent==Europe		0.683***
+		(0.160)
+continent==North America		0.206**
+		(0.094)
+continent==Oceania		0.260**
+		(0.105)
+continent==South America		0.508***
+		(0.100)
+Constant	4.874***	4.712***
+	(0.838)	(0.898)
+Observations	312	312
+R-squared	0.26	0.33
+Robust standard errors in parentheses		
+* significant at 10%; ** significant at 5%; *** significant at 1%		
