@@ -1,4 +1,5 @@
 Tutorials/
+.DS_Store
 IPUMS_dataset.dta
 cps_dataset.dta
 WVS_Cross-National_Wave_7_csv_v5_0.csv
