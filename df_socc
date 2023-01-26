@@ -1,0 +1,1292 @@
+,id,pref_name_for_society,glottocode,ORIG_name_and_ID_in_this_dataset,alt_names_by_society,main_focal_year,HRAF_name_ID,HRAF_link,origLat,origLong,Lat,Long,Comment,glottocode_comment,Country
+0,Aa1,!Kung,juho1239,Kung (Aa1),"Kung Bushmen, !Kung (Was Nyae), Was Nyae",1950.0,San (FX10),http://ehrafworldcultures.yale.edu/collection?owc=FX10,-20.0,21.0,-20.0,21.0,Original,,BW
+1,Ab1,Herero,here1253,Herero (Ab1),"Damara, Ovaherero",1900.0,,,-21.0,16.0,-21.0,16.0,Original,,NA
+2,Ad31,Duruma,duru1249,Duruma (Ad31),Waduruma,1910.0,,,-4.0,39.0,-4.0,39.0,Original,,KE
+3,Ad32,Giriama,giry1241,Giriama (Ad32),"Kiriama, Wagiryama",1900.0,,,-3.0,40.0,-3.0,40.0,Original,,KE
+4,Ad33,Pokomo,poko1261,Pokomo (Ad33),Wapokomo,1900.0,,,-1.0,40.0,-1.0,40.0,Original,,KE
+5,Na3,Copper Inuit,copp1244,Copper Eskimo (Na3),"Kitlinermiut, Copper Eskimo",1920.0,Copper Eskimo (ND08),http://ehrafworldcultures.yale.edu/collection?owc=ND08,69.0,-110.0,69.0,-110.0,Original,,CA
+6,Na22,Iglulik Inuit,west2618,Iglulik (Na22),"Igloolik, Iglulingmiut",1920.0,,,70.0,-82.0,70.0,-82.0,Original,,CA
+7,Na1,Nabesna,uppe1437,Nabesna (Na1),Upper Tanana Indians,1930.0,,,63.0,-141.0,63.0,-141.0,Original,,CA
+8,Na10,Chugach,chug1254,Chugach (Na10),"Chugachigmiut, Chugash",1930.0,South Alaskan Eskimo (NA10),http://ehrafworldcultures.yale.edu/collection?owc=NA10,60.0,-147.0,60.72,-146.49,Revised,"3Oct2018 Assigned to dialect chug1254 (language does not change) to help differentiate this society from the closely related Koniag, also now mapped to language paci1278.",US
+9,Na11,Sivokakmeit,cent2128,Sivokakmeit (Na11),St. Lawrence Island Inuit,1920.0,,,63.0,-170.0,63.34,-170.3,Revised,"4Oct2018 - Note that while EA society Na11 has always been linked to xd1028, Binford society B379 was originally linked to xd1020 (and, thus, linked to the dialect poin1245 and language nort2943. The update to Glottolog 3.3.2 forced re-mapping of xd1028 from dialect aiwa1238 (which no longer exists) to language cent2128 (always the language-level match for this xd_id).",RU
+10,Na12,Nunamiut,nort2944,Nunamiut (Na12),"Inland North Alaskan Eskimo, Nunamiut Eskimo",1950.0,,,68.0,-152.0,68.0,-152.0,Original,"1Oct2018 - mapped to a new dialect (nort2944) of the same language (nort2943). HH: Belongs to language North Alaskan Inupiatun [nort2943] and more specifically to the North Slope Inupiatun [nort2944] dialect. Note that the subdialect to which it was previously mapped (Anaktuvuk Pass, anak1241) does not exist in Glottolog version 3.3.2. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",US
+11,Ad34,Kamba,kamb1297,Kamba (Ad34),"Akamba, Wakamba",1910.0,,,-2.0,38.0,-2.0,38.0,Original,,KE
+12,Na13,Nunatsiarmiut,baff1240,Baffinland (Na13),"Baffin Island Inuit, Baffinland",1880.0,,,65.0,-65.0,65.24,-64.63,Revised,,CA
+13,Na14,Inughuit (Northern Greenland),pola1254,Polar Eskimo (Na14),"Polar Eskimo, Arctic Highlanders, Smith Sound Inuit, Smith Sound Eskimo",1880.0,,,78.0,-70.0,78.0,-70.0,Original,"Note 8Feb2018: Glottocode changed to [ike] based on note from HH: ""The Polar Eskimo do not speak a language intelligible to Kalaalisut and had until recent times no contact or knowledge of the Kalaalisut further south. The language is intelligible to North Baffin Inuktitut so Glottolog counts Polar Eskimo as Eastern Canadian Inuktitut [ike]. Furthermore, Oswalt 1963 is listed as a reference to Polar Eskimo but concerns a completely different people in Alaska who speak Yupik-Central [esu].""",CA
+14,Na15,Tlicho,dogr1252,Dogrib (Na15),Dogrib,1860.0,,,63.0,-117.0,63.0,-117.0,Original,,CA
+15,Na16,Délįne,nort2942,Satudene (Na16),"Bear Lake Dene, Satudene, Great Bear Lake People, Sahtu, Sahtu Dene",1860.0,,,65.0,-119.0,65.0,-119.0,Original,,CA
+16,Na17,DeneTha,sout2959,Slave (Na17),"Slave, Deh Cho (Southern Slavey), Slavey, Dene (distinguish from speakers of the Dene language)",1860.0,,,61.0,-120.0,61.0,-120.0,Original,,CA
+17,Na19,Dakelh,carr1249,Carrier (Na19),"Carrier, Takulli",1880.0,,,54.0,-124.0,54.0,-124.0,Original,,CA
+18,Na2,Tareumiut,nort2944,Tareumiut (Na2),"Tagiumiut, Point Barrow Eskimo, Barrow",1880.0,,,71.0,-157.0,71.0,-157.0,Original,,US
+19,Na20,Kutchin,gwic1235,Kutchin (Na20),"Gwich'in, Loucheux",1880.0,,,66.0,-135.0,66.0,-135.0,Original,,CA
+20,Na21,Caribou Inuit,cari1277,Caribou Eskimo (Na21),Caribou Eskimo,1900.0,,,63.0,-96.0,63.0,-96.0,Original,,CA
+21,Na23,Labrador Inuit,labr1244,Labrador Eskimo (Na23),"Sukinninmiut, Labrador Eskimo",1890.0,,,58.0,-65.0,58.0,-65.0,Original,,CA
+22,Ad35,Meru,meru1245,Meru (Ad35),,1940.0,,,0.0,35.0,0.0,35.0,Original,"12Nov2018 - changed back to Meru meru1245 [mer], after looking at Murdock's primary sources in more detail. While the latter two refs do focus on the ""Kikuyu"" in general terms, within the Kikuyu they clearly differentiated the Kikuyu and Meru. (Previous note, based on comment from HH: ""8Feb2018 - Note possible mix, refs appear to refer to both kik and mer; kik assigned because majority of references refer to kik. [HH: ""The latter two refs deal with Kikuyu [kik] which is a different lg from Meru [mer]"".]",KE
+23,Na24,Tasiilaq,tunu1234,Angmagsalik (Na24),"Angmagsalik (East Greenland), Ammassalik, East Greenland Eskimo, Polar Eskimo",1880.0,,,66.0,-37.0,66.0,-37.0,Original,Note 8Feb2018: Changed based on note from HH: East Greenlandic is Tunumiisiut [tunu1234] in Glottolog.,GL
+24,Na25,Kalaallit (West Greenland),kala1399,Greenlanders (Na25),"West Greenland Eskimo, West Greenland Inuit",1910.0,,,69.0,-53.0,68.66,-51.22,Revised,Note 8Feb2018: Glottocode updated from west2617 to kala1399,GL
+25,Na26,Dena'ina,tana1289,Tanaina (Na26),Tanaina,1870.0,,,62.0,-144.0,62.0,-144.0,Original,,US
+26,Na27,Tahltan,tahl1239,Tahltan (Na27),Southwestern Nahane,1870.0,,,58.0,-131.0,58.0,-131.0,Original,,US
+27,Na28,Sekani,seka1250,Sekani (Na28),"Tsek'ene, Sicauni",1880.0,,,56.0,-123.0,56.0,-123.0,Original,,CA
+28,Na29,Beaver,beav1236,Beaver (Na29),"Denezaa, Tsattine",1850.0,,,58.0,-117.0,58.0,-117.0,Original,,CA
+29,Na30,Dene,chip1261,Chipewyan (Na30),Chipewyan,1880.0,Chipewyan (ND07),http://ehrafworldcultures.yale.edu/collection?owc=ND07,60.0,-105.0,60.0,-105.0,Original,,CA
+30,Na31,Eastern Cree,sout2978,Eastern Cree (Na31),,1850.0,,,51.0,-85.0,51.0,-85.0,Original,,CA
+31,Na32,Montagnais,mont1268,Montagnais (Na32),"Innu, Naskapi",1880.0,Montagnais (NH06),http://ehrafworldcultures.yale.edu/collection?owc=NH06,48.0,-72.0,48.0,-72.0,Original,"Note 8Feb2018: Not changed, despite comment from HH: ""Naskapi [nsk] is a different lg from Montagnais [moe]"". KK: Decided to leave, after looking into ethnographic materials: Foci are Lake St. John Band and Mistassini band [see KK notes for geographical extent of their territories]. Speck and Heye (1921): ""[the] Pikwagami (""Flat lake,"" Lake St John), are an interior Montagnais culture intermediate between that of the coast and that of the eastern Naskapi and Mistassini. Therefore, Montagnais [moe] is more appropriate choice. ",CA
+32,Na33,Northern Saulteaux,alba1270,Northern Saulteaux (Na33),"N. Saulteaux, North Sauteaux",1870.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,52.0,-98.0,52.0,-98.0,Original,,CA
+33,Ad36,Pare,asut1235,Pare (Ad36),"Asu, Wapare",1890.0,,,-4.0,38.0,-4.0,38.0,Original,,TZ
+34,Na34,Pekangekum,lacs1238,Pekangekum (Na34),,1940.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,52.0,-94.0,52.0,-94.0,Original,,CA
+35,Na35,Nipigon,cent2136,Nipigon (Na35),"Lake Nipigon Ojibway, Anishinaabek, Southern Saulteaux",1800.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,50.0,-88.0,50.0,-88.0,Original,,CA
+36,Na36,Minnesota Ojibwa,redl1238,Chippewa (Na36),"Minnesota Chippewa, Chippewa, Ojibwe, Ojibwa, Ojibway",1860.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,49.0,-96.0,49.0,-96.0,Original,,US
+37,Na37,Rainy River Ojibwe,rain1239,Rainy River (Na37),"Gojijiwininiwag, Rainy River, Emo",1880.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,49.0,-92.0,49.0,-92.0,Original,,CA
+38,Na38,Katikitegon,uppe1274,Katikitegon (Na38),Wisconsin Ojibwa,1800.0,,,46.0,-92.0,46.0,-92.0,Original,,US
+39,Na39,Eastern Ojibwa,east2542,Eastern Ojibwa (Na39),"Kitchibuan, Kitchibuan Ojibwa; Kitchibaun Ojibwa",1870.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,46.0,-85.0,46.0,-85.0,Original,,US
+40,Na4,Kaska,kask1239,Kaska (Na4),Nahane,1920.0,Kaska (ND12),http://ehrafworldcultures.yale.edu/collection?owc=ND12,59.0,-128.0,59.0,-128.0,Original,,CA
+41,Na40,Ottawa,otta1242,Ottawa (Na40),"Odawa, Odaawaa",1650.0,,,46.0,-82.0,46.0,-82.0,Original,,CA
+42,Na41,Mi'kmaq,mikm1235,Micmac (Na41),Micmac,1700.0,Mi'kmaq (NJ05),http://ehrafworldcultures.yale.edu/collection?owc=NJ05,47.0,-65.0,47.0,-65.0,Original,,CA
+43,Na42,Potawatomi,pota1247,Potawatomi (Na42),Neshnabé,1760.0,,,44.0,-85.0,44.0,-85.0,Original,,US
+44,Ad37,Teita,tait1250,Teita (Ad37),"Taita, Wateita",1940.0,,,-4.0,39.0,-4.0,39.0,Original,,KE
+45,Na43,Netsilik,nets1241,Netsilik (Na43),"Netsilik Inuit, Netsilik Eskimo",1920.0,,,69.0,-96.0,69.0,-96.0,Original,,CA
+46,Na44,Nunavimmiut,queb1248,Taqagmiut (Na44),"Taqagmiut, Taqagmiut Eskimo, Inuit of Sugluk, Inuit of Salluit",1910.0,,,62.0,-76.0,62.0,-76.0,Original,,CA
+47,Na45,Mistissini Cree,sout2978,Mistassini (Na45),Mistassini Cree,1900.0,,,51.75,-72.66,51.75,-72.66,Revised,,CA
+48,Na5,Naskapi,nask1242,Naskapi (Na5),,1890.0,Montagnais (NH06),http://ehrafworldcultures.yale.edu/collection?owc=NH06,58.0,-70.0,58.0,-70.0,Original,,CA
+49,Na6,Nunivak,kusk1241,Nunivak (Na6),Nunivak Cup'ig,1930.0,,,60.0,-166.0,60.0,-166.0,Original,,US
+50,Na7,Attawapiskat Cree,swam1239,Cree Attawapiskat (Na7),Attawapiskat,1900.0,,,53.0,-83.0,53.0,-83.0,Original,,CA
+51,Na8,Deg Xit'an,dege1248,Ingalik (Na8),Ingalik,1880.0,Ingalik (NA08),http://ehrafworldcultures.yale.edu/collection?owc=NA08,62.0,-160.0,62.0,-160.0,Original,,US
+52,Na9,Aleut,east2533,Aleut (Na9),Unagan,1830.0,Aleut (NA06),http://ehrafworldcultures.yale.edu/collection?owc=NA06,54.0,-167.0,53.86,-166.79,Revised,,US
+53,Nb1,Haida,nort2938,Haida (Nb1),,1890.0,,,54.0,-132.0,54.0,-132.0,Original,,US
+54,Nb10,Alkatcho,sout2958,Alkatcho (Nb10),"Tsuu'Tina, Alkatcho Carrier, Ilgatcho, Ilgachuz",1865.0,,,53.0,-126.0,53.0,-126.0,Original,,CA
+55,Ad38,Kara,kara1481,Kara (Ad38),Wakara,1910.0,,,-2.0,33.0,-2.0,33.0,Original,,TZ
+56,Nb11,Nuu chah nulth,nuuc1236,Nootka (Nb11),"Nuu-chah-nulth, Aht, Central Nootka",1880.0,Nuu-chah-nulth (NE11),http://ehrafworldcultures.yale.edu/collection?owc=NE11,49.0,-126.0,49.16,-125.85,Revised,,CA
+57,Nb12,Klahoose,slia1241,Klahuse (Nb12),Klahuse,1880.0,,,51.0,-125.0,51.0,-125.0,Original,,CA
+58,Nb13,Squamish,squa1248,Squamish (Nb13),,1880.0,,,50.0,-123.0,50.0,-123.0,Original,,CA
+59,Nb14,Comox,isla1276,Comox (Nb14),K'ómoks,1880.0,,,50.0,-125.0,49.72,-124.97,Revised,,CA
+60,Nb15,Lummi,lumm1243,Lummi (Nb15),Lhaq'temish,1880.0,,,49.0,-123.0,48.84,-123.27,Revised,,CA
+61,Nb16,Klallam,clal1241,Klallam (Nb16),Clallum,1860.0,,,48.0,-123.0,48.0,-123.0,Original,,US
+62,Nb17,Puyallup,sout2965,Puyallup (Nb17),,1870.0,,,47.0,-122.0,47.0,-122.0,Original,,US
+63,Nb18,Quileute,quil1240,Quileute (Nb18),,1880.0,,,48.0,-125.0,47.91,-124.59,Revised,,US
+64,Nb19,Lower Chinook,chin1286,Chinook (Nb19),Chinook,1850.0,Chinookans of the Lower Columbia River (NR06),http://ehrafworldcultures.yale.edu/collection?owc=NR06,46.0,-124.0,45.99,-123.77,Revised,,US
+65,Nb2,Twana,twan1247,Twana (Nb2),,1850.0,,,48.0,-123.0,48.0,-123.0,Original,,US
+66,Ad39,Sonjo,temi1247,Sonjo (Ad39),,1950.0,,,-3.0,36.0,-3.0,36.0,Original,,TZ
+67,Nb20,Tillamook,till1254,Tillamok (Nb20),Nehalem,1870.0,,,45.0,-124.0,44.75,-123.72,Revised,,US
+68,Nb21,Coos,coos1249,Coos (Nb21),,1860.0,,,43.0,-124.0,43.0,-124.0,Original,,US
+69,Nb22,Tlingit,tlin1245,Tlingit (Nb22),"Kolosh, Southern Tlingit",1880.0,Tlingit (NA12),http://ehrafworldcultures.yale.edu/collection?owc=NA12,58.0,-134.0,58.12,-133.92,Revised,"9May2019 - preferred name changed to distinguish from eHRAF culture West Tibetans. Note northern and southern tlingit considered distinct dialects of tli by some, but no codes available in Glottolog.",US
+70,Nb23,Heiltsuk,bell1263,Bellabella (Nb23),"Bellabella, Bella Bella",1880.0,,,52.0,-128.0,52.0,-128.0,Original,,CA
+71,Nb24,Makah,maka1318,Makah (Nb24),,1860.0,Nootka (NE11),http://ehrafworldcultures.yale.edu/collection?owc=NE11,48.0,-125.0,48.33,-124.62,Revised,,US
+72,Nb25,Quinault,quin1251,Quinault (Nb25),,1860.0,Quinault (NR17),http://ehrafworldcultures.yale.edu/collection?owc=NR17,47.0,-124.0,47.42,-124.16,Revised,,US
+73,Nb26,Cowichan,cowi1241,Cowichan (Nb26),Hul'q'umi'num Mustimuhw,1880.0,,,49.0,-123.0,49.01,-122.73,Revised,,US
+74,Nb27,Stó:lō,chil1281,Stalo (Nb27),"Stalo, Halkomelem, Fraser River Cowichan",1880.0,,,49.0,-122.0,49.0,-122.0,Original,,US
+75,Nb28,Alsea,alse1251,Alsea (Nb28),,1860.0,,,44.0,-124.0,44.0,-124.0,Original,,US
+76,Nb29,Siuslaw,sius1254,Siuslaw (Nb29),,1860.0,,,44.0,-124.0,44.0,-124.0,Original,,US
+77,Ad4,Kikuyu,kiku1240,Kikuyu (Ad4),Aikikuyu,1930.0,Gikuyu (FL10),http://ehrafworldcultures.yale.edu/collection?owc=FL10,-1.0,37.0,-1.0,37.0,Original,,KE
+78,Nb3,Kwakwaka'wakw,kwak1269,Kwakiutl (Nb3),"Southern Kwakiutl, Kwagu'ł, Kwagyewlth",1890.0,,,51.0,-128.0,51.0,-127.49,Revised,,CA
+79,Nb30,Takelma,take1257,Takelma (Nb30),"Rogue River Indians, Tekelma",1860.0,,,42.0,-123.0,42.0,-123.0,Original,,US
+80,Nb31,Tututni,tutu1242,Tututni (Nb31),,1870.0,,,42.0,-124.0,42.0,-124.0,Original,,US
+81,Nb32,Shasta,shas1239,Shasta (Nb32),,1860.0,,,41.0,-122.0,41.0,-122.0,Original,,US
+82,Nb33,Chimariko,chim1301,Chimariko (Nb33),,1860.0,,,41.0,-123.0,41.0,-123.0,Original,,US
+83,Nb34,Karuk,karo1304,Karok (Nb34),Karok,1860.0,,,42.0,-123.0,42.0,-123.0,Original,,US
+84,Nb35,Hupa,hupa1239,Hupa (Nb35),,1860.0,,,41.0,-123.0,41.0,-123.0,Original,,US
+85,Nb36,Wiyot,wiyo1248,Wiyot (Nb36),,1860.0,,,40.0,-124.0,39.81,-123.55,Revised,,US
+86,Nb37,Lassik,wail1244,Lassik (Nb37),,1860.0,,,40.0,-123.0,40.0,-123.0,Original,"Note, Nongatl, Sinkyone and Lassik considered distinct dialects of wlk by some, but glottolog does not provide dialect identifiers",US
+87,Nb38,Mattole-Bear River,matt1238,Mattole (Nb38),"Mattole, Bear River",1860.0,,,40.0,-124.0,40.35,-123.47,Revised,,US
+88,Ab10,Pondo Xhosa,mpon1252,Pondo (Ab10),"Amapondo, Mpondo",1936.0,,,-31.0,30.0,-31.0,30.0,Original,,ZA
+89,Ad40,Tiriki,idak1243,Tiriki (Ad40),,1950.0,,,0.0,35.0,0.0,35.0,Original,,KE
+90,Nb39,Sinkyone,wail1244,Sinkyone (Nb39),,1860.0,,,40.0,-124.0,39.73,-123.6,Revised,"Note, Nongatl, Sinkyone and Lassik considered distinct dialects of wlk by some, but glottolog does not provide dialect identifiers",US
+91,Nb4,Yurok,yuro1248,Yurok (Nb4),,1850.0,Yurok (NS31),http://ehrafworldcultures.yale.edu/collection?owc=NS31,41.0,-124.0,41.0,-124.0,Original,,US
+92,Nb5,Eyak,eyak1241,Eyak (Nb5),dAXunhyuu,1890.0,,,60.0,-145.0,60.34,-144.85,Revised,,US
+93,Nb6,Tolowa,tolo1259,Tolowa (Nb6),,1870.0,,,42.0,-124.0,42.0,-124.0,Original,,US
+94,Nb7,Tsimshian,nucl1649,Tsimshian (Nb7),Ts’msyan,1880.0,,,55.0,-130.0,54.64,-130.25,Revised,,CA
+95,Nb8,Haisla,hais1244,Haisla (Nb8),Kitimat,1880.0,,,54.0,-129.0,54.0,-129.0,Original,,CA
+96,Nb9,Nuxalk,bell1243,Bellacoola (Nb9),"Nuxalkmc, Bellacoola, Bilqula, Bella Coola",1880.0,Nuxalk (NE06),http://ehrafworldcultures.yale.edu/collection?owc=NE06,52.0,-127.0,52.0,-127.0,Original,,CA
+97,Nc1,Nomlaki,noml1242,Nomlaki (Nc1),Central Wintun,1850.0,,,39.0,-122.0,39.0,-122.0,Original,Changed 15Nov2016 to differentiate Nomlaki from Wintu,US
+98,Nc10,Achumawi,achu1247,Achomawi (Nc10),Achomawi,1860.0,,,41.0,-121.0,41.0,-121.0,Original,,US
+99,Nc11,Yana,yana1271,Yana (Nc11),Nozi,1860.0,,,41.0,-122.0,41.0,-122.0,Original,,US
+100,Ad41,Vugusu,buku1249,Vugusu (Ad41),Kotosh,1930.0,,,1.0,35.0,1.0,35.0,Original,,KE
+101,Nc12,Maidu,nort2952,Maidu (Nc12),Pujunan,1850.0,,,40.0,-121.0,40.0,-121.0,Original,,US
+102,Nc13,Nisenan,nise1244,Nisenan (Nc13),"Southern Maidu, Nisenan Southern Maidu",1850.0,,,39.0,-121.0,39.0,-121.0,Original,,US
+103,Nc14,Wintu,nucl1651,Wintu (Nc14),Northern Wintu,1860.0,,,41.0,-122.0,41.0,-122.0,Original,Changed 15Nov2016 to differentiate Nomlaki from Wintu,US
+104,Nc15,Coast Yuki,yuki1243,Coast Yuki (Nc15),,1860.0,Yuki (NS30),http://ehrafworldcultures.yale.edu/collection?owc=NS30,39.0,-124.0,39.34,-123.77,Revised,,US
+105,Nc16,Huchnom,yuki1243,Huchnom (Nc16),,1860.0,,,39.0,-123.0,39.0,-123.0,Original,,US
+106,Nc17,Northern Pomo,nort2966,Northern Pomo (Nc17),,1860.0,Pomo (NS18),http://ehrafworldcultures.yale.edu/collection?owc=NS18,39.0,-123.0,39.0,-123.0,Original,,US
+107,Nc18,Eastern Pomo,east2545,Eastern Pomo (Nc18),"Clear Lake Pomo, Eastern Pomo",1860.0,Pomo (NS18),http://ehrafworldcultures.yale.edu/collection?owc=NS18,39.0,-123.0,39.0,-123.0,Original,,US
+108,Nc19,Southern Pomo,sout2984,Southern Pomo (Nc19),Southern Pomo,1860.0,Pomo (NS18),http://ehrafworldcultures.yale.edu/collection?owc=NS18,38.0,-123.0,38.55,-122.94,Revised,,US
+109,Nc2,Tübalulabal,tuba1278,Tubatulabal (Nc2),Tubatulabal,1850.0,Tubatulabal (NS22),http://ehrafworldcultures.yale.edu/collection?owc=NS22,39.0,-118.0,39.0,-118.0,Original,,US
+110,Nc20,Wappo,wapp1239,Wappo (Nc20),,1860.0,,,38.0,-123.0,38.22,-122.56,Revised,,US
+111,Ad42,Haya,haya1250,Haya (Ad42),"Basiba, Wahaya, Wassiba, Ziba",1900.0,,,-1.0,32.0,-1.0,32.0,Original,"Note 8Feb2018: HH notes that the Weiss ethnography (1 of 5 references) refers to Wahima and Wanjambo, which are Kinyarwanda [kin] and Nyambo [now] respectively -- ""close to, but not the same lg as Haya [hay]"". However, given that Haya appears to be the focus of the other ethnographies, I will leave the language match as [hay]. Users may wish to look into individual data points in detail, to ensure they refer to the focal group.",TZ
+112,Nc21,Lake Miwok,lake1258,Lake Miwok (Nc21),,1860.0,,,38.0,-123.0,38.75,-123.2,Revised,,US
+113,Nc22,Patwin,patw1250,Patwin (Nc22),Southern Wintun,1850.0,,,39.0,-122.0,39.0,-122.0,Original,,US
+114,Nc23,Western Mono,mono1275,Monachi (Nc23),"Monachi, Western Mono, Monache",1870.0,,,37.0,-119.0,37.0,-119.0,Original,,US
+115,Nc24,Southern Valley Yokuts,vall1251,Lake Yokuts (Nc24),"Lake Yokuts, Tachi Yokuts, Chunut Yokuts",1860.0,Yokuts (NS29),http://ehrafworldcultures.yale.edu/collection?owc=NS29,36.0,-120.0,36.0,-120.0,Original,,US
+116,Nc25,Wukchumni,tule1245,Wukchumni (Nc25),Central Foothills Yokuts,1860.0,Yokuts (NS29),http://ehrafworldcultures.yale.edu/collection?owc=NS29,36.0,-119.0,36.0,-119.0,Original,,US
+117,Nc26,Salinan,sali1253,Salinan (Nc26),,1770.0,,,36.0,-121.0,36.0,-121.0,Original,,US
+118,Nc27,Kawaiisu,kawa1283,Kawaiisu (Nc27),Kawaiisu Shoshoni,1860.0,,,35.0,-118.0,35.0,-118.0,Original,,US
+119,Nc28,Chumash,cruz1243,Chumash (Nc28),,1800.0,,,34.0,-120.0,34.44,-119.71,Revised,,US
+120,Nc29,Tongva,tong1329,Gabrielo (Nc29),"Gabrielo, Gabrielino, Gabrieleno",1770.0,,,34.0,-118.0,34.0,-118.0,Original,,US
+121,Nc3,Northern Foothill Yokuts,nort2937,Yokuts (Nc3),Yokuts,1850.0,Yokuts (NS29),http://ehrafworldcultures.yale.edu/collection?owc=NS29,36.0,-120.0,36.0,-120.0,Original,,US
+122,Ad43,Kerewe,kere1283,Kerewe (Ad43),"Bakerewe, Wakerewe",1900.0,,,-3.0,33.0,-3.0,33.0,Original,,TZ
+123,Nc30,Serrano,serr1255,Serrano (Nc30),,1870.0,,,34.0,-117.0,34.0,-117.0,Original,,US
+124,Nc31,Cahuilla (Desert),cahu1264,Cahuilla (Nc31),Desert Cahuilla,1870.0,,,33.0,-116.0,33.0,-116.0,Original,"Note, three Cahuilla Dialects (Mountain, Pass, Desert) are recognized by some, but Glottolog does not list any dialects",US
+125,Nc32,Cupeño,cupe1243,Cupeno (Nc32),"Kuupangaxwichem, Cupeno",1870.0,,,33.0,-117.0,33.0,-117.0,Original,,US
+126,Nc33,Luiseño,luis1253,Luiseno (Nc33),"Payómkawichum, Luiseno",1860.0,,,33.0,-117.0,33.0,-117.0,Original,,US
+127,Nc34,Kiliwa,kili1268,Kiliwa (Nc34),K'olew,1880.0,,,31.0,-115.0,31.0,-115.0,Original,,MX
+128,Nc4,Atsugewi,atsu1245,Atsugewi (Nc4),,1860.0,,,41.0,-121.0,41.0,-121.0,Original,,US
+129,Nc5,Central Sierra Miwok,cent2140,Miwok (Nc5),Miwok,1850.0,,,38.0,-120.0,38.0,-120.0,Original,,US
+130,Nc6,Kumeyaay,kumi1248,Diegueno (Nc6),"Diegueño, Diegueno",1850.0,,,32.0,-116.0,32.0,-116.0,Original,"Note, previously tipa1240 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",MX
+131,Nc7,Yuki,yuki1243,Yuki (Nc7),,1850.0,Yuki (NS30),http://ehrafworldcultures.yale.edu/collection?owc=NS30,40.0,-123.0,40.0,-123.0,Original,,US
+132,Nc8,Klamath,klam1254,Klamath (Nc8),,1860.0,Klamath (NR10),http://ehrafworldcultures.yale.edu/collection?owc=NR10,43.0,-122.0,43.0,-122.0,Original,,US
+133,Ad44,Konjo,konz1239,Konjo (Ad44),,1920.0,,,-1.0,30.0,-1.0,30.0,Original,,UG
+134,Nc9,Modoc,klam1254,Modoc (Nc9),,1860.0,,,42.0,-122.0,42.0,-122.0,Original,,US
+135,Nd1,Tenino,teni1238,Tenino (Nd1),"Warmsprings Sahaptin, Yenino",1850.0,,,45.0,-121.0,45.0,-121.0,Original,,US
+136,Nd10,Nlaka'pamux,thom1243,Thompson (Nd10),"Thompson, Nitlakapamuk, Thompson River Salish",1860.0,,,50.0,-122.0,50.0,-122.0,Original,,CA
+137,Nd11,Shuswap,shus1248,Shuswap (Nd11),Secwepemc,1850.0,,,51.0,-120.0,51.0,-120.0,Original,,CA
+138,Nd12,Bitterroot Salish,kali1309,Flathead (Nd12),"Salish, Flathead",1860.0,Southeast (NR19),in process,46.0,-113.0,46.0,-113.0,Original,,US
+139,Nd13,Kalispel,kali1309,Kalispel (Nd13),,1860.0,Southeast (NR19),in process,49.0,-117.0,49.0,-117.0,Original,,CA
+140,Nd14,Coeur d’Alene,coeu1236,Coeur d’Alene (Nd14),"Schitsu'umsh, Skitswish",1860.0,Southeast (NR19),in process,48.0,-117.0,48.0,-117.0,Original,,US
+141,Nd15,Sinkaitk,sout2963,Sinkaitk (Nd15),Southern Okanagon,1880.0,Southeast (NR19),in process,49.0,-120.0,49.0,-120.0,Original,,CA
+142,Nd16,Wenatchi,wena1241,Wenatchi (Nd16),,1870.0,,,48.0,-121.0,48.0,-121.0,Original,,US
+143,Nd17,Klikitat,nucl1237,Klikitat (Nd17),Yakima,1870.0,,,46.0,-122.0,46.0,-122.0,Original,,US
+144,Ad45,Nyankole,nyan1307,Nyankole (Ad45),Banyankole,1920.0,,,0.0,31.0,0.0,31.0,Original,,UG
+145,Nd18,Wishram,wasc1239,Wishram (Nd18),,1860.0,,,46.0,-121.0,46.0,-121.0,Original,,US
+146,Nd19,Umatilla,umat1237,Umatilla (Nd19),,1860.0,,,46.0,-119.0,46.0,-119.0,Original,,US
+147,Nd2,Southern Ute,utee1244,Southern Ute (Nd2),"Wimonuntci, Weminute, Wimonantci Ute",1860.0,Ute (NT19),http://ehrafworldcultures.yale.edu/collection?owc=NT19,38.0,-109.0,38.0,-109.0,Original,,US
+148,Nd20,Nez Perce,nezp1238,Nez Perce (Nd20),"Nimi'ipuu, Sahaptin",1850.0,,,45.0,-115.0,45.0,-115.0,Original,,US
+149,Nd21,Tagotoka,nort1551,Tagotoka (Nd21),Duck Valley Paiute,1870.0,,,43.0,-117.0,43.0,-117.0,Original,,US
+150,Nd22,Wadadokado,nort1551,Wadadokado (Nd22),"Paiute, Northern Paiute",1870.0,Northern Paiute (NR13),http://ehrafworldcultures.yale.edu/collection?owc=NR13,43.0,-119.0,43.0,-119.0,Original,,US
+151,Nd23,Atsakudokwa,nort1551,Atsakudokwa (Nd23),Quinn River Paiute,1870.0,,,42.0,-118.0,42.0,-118.0,Original,,US
+152,Nd24,Kidutokado,nort1551,Kidutokado (Nd24),"Gididika, Surprise Valley Paiute",1870.0,Northern Paiute (NR13),http://ehrafworldcultures.yale.edu/collection?owc=NR13,42.0,-120.0,42.0,-120.0,Original,,US
+153,Nd25,Sawakudokwa,nort1551,Sawakudokwa (Nd25),Winnemucca Paiute,1870.0,,,41.0,-118.0,41.0,-118.0,Original,,US
+154,Ad46,Soga,soga1242,Soga (Ad46),Basoga,1950.0,,,1.0,33.0,1.0,33.0,Original,,UG
+155,Nd27,Kuyuidokado,sout2967,Kuyuidokado (Nd27),Pyramid Lake Paiute,1860.0,Northern Paiute (NR13),http://ehrafworldcultures.yale.edu/collection?owc=NR13,40.0,-119.0,40.0,-119.0,Original,,US
+156,Nd28,Toedokado,sout2967,Toedokado (Nd28),"Stillwater Paiute, Cattail Paiute",1870.0,,,40.0,-118.0,40.0,-118.0,Original,,US
+157,Nd29,Tunava (Deep Springs and Fish Lake),mono1275,Tunava (Nd29),"Deep Springs Valley Paiute, Fish Lake Valley Paiute",1870.0,,,37.0,-118.0,37.0,-118.0,Original,,US
+158,Nd3,Havasupai,hava1249,Havasupai (Nd3),Plateau Yuma,1870.0,Plateau Yumans (NT14),http://ehrafworldcultures.yale.edu/collection?owc=NT14,36.0,-112.0,36.0,-112.0,Original,,US
+159,Nd30,Eastern Mono,mono1275,Eastern Mono (Nd30),Owens Valley Paiute,1870.0,,,37.0,-118.0,37.0,-118.0,Original,,US
+160,Nd31,Koso,pana1305,Koso (Nd31),"Western Panamint, Koso Mountain Shoshoni, Little Lake Shoshoni",1850.0,Western (NT22),in process,36.0,-118.0,36.0,-118.0,Original,,US
+161,Nd32,Tümpisa Shoshone (Saline and Panamint),pana1305,Panamint (Nd32),"Panamint Shoshoni, Panamint, Saline Valley Shoshoni",1850.0,Western (NT22),in process,36.0,-117.0,36.0,-117.0,Original,,US
+162,Nd33,Beatty,pana1305,Beatty (Nd33),"Eastern Panamint, Beatty Shoshoni, Belted Range Shoshoni",1870.0,,,37.0,-116.0,37.0,-116.0,Original,,US
+163,Nd34,Lida Shoshoni,west2622,Lida Shoshoni (Nd34),,1870.0,Western (NT22),in process,37.0,-117.0,37.0,-117.0,Original,,US
+164,Nd35,Mahaguaduka,west2622,Mahaguaduka (Nd35),Reese River Shoshoni,1870.0,Western (NT22),in process,39.0,-117.0,39.0,-117.0,Original,,US
+165,Ad47,Sumbwa,sumb1240,Sumbwa (Ad47),,1900.0,,,-4.0,32.0,-4.0,32.0,Original,,TZ
+166,Nd36,Wiyambituka,west2622,Wiyambituka (Nd36),"Morey Shoshoni, Great Smokey Valley Shoshoni, Little Smokey Valley Shoshoni",1870.0,Western (NT22),in process,39.0,-117.0,39.0,-117.0,Original,,US
+167,Nd37,Railroad Valley Shoshoni,west2622,Hamilton (Nd37),Hamilton,1870.0,Western (NT22),in process,39.0,-116.0,39.0,-116.0,Original,,US
+168,Nd38,Ely Shoshoni,west2622,Ely Shoshoni (Nd38),,1870.0,Western (NT22),in process,39.0,-115.0,39.0,-115.0,Original,,US
+169,Nd4,Sanpoil,sanp1257,Sanpoil (Nd4),,1870.0,Southeast (NR19),in process,48.0,-119.0,48.0,-119.0,Original,,US
+170,Nd40,Tubaduka,west2622,Tubaduka (Nd40),Grouse Creek Shoshoni,1870.0,,,40.0,-113.0,40.0,-113.0,Original,,US
+171,Nd41,Wadaduka,west2622,Wadaduka (Nd41),"Ruby Valley Shoshoni, Pine Creek Shoshoni, Diamond Valley Shoshoni, Egan Canyon Shoshoni",1870.0,,,41.0,-116.0,41.0,-116.0,Original,,US
+172,Nd42,Elko Shoshoni,west2622,Elko Shoshoni (Nd42),Upper Humboldt River Shoshoni,1870.0,,,41.0,-116.0,41.0,-116.0,Original,,US
+173,Nd43,White Knife Shoshoni,west2622,White Knife (Nd43),"Battle Mountain Shoshoni, Tosawihi",1860.0,,,41.0,-117.0,41.0,-117.0,Original,,US
+174,Nd44,Yahanduka,west2622,Yahanduka (Nd44),Snake River Shoshoni,1850.0,,,42.0,-115.0,42.0,-115.0,Original,,US
+175,Ad48,Toro,toor1238,Toro (Ad48),Batoro,1950.0,,,1.0,31.0,1.0,31.0,Original,,UG
+176,Nd45,Bohogue,nort2955,Bohogue (Nd45),Fort Hall Shoshoni,1860.0,,,43.0,-112.0,43.0,-112.0,Original,,US
+177,Nd47,Tukudika,nort2955,Tukudika (Nd47),"Sheep-Eater Shoshoni, Lemhi Mountain Shoshoni",1850.0,,,44.0,-111.0,44.0,-111.0,Original,,US
+178,Nd46,Agaiduka,nort2955,Agaiduka (Nd46),"Salmon-Eater Shoshoni, Lemhi River Shoshoni",1860.0,,,44.0,-112.0,44.0,-112.0,Original,,US
+179,Nd48,Gosiute,gosi1242,Gosiute (Nd48),"Gosiute Shoshoni, Deep Creek Shoshoni",1860.0,Western (NT22),in process,40.0,-114.0,40.0,-114.0,Original,,US
+180,Nd49,Antarianunts,utee1244,Antarianunts (Nd49),"Henry Mountains Paiute, Kaiparowits",1860.0,,,37.0,-110.0,37.0,-110.0,Original,,US
+181,Nd5,Hukundika,nort2955,Hukundika (Nd5),"Seed-Eaters, Northern Shoshoni, Hukunduka, Hukuniduica",1870.0,,,42.0,-112.0,42.0,-112.0,Original,,US
+182,Nd50,Panguitch,utee1244,Panguitch (Nd50),,1860.0,,,38.0,-112.0,38.0,-112.0,Original,,US
+183,Nd51,Moapa,sout2969,Moapa (Nd51),"Muddy Paiute, Parano",1860.0,,,36.0,-115.0,36.0,-115.0,Original,,US
+184,Nd52,Shivwits,sout2969,Shivwits (Nd52),"Suwuntsu (St. George), Suwuntsu, St. George, Gunlock, Uinkaret, Southern Paiute",1860.0,,,36.0,-117.0,36.0,-117.0,Original,,US
+185,Nd53,Southern Paiute (Kaibab),sout2969,Kaibab (Nd53),"Kaivavwits, Southern Paiute, Kaipapicicimi, Kaibabits",1860.0,,,36.0,-113.0,36.0,-113.0,Original,,US
+186,Nd55,Southern Paiute (Las Vegas),sout2969,Las Vegas (Nd55),"Las Vegas, Southern Paiute",1860.0,,,36.0,-115.0,36.0,-115.0,Original,,US
+187,Ad49,Zinza,zinz1238,Zinza (Ad49),Basindja,1950.0,,,-3.0,31.0,-3.0,31.0,Original,,TZ
+188,Nd54,Chemehuevi,chem1251,Chemehuevi (Nd54),Colorado River Reservation,1860.0,Southern (NT16),in process,35.0,-115.0,35.0,-115.0,Original,,US
+189,Nd56,San Juan,sout2969,San Juan (Nd56),Kwaanitikwokets,1860.0,,,36.0,-111.0,36.0,-111.0,Original,,US
+190,Nd57,Pahvant,utee1244,Pahvant (Nd57),Sevier Desert Ute,1860.0,,,39.0,-113.0,39.0,-113.0,Original,,US
+191,Nd58,Uintah Ute,utee1244,Uintah (Nd58),"Tompanowots, Yampa",1860.0,,,40.0,-112.0,40.0,-112.0,Original,,US
+192,Nd59,Moanunts,utee1244,Moanunts (Nd59),Noanunts,1860.0,,,39.0,-112.0,39.0,-112.0,Original,,US
+193,Nd6,Washo,wash1253,Washo (Nd6),,1850.0,Washo (NT20),in process,39.0,-120.0,39.0,-120.0,Original,,US
+194,Nd60,Moache,utee1244,Moache (Nd60),"Moache Ute, Mowatei",1860.0,,,37.0,-105.0,37.0,-105.0,Original,,US
+195,Nd61,Taviwatsiu,utee1244,Taviwatsiu (Nd61),White River Ute,1860.0,,,40.0,-105.0,40.0,-105.0,Original,,US
+196,Nd62,Uncompahgre Ute,utee1244,Uncompahgre (Nd62),Mowataviwatsiu,1860.0,,,39.0,-107.0,39.0,-107.0,Original,,US
+197,Ab11,Xhosa Ngqika,xesi1238,Xhosa (Ab11),"amaXhosa, Amakosa, Kaffirs, Xosa",1850.0,,,-33.0,28.0,-32.89,27.91,Revised,,ZA
+198,Ad5,Mbugwe,mbug1242,Mbugwe (Ad5),Wambugwe,1940.0,,,-4.0,36.0,-4.0,36.0,Original,,TZ
+199,Nd63,Bannock,bann1248,Bannock (Nd63),Eastern Bannock,1860.0,,,43.0,-112.0,43.0,-112.0,Original,,US
+200,Nd64,Wind River Eastern Shoshone,nort2955,Wind River (Nd64),"Wind River, Eastern Shoshoni, Kucundika, Buffalo Hunters, Buffalo-Eater",1860.0,,,43.0,-109.0,43.0,-109.0,Original,,US
+201,Nd65,Hualapai,wala1270,Walapai (Nd65),Walapai,1870.0,,,36.0,-114.0,36.0,-114.0,Original,,US
+202,Nd66,Yavapai,yava1252,Yavapai (Nd66),Apache-Mojave,1870.0,,,35.0,-112.0,35.0,-112.0,Original,,US
+203,Nd67,Tolkepaya,yava1252,Tolkepaya (Nd67),"Apache-Yuma, Western Yavapai",1870.0,,,34.0,-114.0,34.0,-114.0,Original,,US
+204,Nd7,Kutenai,kute1249,Kutenai (Nd7),"Ktunaxa, Kootenay, Kootenai",1880.0,,,50.0,-117.0,50.0,-117.0,Original,,CA
+205,Nd8,Chilcotin,chil1280,Chilcotin (Nd8),Tsilhqot'in,1880.0,,,52.0,-122.0,52.0,-122.0,Original,,CA
+206,Nd9,Lillooet,lill1248,Lillooet (Nd9),"St'at'imc, Stlatlum",1860.0,,,50.0,-125.0,50.02,-124.78,Revised,,CA
+207,Ne1,Gros Ventre,gros1243,Gros Ventre (Ne1),"A'ani, A'aninin, Haaninin",1880.0,Gros Ventre (NQ13),http://ehrafworldcultures.yale.edu/collection?owc=NQ13,49.0,-109.0,48.78,-108.98,Revised,,US
+208,Ne10,Arikara,arik1262,Arikara (Ne10),"Sahnish, Ree",1860.0,,,46.0,-101.0,46.0,-101.0,Original,,US
+209,Ad50,Kaguru,kagu1239,Kaguru (Ad50),,1900.0,,,-6.0,37.0,-6.0,37.0,Original,,TZ
+210,Ne11,Assiniboine,assi1247,Assiniboin (Ne11),"Hohe, Nakota, Stoney",1870.0,Assiniboine (NF04),http://ehrafworldcultures.yale.edu/collection?owc=NF04,48.0,-106.0,48.0,-106.0,Original,,US
+211,Ne12,Blackfoot,pieg1239,Blackfoot (Ne12),Siksika,1850.0,Blackfoot (NF06),http://ehrafworldcultures.yale.edu/collection?owc=NF06,51.0,-112.0,51.0,-112.0,Original,,CA
+212,Ne13,Kainai,bloo1239,Blood (Ne13),"Blood, Kainah, Blood Tribe",1850.0,Blackfoot (NF06),http://ehrafworldcultures.yale.edu/collection?owc=NF06,51.0,-115.0,51.0,-115.0,Original,,CA
+213,Ne14,Bungi,west1510,Bungi (Ne14),"Plains Ojibwa, Bungee, Manitoba Saulteaux, Ojibway, Ojibwe",1850.0,Ojibwa (NG06),http://ehrafworldcultures.yale.edu/collection?owc=NG06,51.0,-100.0,51.0,-100.0,Original,,CA
+214,Ne15,Hidatsa,hida1246,Hidatsa (Ne15),,1860.0,,,47.0,-101.0,47.0,-101.0,Original,,US
+215,Ne16,Karankawa,kara1289,Karankawa (Ne16),,1800.0,,,29.0,-96.0,29.0,-96.0,Original,,US
+216,Ne17,Kiowa,kiow1266,Kiowa (Ne17),,1860.0,,,36.0,-99.0,36.0,-99.0,Original,,US
+217,Ne18,Piegan,pieg1239,Piegan (Ne18),Pikuni,1850.0,Blackfoot (NF06),http://ehrafworldcultures.yale.edu/collection?owc=NF06,49.0,-115.0,49.0,-115.0,Original,,US
+218,Ne19,Plains Cree,plai1258,Plains Cree (Ne19),,1850.0,,,45.0,-94.0,45.0,-94.0,Original,,US
+219,Ne2,Kiowa Apache,kiow1264,Kiowa Apache (Ne2),"Naisha Dene, Na'isha",1870.0,,,36.0,-99.0,36.0,-99.0,Original,,US
+220,Ad51,Ngulu,ngul1246,Ngulu (Ad51),"Nguru, Wanguru",1930.0,,,-6.0,38.0,-6.0,38.0,Original,,TZ
+221,Ne20,Santee,dako1258,Santee (Ne20),"Isanti, Eastern Dakota",1850.0,,,45.0,-94.0,45.0,-94.0,Original,,US
+222,Ne21,Coahuilteco,coah1252,Coahuilteco (Ne21),,1760.0,,,29.0,-99.0,29.0,-99.0,Original,,US
+223,Ne3,Comanche,coma1245,Comanche (Ne3),,1870.0,Comanche (NO06),http://ehrafworldcultures.yale.edu/collection?owc=NO06,33.0,-100.0,33.0,-100.0,Original,,US
+224,Ne4,Crow,crow1244,Crow (Ne4),Apsaalooké,1870.0,Crow (NQ10),http://ehrafworldcultures.yale.edu/collection?owc=NQ10,45.0,-108.0,45.0,-108.0,Original,,US
+225,Ne5,Cheyenne,chey1247,Cheyenne (Ne5),,1860.0,,,39.0,-104.0,39.0,-104.0,Original,,US
+226,Ne6,Mandan,mand1446,Mandan (Ne6),,1830.0,Mandan (NQ17),in process,47.0,-101.0,47.0,-101.0,Original,,US
+227,Ne7,Sarcee,sars1236,Sarsi (Ne7),"Tsuu, Sarci",1880.0,,,54.0,-110.0,54.0,-110.0,Original,,CA
+228,Ne8,Teton,lako1247,Teton (Ne8),,1870.0,,,43.0,-103.0,43.0,-103.0,Original,,US
+229,Ne9,Arapaho,arap1274,Arapaho (Ne9),"Hinono'eiteen, Arapahoe",1860.0,Arapaho (NQ06),in process,40.0,-103.0,40.0,-103.0,Original,,US
+230,Ad6,Nyakyusa,nyak1261,Nyakyusa (Ad6),,1930.0,Nyakyusa and Ngonde (FN17),http://ehrafworldcultures.yale.edu/collection?owc=FN17,-9.0,34.0,-9.0,34.0,Original,,TZ
+231,Nf10,Iowa,iowa1246,Iowa (Nf10),"Bah Kho-je, Baxoje",1870.0,,,41.0,-95.0,41.0,-95.0,Original,,US
+232,Nf11,Otoe,otoo1241,Oto (Nf11),Oto,1870.0,,,40.0,-95.0,40.0,-95.0,Original,,US
+233,Nf12,Ponca,ponc1241,Ponca (Nf12),,1850.0,Dhegiha (NQ12),in process,43.0,-99.0,43.0,-99.0,Original,,US
+234,Nf13,Shawnee,shaw1249,Shawnee (Nf13),,1820.0,,,37.0,-85.0,37.0,-85.0,Original,,US
+235,Nf14,Caddo,cadd1256,Caddo (Nf14),Kadohadacho,,,,33.0,-93.0,33.0,-93.0,Original,,US
+236,Nf15,Kickapoo,kick1244,Kickapoo (Nf15),Kiikaapoi,1870.0,,,43.0,-90.0,43.0,-90.0,Original,,US
+237,Nf2,Ho Chunk,hoch1243,Winnebago (Nf2),Winnebago,1850.0,Winnebago/Ho-Chunk (NP12),http://ehrafworldcultures.yale.edu/collection?owc=NP12,44.0,-88.0,44.0,-88.0,Original,,US
+238,Nf3,Omaha,omah1248,Omaha (Nf3),Dhegiha,1850.0,Omaha (NQ21),http://ehrafworldcultures.yale.edu/collection?owc=NQ21,41.0,-96.0,41.0,-96.0,Original,,US
+239,Nf4,Myaamia,miam1252,Miami (Nf4),Miami,1720.0,,,40.0,-86.0,40.0,-86.0,Original,,US
+240,Nf5,Wichita,wich1260,Wichita (Nf5),,1860.0,,,34.0,-98.0,34.0,-98.0,Original,,US
+241,Ad7,Ganda,gand1255,Ganda (Ad7),Baganda,1880.0,Ganda (FK07),http://ehrafworldcultures.yale.edu/collection?owc=FK07,1.0,32.0,1.0,32.0,Original,,UG
+242,Nf6,Pawnee,pawn1254,Pawnee (Nf6),,1867.0,Pawnee (NQ18),http://ehrafworldcultures.yale.edu/collection?owc=NQ18,42.0,-100.0,42.0,-100.0,Original,,US
+243,Nf7,Fox,mesk1242,Fox (Nf7),Meskwaki,1830.0,Fox (NP05),http://ehrafworldcultures.yale.edu/collection?owc=NP05,45.0,-95.0,45.0,-95.0,Original,,US
+244,Nf8,Hasinai,cadd1256,Hasinai (Nf8),"Southwestern Caddo, Texas",1770.0,,,31.0,-95.0,31.0,-95.0,Original,,US
+245,Nf9,Menominee,meno1252,Menomini (Nf9),Menomini,1870.0,,,46.0,-88.0,46.0,-88.0,Original,,US
+246,Ng1,Huron,wyan1247,Huron (Ng1),"Bear and Cord Peoples, Wendat, Ouendat, Attignaouantan, Attinniaoenten, Attigneenongnahac, Hatingeennonniahak",1640.0,,,44.0,-78.0,44.0,-78.0,Original,,CA
+247,Ng10,Seneca,sene1264,Iroquois (Ng10),"O-non-dowa-gah, Iroquois",1750.0,Iroquois (NM09),http://ehrafworldcultures.yale.edu/collection?owc=NM09,43.0,-77.0,43.0,-77.0,Original,,US
+248,Ng11,Yuchi,yuch1247,Yuchi (Ng11),"Euchee, Uchee",1750.0,,,35.0,-86.0,35.0,-86.0,Original,,US
+249,Ng12,Choctaw,choc1276,Choctaw (Ng12),,1760.0,,,33.0,-88.0,33.0,-88.0,Original,,US
+250,Ng13,Abenaki,peno1243,Abnaki (Ng13),Abnaki,,,,46.0,-70.0,46.0,-70.0,Original,,CA
+251,Ng14,Chickasaw,chic1270,Chickasaw (Ng14),,,,,35.0,-85.0,35.0,-85.0,Original,,US
+252,Ad8,Hehe,hehe1240,Hehe (Ad8),Wahehe,1910.0,,,-8.0,35.0,-8.0,35.0,Original,,TZ
+253,Ng15,Chitimacha,chit1248,Chitimacha (Ng15),,1750.0,,,30.0,-90.0,30.0,-90.0,Original,,US
+254,Ng2,Seminole,mika1239,Seminole (Ng2),,1940.0,Seminole (NN16),http://ehrafworldcultures.yale.edu/collection?owc=NN16,27.0,-81.0,27.0,-81.0,Original,,US
+255,Ng3,Muscogee,cree1270,Creek (Ng3),"Creek, Taskigi Creek",1750.0,Creek (NN11),http://ehrafworldcultures.yale.edu/collection?owc=NN11,33.0,-84.0,33.0,-84.0,Original,,US
+256,Ng4,Penobscot,peno1243,Penobscot (Ng4),,1900.0,,,45.0,-68.0,45.0,-68.0,Original,,US
+257,Ng5,Cherokee,cher1273,Cherokee (Ng5),,1750.0,Cherokee (NN08),http://ehrafworldcultures.yale.edu/collection?owc=NN08,36.0,-83.0,36.0,-83.0,Original,,US
+258,Ng6,Delaware,unam1242,Delaware (Ng6),Lenape,1700.0,Delaware (NM07),http://ehrafworldcultures.yale.edu/collection?owc=NM07,41.0,-75.0,41.0,-75.0,Original,Note 8Feb2018: Changed based on note from HH: Pidgin Delaware was not the mother tongue of the Lenape. The mother tongue was Unami [unm].,US
+259,Ng7,Natchez,natc1249,Natchez (Ng7),,1700.0,,,32.0,-91.0,32.0,-91.0,Original,,US
+260,Ng8,Timucua,timu1245,Timucua (Ng8),,1560.0,,,27.0,-82.0,27.0,-82.0,Original,,US
+261,Ng9,Catawba,cata1286,Catawba (Ng9),Issa,1920.0,,,35.0,-80.0,35.0,-80.0,Original,,US
+262,Nh1,Chiricahua,mesc1238,Chiricahua (Nh1),"Chiricahua Apache, Eastern Apache",1880.0,Eastern Apache (NT08),http://ehrafworldcultures.yale.edu/collection?owc=NT08,31.0,-108.0,31.0,-108.0,Original,,MX
+263,Ad9,Gisu,masa1299,Gisu (Ad9),"Bagesu, Gishu",1900.0,Bagisu (FK13),http://ehrafworldcultures.yale.edu/collection?owc=FK13,1.0,34.0,1.0,34.0,Original,,UG
+264,Nh10,Isleta,sout2961,Isleta (Nh10),,1920.0,,,35.0,-107.0,35.0,-107.0,Original,,US
+265,Nh11,San Ildefonso,sani1273,Tewa (Nh11),"Tewa, San Ildefonso Pueblo",1900.0,Tewa (NT18),http://ehrafworldcultures.yale.edu/collection?owc=NT18,36.0,-106.0,36.0,-106.0,Original,"Note 8Feb2018: Not changed, as focus is the pueblo of San Ildefonso, despite comment from HH: ""Hopi Tewa now has its own language-level glottocode Arizona Tewa ariz1237"". However, ariz1237 now linked to another society in EA.",US
+266,Nh12,Santa Ana,sant1426,Santa Ana (Nh12),,1920.0,,,35.0,-107.0,35.0,-107.0,Original,,US
+267,Nh13,Acoma,acom1246,Acoma (Nh13),,1920.0,,,35.0,-108.0,35.0,-108.0,Original,,US
+268,Nh14,Laguna,acom1246,Laguna (Nh14),,1920.0,,,35.0,-107.0,35.0,-107.0,Original,,US
+269,Nh15,Mescalero,mesc1238,Mescalero (Nh15),,1870.0,,,33.0,-103.0,33.0,-103.0,Original,,US
+270,Nh16,Jicarilla,jica1244,Jicarilla (Nh16),,1870.0,Jicarilla (NT26),in process,36.0,-104.0,36.0,-104.0,Original,,US
+271,Nh17,Western Apache,west2615,Western Apache (Nh17),Ndee,1870.0,Western (NT21),http://ehrafworldcultures.yale.edu/collection?owc=NT21,34.0,-110.0,34.0,-110.0,Original,,US
+272,Nh18,Hopi,hopi1249,Hopi (Nh18),Hopi of Old Oraiibi,1920.0,Hopi (NT09),http://ehrafworldcultures.yale.edu/collection?owc=NT09,36.0,-111.0,36.0,-111.0,Original,,US
+273,Nh19,Cocopa,coco1261,Cocopa (Nh19),Cocopah,1850.0,,,32.0,-115.0,32.0,-115.0,Original,,MX
+274,Ae1,Amba,amba1263,Amba (Ae1),"Awamba, Baamba, Bamba",1950.0,,,1.0,30.0,1.0,30.0,Original,,UG
+275,Nh2,Hano,ariz1237,Hano (Nh2),,1950.0,,,36.0,-111.0,36.0,-111.0,Original,Note 8Feb2018: Glottocode updated based on note from HH: Hopi Tewa now has its own language-level glottocode Arizona Tewa,US
+276,Nh20,Kamia,kumi1248,Kamia (Nh20),,1860.0,,,33.0,-115.0,33.0,-115.0,Original,"Note, previously kimi1238 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",MX
+277,Nh21,Mojave,moha1256,Mohave (Nh21),Mohave,1850.0,Mohave (NT28),in process,35.0,-114.0,35.0,-114.0,Original,,US
+278,Nh22,Quechan,quec1382,Yuma (Nh22),Yuma,1860.0,,,33.0,-114.0,33.0,-114.0,Original,,US
+279,Nh23,Kewyipaya,yava1252,Kewyipaya (Nh23),Southeastern Yavapai,1870.0,,,34.0,-111.0,34.0,-111.0,Original,,US
+280,Nh24,Lipan Apache,lipa1241,Lipan (Nh24),Lipan,1880.0,,,30.0,-100.0,30.0,-100.0,Original,,US
+281,Nh25,Sia,ziaa1251,Sia (Nh25),"Tsiya, Zia",1920.0,Zia Pueblo (NT38),http://ehrafworldcultures.yale.edu/collection?owc=NT38,36.0,-107.0,36.0,-107.0,Original,,US
+282,Nh26,Santa Clara,sant1421,Santa Clara (Nh26),,1910.0,,,36.0,-106.0,36.0,-106.0,Original,,US
+283,Nh27,Kewa,sant1425,Santo Domingo (Nh27),"Santo Domingo, Santo Domingo Pueblo",1930.0,,,36.0,-105.0,36.0,-105.0,Original,,US
+284,Nh3,Navajo,nava1243,Navaho (Nh3),"Diné Bizaad, Navaho",1930.0,Navaho (NT13),http://ehrafworldcultures.yale.edu/collection?owc=NT13,37.0,-110.0,37.0,-110.0,Original,,US
+285,Ae10,Banyaruanda,kiny1244,Ruanda (Ae10),Ruanda,1910.0,Rwandans (FO57),http://ehrafworldcultures.yale.edu/collection?owc=FO57,-2.0,30.0,-2.0,30.0,Original,,RW
+286,Nh4,Zuni,zuni1245,Zuni (Nh4),,1910.0,Zuni (NT23),http://ehrafworldcultures.yale.edu/collection?owc=NT23,35.0,-109.0,35.0,-109.0,Original,,US
+287,Nh5,Maricopa,mari1440,Maricopa (Nh5),Piipash,1850.0,River (NT15),in process,33.0,-113.0,33.0,-113.0,Original,,US
+288,Nh6,Taos,taos1236,Taos (Nh6),,1890.0,Taos (NT17),in process,37.0,-106.0,37.0,-106.0,Original,,US
+289,Nh7,Cochiti,coch1273,Cochiti (Nh7),,1890.0,,,36.0,-106.0,36.0,-106.0,Original,,US
+290,Nh8,Jemez,jeme1245,Jemez (Nh8),"Walatowa, Towa",1920.0,,,36.0,-107.0,36.0,-107.0,Original,,US
+291,Nh9,Picuris,picu1248,Picuris (Nh9),,1920.0,,,36.0,-106.0,36.0,-106.0,Original,"Note 8Feb2018: Glottocode updated based on note from HH: Picuris Northern Tiwa [picu1248] now has its own separate language-level glottocode.; Note, previously picu1240 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",US
+292,Ni1,Tarahumara,cent2131,Tarahumara (Ni1),Rarámuri,1930.0,Tarahumara (NU33),http://ehrafworldcultures.yale.edu/collection?owc=NU33,28.0,-107.0,28.0,-107.0,Original,,MX
+293,Ni2,Tohono O'odham,toho1246,Papago (Ni2),Papago,1930.0,O'Odham (NU79),http://ehrafworldcultures.yale.edu/collection?owc=NU79,31.0,-112.0,31.0,-112.0,Original,,MX
+294,Ni3,Huichol,huic1243,Huichol (Ni3),Wixárika,1920.0,Huichol (Nu19),http://ehrafworldcultures.yale.edu/collection?owc=NU19,23.0,-104.0,22.0,-105.0,Revised 22-July-2021 by KK based on review of map - replaced with lat long for the matched SCCS society (SCCS152),,MX
+295,Ni4,Seri,seri1257,Seri (Ni4),Comcaac,1900.0,Seri (NU31),in process,29.0,-112.0,29.0,-112.0,Original,,MX
+296,Ae11,Songola,song1300,Songola (Ae11),"Basongola, Wasongola",1900.0,,,-4.0,26.0,-4.0,26.0,Original,,CD
+297,Ni5,Chichimeca,chic1272,Chichimec (Ni5),Chichimec,1570.0,,,22.0,-100.0,22.0,-100.0,Original,,MX
+298,Ni6,Pima,akim1239,Pima (Ni6),Akimel O'Odham,1840.0,,,31.0,-111.0,31.0,-111.0,Original,,MX
+299,Ni7,Yaqui,yaqu1251,Yaqui (Ni7),Yoeme,1870.0,,,28.0,-110.0,28.0,-110.0,Original,,MX
+300,Ni8,Opata,opat1246,Opata (Ni8),,1550.0,,,30.0,-110.0,30.0,-110.0,Original,,MX
+301,Ni9,Tepehuán,nort2959,Tepehuan (Ni9),Tepehuan,1920.0,,,27.0,-107.0,27.0,-107.0,Original,,MX
+302,Nj1,Chinantec,ojit1237,Chinantec (Nj1),,1940.0,,,18.0,-96.0,18.0,-96.0,Original,"Note 8Feb2018: Updated based on comment by HH: ""The references described Ojitlán Chinantec [chj] and Palantla Chinantec [cpa] rather than Chiltepec [csa]""; KK: indeed, subcase is specified as ""Ojitlán""",MX
+303,Nj10,Zapotec,yala1267,Zapotec (Nj10),,1940.0,Zapotec (NU44),http://ehrafworldcultures.yale.edu/collection?owc=NU44,17.0,-96.0,17.0,-96.0,Original,"Note 8Feb2018: HH notes that Parsons ref (1 of 3 references) describes Mitla Zapotec [zaw]. KK: Not changed, as EA focus is ""mountain village of Yalagag""; perhaps Parsons ref is used for context/complementary information.",MX
+304,Nj11,Huastec,huas1242,Huastec (Nj11),,,,,22.0,-99.0,22.0,-99.0,Original,,MX
+305,Nj12,Mixtec,juxt1235,Mixtec (Nj12),,1950.0,,,18.0,-98.0,18.0,-98.0,Original,Note 8Feb2018: Changed based on note from HH: The ref describes Juxtlahuaca Mixtec [vmc] unclear why NW Oaxaca Mixtec [mxa] is assigned.,MX
+306,Nj13,Otomí,mezq1235,Otomi (Nj13),Otomi,1900.0,,,20.0,-99.0,20.0,-99.0,Original,,MX
+307,Ab12,Zulu,zulu1248,Zulu (Ab12),Amazulu,1830.0,Zulu (FX20),http://ehrafworldcultures.yale.edu/collection?owc=FX20,-29.0,31.0,-29.0,31.0,Original,,ZA
+308,Ae12,Duala,dual1243,Duala (Ae12),"Diwala, Koelle",1940.0,,,4.0,10.0,4.0,10.0,Original,,CM
+309,Nj14,Tequistlatec,high1242,Tequistlatec (Nj14),,1960.0,,,16.0,-96.0,16.0,-96.0,Original,,MX
+310,Nj2,Aztec,clas1250,Aztec (Nj2),Aztec of Tenochtitlan,1520.0,Aztec (NU07),in process,19.0,-99.0,19.0,-99.0,Original,,MX
+311,Nj3,Sierra Popoluca,high1276,Popoluca (Nj3),"Popoluca, Soteapanec Zoque, Soteapan Zoque, Soteapaneco, Soteapan Soke",1940.0,,,18.0,-95.0,18.0,-95.0,Original,,MX
+312,Nj4,Totonac,papa1238,Totonac (Nj4),,1940.0,,,20.0,-97.0,20.0,-97.0,Original,"Note 8Feb2018: Glottocode changed based on comment by HH: The Kelly ref describes Tajin which is Totonac-Papantla [top]. Indeed, Kelly and Palerm focus on Tajin Totonac, while Krickeberg appears to be a more general survey of the Totonac, including the main dialect groups, one of which is [top].",MX
+313,Nj5,Mazateco,huau1238,Mazateco (Nj5),,1940.0,,,18.0,-97.0,18.0,-97.0,Original,,MX
+314,Nj6,Huave,sanm1287,Huave (Nj6),,1950.0,,,16.0,-95.0,16.22,-95.02,Revised,,MX
+315,Nj7,Mixe,isth1238,Mixe (Nj7),,1930.0,,,17.0,-95.0,17.0,-95.0,Original,,MX
+316,Nj8,Tarasco,pure1242,Tarasco (Nj8),,1500.0,Tarasco (NU34),in process,19.0,-101.0,19.0,-101.0,Original,,MX
+317,Nj9,Tlaxcalans,cent2132,Tlaxdalans (Nj9),,1960.0,,,19.0,-98.0,19.0,-98.0,Original,,MX
+318,Sa1,Guna,sanb1242,Cuna (Sa1),"Dule, Tule, Cuna, Kuna",1940.0,Cuna (SB05),http://ehrafworldcultures.yale.edu/collection?owc=SB05,9.0,-78.0,9.0,-78.0,Original,Note 22July2021: Glottocode changed by KK to sanb1242 from bord1248,PA
+319,Ae13,Bashi,shii1238,Bashi (Ae13),"Baniabungu, Wanyabungu",1920.0,,,-2.0,29.0,-2.0,29.0,Original,,RW
+320,Sa10,Lacandon,laca1243,Lacandon (Sa10),,1900.0,,,17.0,-92.0,16.9,-91.0,Revised 22-July-2021 by KK based on web research and review of location in GIS,,MX
+321,Sa11,Kaqchikel,kaqc1270,Cakchiquel (Sa11),Cakchiquel,1880.0,,,14.0,-91.0,14.0,-91.0,Original,,GT
+322,Sa12,Lenca,lenc1242,Lenca (Sa12),,1948.0,,,14.0,-88.0,14.0,-88.0,Original,"Note, previously lenc1244, but glottocode is considered a ""bookkeeping"" code (because extinct?), so chose Lencan-Honduras instead (note that point is in Honduras)",HN
+323,Sa13,K'iche',kich1262,Quiche (Sa13),Quiche,1930.0,,,15.0,-91.0,15.0,-91.0,Original,,GT
+324,Sa14,Ngäbe,ngab1239,Guaymi (Sa14),Guaymi,,,,8.0,-81.0,8.0,-81.0,Original,,PA
+325,Sa15,Jakaltek,popt1235,Jacaltec (Sa15),Jacaltec,1920.0,,,14.0,-90.0,14.0,-90.0,Original,,GT
+326,Sa16,Tolupan,toll1241,Jicaque (Sa16),"Jicaque, Xicaque",,,,15.0,-87.0,15.0,-87.0,Original,,HN
+327,Sa17,Poqomam,poqo1253,Pokomam (Sa17),Pokomam,1950.0,,,15.0,-91.0,15.0,-91.0,Original,,GT
+328,Sa2,Tzeltal,tzel1254,Tzeltal (Sa2),,1940.0,Tzeltal (NV09),http://ehrafworldcultures.yale.edu/collection?owc=NV09,17.0,-92.0,17.0,-92.0,Original,,MX
+329,Sa3,Ch'orti',chor1273,Chorti (Sa3),Chorti,1930.0,,,14.0,-89.0,14.0,-89.0,Original,,SV
+330,Ae14,Ha,haaa1252,Ha (Ae14),"Abaha, Waha",1950.0,,,-5.0,30.0,-5.0,30.0,Original,,TZ
+331,Sa4,Emberá,nort2972,Choco (Sa4),Choco,1960.0,,,8.0,-78.0,8.0,-78.0,Original,"Note 8Feb2018: Note: this case was flagged by HH as combining ethnographic data for Wounaan [noa] and Northern Embera [emp]. KK has left language as [emp] (Northern Embera) for now, based on facts that Faron, who worked with Embera, is the author of 2 of the 4 ethnographic references for the case, and that at least one of the others (Reichel-Dolmatoff, 1960) is known to have combined information on the two groups, assuming they were essentially the same (Velásquez Runk 2004) [Excerpt from Velásquez Runk (2004), who has worked extensively with Embera and especially Wounaan communities in Panama: ""Much literature on Emberá and Wounaan, both in Panama and Colombia, have combined information on both groups [...]. In Colombia, Emberá* have historically been called Chocó Indians whereas Wounaan have been differentiated as Noanama or more recently Waunana Indians: it is only in Panama that both groups are called Chocó"". [...] ""Emberá bed’ea (the Emberá language) and Wounmeu are linguistically related, sharing about thirty-five (Binder pers. comm.) to fifty percent (Loewen 1960a) cognate roots, and belong to what linguists now acknowledge to be a separate linguistic group [e.g., Chocoan] (Aguirre Licht), Binder, pers. comm.; Mortensen, pers. comm.), but are mutually unintelligible. *Emberá have a number of subgroups also, at least nine according to Loewen (1960) and six according to Mortensen’s current linguistic work (pers.comm.). There has been a small group of Emberá Catio in Panama (Binder, pers. comm.) but the remainder of Panama’s Emberá is Northern Emberá (Mortensen pers. comm.)."" ",PA
+332,Sa5,Bribri,brib1243,Bribri (Sa5),Talamanca,1950.0,Talamancans (SA19),http://ehrafworldcultures.yale.edu/collection?owc=SA19,9.0,-83.0,9.0,-83.0,Original,,CR
+333,Sa6,Yucatec Maya,yuca1254,Yucatec Maya (Sa6),,1520.0,Yucatec Maya (NV10),http://ehrafworldcultures.yale.edu/collection?owc=NV10,18.0,-90.0,18.0,-90.0,Original,,MX
+334,Sa7,Garifuna,gari1256,Black Carib (Sa7),"Black Carib, Garif",1940.0,Garifuna (SA12),http://ehrafworldcultures.yale.edu/collection?owc=SA12,16.0,-89.0,16.0,-89.0,Original,,BZ
+335,Sa8,Mam,mamm1241,Mam (Sa8),,1930.0,Mam Maya (NW08),http://ehrafworldcultures.yale.edu/collection?owc=NW08,15.0,-92.0,15.0,-92.0,Original,,GT
+336,Sa9,Miskito,misk1235,Miskito (Sa9),"Mískitu, Mosquito",1920.0,Miskito (SA15),http://ehrafworldcultures.yale.edu/collection?owc=SA15,13.0,-85.0,14.766,-84.089,Revised 22-July-2021 by KK based on web research and review of location in GIS,,NI
+337,Sb1,Callinago,isla1278,Callinago (Sb1),,1650.0,Island Carib (ST13),http://ehrafworldcultures.yale.edu/collection?owc=ST13,15.0,-61.0,15.41,-61.27,Revised,"Note 8Feb2018: Changed to crb from car as focus is reported in White SCCS pinpointing sheet as ""Dominica Island"" (See also note from HH: Most of the refs refer to Island Carib [crb] not Galibi Carib on the mainland.)",DM
+338,Sb2,Cágaba,cogu1240,Cagaba (Sb2),"Cagaba, Kagaba, Kogi",1940.0,Kogi (SC07),http://ehrafworldcultures.yale.edu/collection?owc=SC07,11.0,-74.0,11.0,-74.0,Original,,CO
+339,Sb3,Barí (Motilon),yukp1241,Motilon (Sb3),"Bari, Motilon, Yuko, Motilones, Barí",1940.0,,,9.0,-72.0,9.0,-72.0,Original,"Note 8Feb2018: Changed after note by HH:""The Motilon described by Reichel-Dolmatoff is Yukpa [yup] (a Cariban lg) not the Chibchan Bari [mot]""; KK: indeed, the focus is on the ""Iroka"", who are described as a ""Yukpa subtribe"" by Ruddle (1974:29, in Halbmayer 2013). References for case are Holder and Reichel-Dolmatoff, and both seem to have attempted to contact the Bari in 1946 (according to Beckerman and Lizarralde 2013), but may have been unsuccsessful. In any case, both anthropologists, and certainly R-D, worked with the Iroka [Yukpa]. Note from Beckerman and Lizarralde (2013): ""the forest-dwelling Bari (and their traditional and ongoing enemies, the Carib-speaking Yukpa) constituted a recognized obstacle to colonization of the forested land remaining to [the small-scale colonists]"". Both Yukpa and Bari seem to have been known as ""Motilones"" (e.g., see http://www.native-languages.org/definitions/motilone.htm).",VE
+340,Sb4,Cariña,taba1267,Carinya (Sb4),Carinya,1950.0,,,9.0,-64.0,9.0,-64.0,Original,"Note 24Sept2018 - dialect Tabajari assigned (language does not change). KK is confident in this assignment; there is an Etnologue point for Carib here (9,-64 approx.). This URL gives the relative location of Carib dialects: https://www.mona.uwi.edu/dllp/jlu/ciel/pages/kalihna.htm. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",VE
+341,Ae15,Hunde,hund1239,Hunde (Ae15),Bahunde,1940.0,,,-2.0,28.0,-2.0,28.0,Original,,CD
+342,Sb5,Paraujano,para1316,Paraujano (Sb5),Onoto,1950.0,,,11.0,-72.0,11.0,-72.0,Original,,VE
+343,Sb6,Wayuu,wayu1243,Goajiro (Sb6),Goajiro,1940.0,Goajiro (SC13),http://ehrafworldcultures.yale.edu/collection?owc=SC13,12.0,-72.0,12.0,-72.0,Original,,CO
+344,Sb7,Yupa,yukp1241,Yupa (Sb7),,1950.0,,,9.0,-72.0,9.0,-72.0,Original,,VE
+345,Sb8,Taíno,tain1254,Taino (Sb8),Taino,1520.0,,,19.0,-75.0,19.94,-75.37,Revised,,CU
+346,Sb9,Haitians,hait1244,Haitians (Sb9),,1930.0,Haitians (SV03),http://ehrafworldcultures.yale.edu/collection?owc=SV03,18.0,-72.0,18.41,-72.17,Revised,,HT
+347,Sc1,Warao,wara1303,Warrau (Sc1),Warrau,1950.0,Warao (SS18),http://ehrafworldcultures.yale.edu/collection?owc=SS18,9.0,-62.0,9.0,-62.0,Original,,VE
+348,Sc10,Lokono,araw1276,Locono (Sc10),"Locono, Arawak",1900.0,,,6.0,-57.0,5.95,-56.98,Revised,,SR
+349,Sc11,Camaracoto,cama1252,Camaracoto (Sc11),Pemon,1930.0,Pemon (SS16),in process,6.0,-63.0,6.0,-63.0,Original,,VE
+350,Sc12,Macushi,macu1259,Macusi (Sc12),Macusi,1910.0,,,4.0,-59.0,4.0,-59.0,Original,"Note 8Feb2018: Note, HH notes that ethnographic references most relevant to Makushi [Sc12] are listed under ""Taulipang"" [Sc15] (Soares Diniz & Ule are on Macushi [mbc] rather than Pemon [aoc]). However, other aspects of case description (name, alternate names) line up with [mbc]. For that reason, I will leave as [mbc], but user should ensure that cultural traits of interest are properly assigned to Macushi vs. Pemon. See Halbmayer, E. 2013. ""Contemporary Carib-speaking Amerindians. A bibliography of social anthropological and linguistic resources for discussion"". For succinct overview and reference lists.",GY
+351,Sc13,Panare,enap1235,Panare (Sc13),,1950.0,,,6.0,-66.0,6.0,-66.0,Original,,VE
+352,Ae16,Lulua,luba1249,Lulua (Ae16),Bena Lulua,1910.0,,,-6.0,23.0,-6.0,23.0,Original,,CD
+353,Sc14,Rucuyen,waya1269,Rucuyen (Sc14),,1890.0,,,3.0,-55.0,3.0,-55.0,Original,,GF
+354,Sc15,Taulípang,taul1252,Taulipang (Sc15),"Taulipang, Arecuna, Arekuna",1910.0,,,4.0,-62.0,4.0,-62.0,Original,"Note 8Feb2018: Note, HH notes that ethnographic references most relevant to Makushi [Sc12] are listed here; it is possible that the more general references currently listed under Sc12 are most appropriate to Taulipang [Sc15] (Farabee 1922 & Kirchoff 1943). However, other aspects of case description (name, alternate names) line up with [aoc]. For that reason, I will leave as [aoc] but user should ensure that cultural traits of interest are properly assigned to Macushi vs. Pemon. See Halbmayer, E. 2013. ""Contemporary Carib-speaking Amerindians. A bibliography of social anthropological and linguistic resources for discussion"". For succinct overview and reference lists.",VE
+355,Sc16,Ye'kuana,maqu1238,Yekuana (Sc16),"So'to, Yekuana",1920.0,,,3.0,-65.0,3.0,-65.0,Original,,VE
+356,Sc17,Piapoco,piap1246,Piapoco (Sc17),,1950.0,,,6.0,-68.0,6.0,-68.0,Original,,VE
+357,Sc18,Ndyuka,ndyu1242,Djuka (Sc18),"Djuka, Bush Negroes, Ndjuka",1960.0,,,5.0,-54.0,5.0,-54.0,Original,,GF
+358,Sc2,Pumé,pume1238,Yaruro (Sc2),Yaruro,1950.0,Pumé (SS19),http://ehrafworldcultures.yale.edu/collection?owc=SS19,7.0,-68.0,7.0,-68.0,Original,,VE
+359,Sc3,Barama River Carib,mura1272,Barama Carib (Sc3),"Barama Carib, Carib",1930.0,Barama River Carib (SR09),http://ehrafworldcultures.yale.edu/collection?owc=SR09,5.0,-59.0,5.0,-59.0,Original,"Note 24Sept2018 - KK has high confidence in this dialect assignment (mura1272). The Barama carib location is in Guyana; there is an Etnologue point for Carib here (7.42,-60.17 approx.). This URL gives the relative location of Carib dialects: https://www.mona.uwi.edu/dllp/jlu/ciel/pages/kalihna.htm.",GY
+360,Sc4,Guahibo,guah1255,Guahibo (Sc4),,1950.0,,,5.0,-69.0,5.0,-69.0,Original,,CO
+361,Sc5,Wapishana,wapi1253,Wapishana (Sc5),,1900.0,,,3.0,-60.0,3.0,-60.0,Original,,GY
+362,Sc6,Saramaccan ,sara1340,Saramacca (Sc6),"Saramaccan of Suriname, Saramacca, Bush Negroes",1920.0,Saramaka (SR15),http://ehrafworldcultures.yale.edu/collection?owc=SR15,4.0,-56.0,4.0,-56.0,Original,,SR
+363,Ae17,Rega,lega1249,Rega (Ae17),"Balegga, Barega, Valega, Warega",1900.0,,,-3.0,28.0,-3.0,28.0,Original,,CD
+364,Sc7,Yabarana,yaba1248,Yabarana (Sc7),,1950.0,,,5.0,-66.0,5.0,-66.0,Original,,VE
+365,Sc8,Piaroa,piar1243,Piaroa (Sc8),,1950.0,,,5.0,-67.0,5.0,-67.0,Original,,VE
+366,Sc9,Curripaco,curr1243,Curipaco (Sc9),Curipaco,1950.0,,,5.0,-67.0,5.0,-67.0,Original,,VE
+367,Sd1,Munduruku,mund1330,Mundurucu (Sd1),"Wuy Jugu, Mundurucu",1950.0,Mundurucu (SQ13),http://ehrafworldcultures.yale.edu/collection?owc=SQ13,-6.0,-58.0,-6.0,-58.0,Original,,BR
+368,Sd2,Tapirapé,tapi1254,Tapirape (Sd2),Tapirape,1930.0,Tapirape (SP22),http://ehrafworldcultures.yale.edu/collection?owc=SP22,-11.0,-52.0,-11.0,-52.0,Original,,BR
+369,Sd3,Palikur,pali1279,Palikur (Sd3),Wasa,1920.0,,,3.0,-52.0,3.0,-52.0,Original,,GF
+370,Sd4,Guaica,yano1262,Waica (Sd4),"Waica, Guiaika",1950.0,Yanoama (SQ18),http://ehrafworldcultures.yale.edu/collection?owc=SQ18,2.0,-65.0,2.0,-65.0,Original,,VE
+371,Sd5,Sateré Mawé,sate1243,Maue (Sd5),Maue,1950.0,,,-4.0,-57.0,-4.0,-57.0,Original,,BR
+372,Sd6,Shiriana,nina1238,Shiriana (Sd6),"Kirishana, Xiriana",1960.0,Yanoama (SQ18),http://ehrafworldcultures.yale.edu/collection?owc=SQ18,4.0,-63.0,4.0,-63.0,Original,,VE
+373,Sd7,Wai-wai,waiw1244,Waiwai (Sd7),Waiwai,1950.0,,,1.0,-59.0,1.0,-59.0,Original,,BR
+374,Ae18,Songye,song1303,Songe (Ae18),"Songe, Basonge, Bassongo",1900.0,,,-6.0,25.0,-6.0,25.0,Original,,CD
+375,Sd8,Sanema,sanu1240,Sanema (Sd8),,1950.0,Yanoama (SQ18),http://ehrafworldcultures.yale.edu/collection?owc=SQ18,4.0,-66.0,4.0,-66.0,Original,,VE
+376,Sd9,Yanomami,yano1261,Yanomamo (Sd9),"Yanomamo, Yanoama",1965.0,Yanoama (SQ18),http://ehrafworldcultures.yale.edu/collection?owc=SQ18,2.0,-65.0,2.0,-65.0,Original,,VE
+377,Se1,Sirionó,siri1273,Siriono (Se1),"Miá, Siriono",1940.0,Siriono (SF21),http://ehrafworldcultures.yale.edu/collection?owc=SF21,-16.0,-64.0,-16.0,-64.0,Original,,BO
+378,Se10,Cocama,coca1259,Cocama (Se10),Ucayali,1670.0,,,1.0,-79.0,1.0,-79.0,Original,,EC
+379,Se11,Chácobo,chac1251,Chacobo (Se11),"Nóʔciria, Chacobo",1960.0,,,-12.0,-67.0,-12.0,-67.0,Original,,BO
+380,Se12,Tucano,tuca1252,Tucano (Se12),Tukano,1950.0,Tucano (SQ19),http://ehrafworldcultures.yale.edu/collection?owc=SQ19,0.0,-70.0,0.0,-70.0,Original,,CO
+381,Se2,Ticuna,ticu1245,Tucuna (Se2),"Tucuna, Tikuna",1940.0,Tucuna (SQ20),http://ehrafworldcultures.yale.edu/collection?owc=SQ20,-3.0,-70.0,-3.0,-70.0,Original,,CO
+382,Se3,Shuar,shua1257,Jivaro (Se3),Jivaro,1930.0,Jivaro (SD09),http://ehrafworldcultures.yale.edu/collection?owc=SD09,-3.0,-78.0,-3.0,-78.0,Original,,EC
+383,Se4,Yagua,yagu1244,Yagua (Se4),,1940.0,,,-3.0,-72.0,-3.0,-72.0,Original,,PE
+384,Se5,Cubeo,cube1242,Cubeo (Se5),"Jiwa, Tucano",1940.0,Tucano (SQ19),http://ehrafworldcultures.yale.edu/collection?owc=SQ19,1.0,-71.0,1.0,-71.0,Original,,CO
+385,Ae19,Garanganze,sang1331,Yeke (Ae19),"Yeke, Bayeke",1930.0,,,-11.0,28.0,-11.0,28.0,Original,,CD
+386,Se6,Witoto,muru1274,Witoto (Se6),"Ouitoto, Uitoto",1910.0,,,-1.0,-74.0,-1.0,-74.0,Original,,CO
+387,Se7,Camba,chiq1248,Camba (Se7),,1950.0,,,-18.0,-63.0,-18.0,-63.0,Original,"Note, previously xba and kamb1287 (Camba). ISO code retired, considered a duplicate of [cax] Chiquitano. Chiquitano glottocode is chiq1248",BO
+388,Se8,Amahuaca,amah1246,Amahuaca (Se8),,1950.0,,,-10.0,-72.0,-10.0,-72.0,Original,,PE
+389,Se9,Shipibo-Conibo,ship1254,Conibo (Se9),Conibo,1920.0,,,-9.0,-74.0,-9.0,-74.0,Original,,PE
+390,Sf1,Inca,cusc1236,Inca (Sf1),,1530.0,Inca (SE13),http://ehrafworldcultures.yale.edu/collection?owc=SE13,-13.0,-72.0,-13.0,-72.0,Original,,PE
+391,Sf2,Aymara,cent2142,Aymara (Sf2),,1940.0,Aymara (SF05),http://ehrafworldcultures.yale.edu/collection?owc=SF05,-16.0,-69.0,-16.0,-69.0,Original,,BO
+392,Sf3,Chachi,chac1249,Cayapa (Sf3),Cayapa,1910.0,Chachi (SD06),http://ehrafworldcultures.yale.edu/collection?owc=SD06,1.0,-79.0,1.0,-79.0,Original,,EC
+393,Sf4,U'wa,cent2150,Tunebo (Sf4),"Tunebo, Tabe",1950.0,,,7.0,-72.0,7.0,-72.0,Original,,CO
+394,Sf5,Páez,paez1247,Paez (Sf5),Paez,1900.0,Paez (SC15),in process,3.0,-76.0,3.0,-76.0,Original,,CO
+395,Sf6,Muisca,chib1270,Chibcha (Sf6),Chibcha,1540.0,,,5.0,-72.0,5.0,-72.0,Original,,CO
+396,Ae2,Kpe,mokp1239,Kpe (Ae2),"Bakwedi, Bakwiri, Kpeli, Kwiri",1950.0,,,4.0,9.0,4.22,9.27,Revised,,CM
+397,Sf7,Asháninka,ajyi1238,Campa (Sf7),"Campa, Ande, Anti, Kampa",1900.0,,,-8.0,-75.0,-8.0,-75.0,Original,"Note 8Feb2018: Glottocode changed to ajyi1238 based on note from HH: ""The Campa described by Craig is Shira Mountain Campa = Ajyíninka"" [all other references appear to describe the ""Campa"" generally].",PE
+398,Sf8,Piro,yine1238,Piro (Sf8),Nomole,1950.0,,,-12.0,-73.0,-12.0,-73.0,Original,,PE
+399,Sf9,Uru,uruu1244,Uru (Sf9),,1930.0,Uru (SF24),http://ehrafworldcultures.yale.edu/collection?owc=SF24,-16.0,-69.0,-16.0,-69.0,Original,,BO
+400,Sg1,Yahgan,yama1264,Yahgan (Sg1),,1870.0,Yahgan (SH06),http://ehrafworldcultures.yale.edu/collection?owc=SH06,-55.0,-69.0,-55.02,-68.98,Revised,,AR
+401,Sg2,Mapuche,mapu1245,Mapuche (Sg2),,1880.0,Aracuanians (SG04),http://ehrafworldcultures.yale.edu/collection?owc=SG04,-39.0,-68.0,-39.0,-68.0,Original,,AR
+402,Sg3,Ona,onaa1245,Ona (Sg3),,1880.0,Ona (SH04),http://ehrafworldcultures.yale.edu/collection?owc=SH04,-54.0,-69.0,-54.0,-69.0,Original,,AR
+403,Sg4,Tehuelche,tehu1242,Tehuelche (Sg4),Patagon,1870.0,Tehuelche (SH05),http://ehrafworldcultures.yale.edu/collection?owc=SH05,-46.0,-70.0,-46.0,-70.0,Original,,AR
+404,Sg5,Alacaluf,qawa1238,Alacaluf (Sg5),Kawésqar,1900.0,,,-52.0,-74.0,-52.0,-74.0,Original,,CL
+405,Sh1,Wichí,wich1264,Mataco (Sh1),"Mataco, Nocten",1860.0,Mataco (SI07),http://ehrafworldcultures.yale.edu/collection?owc=SI07,-24.0,-63.0,-24.0,-63.0,Original,Note 8Feb2018: Changed based on note from HH: Pelleschi is Wichí Lhamtés Güisnay [mzh],AR
+406,Sh2,Terena,tere1279,Terena (Sh2),Poké,1850.0,Terena (SK07),http://ehrafworldcultures.yale.edu/collection?owc=SK07,-21.0,-58.0,-21.0,-58.0,Original,,PY
+407,Ae20,Ekonda,ekon1238,Ekonda (Ae20),,1940.0,,,-2.0,18.0,-2.0,18.0,Original,,CD
+408,Sh3,Abipón,abip1241,Abipon (Sh3),"Abipon, Abipones",1800.0,Abipon (SI04),http://ehrafworldcultures.yale.edu/collection?owc=SI04,-29.0,-61.0,-29.0,-61.0,Original,,AR
+409,Sh4,Kadiwéu,kadi1248,Caduveo (Sh4),Caduveo,1940.0,,,-22.0,-57.0,-22.0,-57.0,Original,,BR
+410,Sh5,Choroti,iyow1239,Choroti (Sh5),Zolota,1910.0,Choroti (SK06),in process,-22.0,-62.0,-22.0,-62.0,Original,,AR
+411,Sh6,Chamacoco,cham1315,Chamacoco (Sh6),Ishír,1890.0,,,-20.0,-59.0,-20.0,-59.0,Original,,PY
+412,Sh7,Guaraní,east2555,Chiriguano (Sh7),"Chiriguano, Guarani",1900.0,Chiriguano (SF10),in process,-20.0,-63.0,-20.0,-63.0,Original,,BO
+413,Sh8,Toba,toba1269,Toba (Sh8),"Qom-lik, Qom, Tacshic, Toqoit",1964.0,Toba (SI12),in process,-25.0,-60.0,-25.0,-60.0,Original,,AR
+414,Sh9,Lengua,nort2971,Lengua (Sh9),,1890.0,,,-23.0,-59.0,-23.0,-59.0,Original,,PY
+415,Si1,Bororo,boro1282,Bororo (Si1),,1920.0,Bororo (SP08),http://ehrafworldcultures.yale.edu/collection?owc=SP08,-16.0,-55.0,-16.0,-55.0,Original,,BR
+416,Si10,Kuikuru,kuik1246,Kuikuru (Si10),Ukuge,1950.0,,,-13.0,-54.0,-13.0,-54.0,Original,,BR
+417,Si2,Trumai,trum1247,Trumai (Si2),Ho kod ke,1930.0,Trumai (SP23),http://ehrafworldcultures.yale.edu/collection?owc=SP23,-12.0,-53.0,-12.0,-53.0,Original,,BR
+418,Ab13,Tswana,tswa1253,Tswana (Ab13),"Batswana, Bechuana",1880.0,,,-24.0,27.0,-24.0,27.0,Original,,BW
+419,Ae21,Kela,yela1238,Kela (Ae21),"Akela, Bakela, Ekela, Ikela",1920.0,,,-3.0,23.0,-3.0,23.0,Original,"Note, previously kela1254 but changed by non-KK DPLACE editor in early 2016 (before 8April2016); earlier KK note: ISO recognized by SIL, but considered bookkeeping by Glottolog",CD
+420,Si3,Bacairi,baka1277,Bacairi (Si3),,1940.0,Bakairi (SP07),http://ehrafworldcultures.yale.edu/collection?owc=SP07,-14.0,-55.0,-14.0,-55.0,Original,,BR
+421,Si4,Nambikwara,sout2994,Nambicura (Si4),Nambicura,1940.0,Nambicuara (SP17),http://ehrafworldcultures.yale.edu/collection?owc=SP17,-12.0,-59.0,-12.0,-59.0,Original,,BR
+422,Si5,Kamayurá,kama1373,Camayura (Si5),Camayura,1940.0,,,-12.0,-54.0,-12.0,-54.0,Original,,BR
+423,Si6,Guató,guat1253,Guato (Si6),Guato,1900.0,,,-19.0,-58.0,-19.0,-58.0,Original,,BR
+424,Si7,Paresi,pare1272,Paressi (Si7),Paressi,1910.0,,,-15.0,-58.0,-15.0,-58.0,Original,,BR
+425,Si8,Umotina,umot1240,Umotina (Si8),,1940.0,,,-15.0,-57.0,-15.0,-57.0,Original,,BR
+426,Si9,Aweti,awet1244,Aueto (Si9),"Aueto, Aueti",1940.0,,,-12.0,-54.0,-12.0,-54.0,Original,,BR
+427,Sj1,Carajá,kara1500,Caraja (Sj1),Caraja,1950.0,Karaja (SP09),in process,-12.0,-50.0,-12.0,-50.0,Original,,BR
+428,Sj10,Cayua,mbya1239,Cayua (Sj10),"Abá, Cayua, Caingua, Guaraní, Guarani",1950.0,Cayua (SM04),http://ehrafworldcultures.yale.edu/collection?owc=SM04,-26.0,-54.0,-26.0,-54.0,Original,,BR
+429,Sj11,Shavante,xava1240,Shavante (Sj11),,1958.0,,,-14.0,-52.0,-14.0,-52.0,Original,,BR
+430,Ae22,Kutsu,kusu1252,Kutshu (Ae22),"Kutshu, Ankutshu, Bankutshu, Wankutshu",1900.0,,,-4.0,22.0,-4.0,22.0,Original,,CD
+431,Sj2,Sherente,xere1240,Sherente (Sj2),Cherente,1850.0,,,-9.0,-48.0,-9.0,-48.0,Original,,BR
+432,Sj3,Aweikoma,xokl1240,Aweikoma (Sj3),"Xokleng, Shokleng, Botocudo of Santa Catarina, Bugre, Kaingang of Santa Catarina (though Aweikoma and Kaingang today considered separate groups)",1910.0,Xokleng (SM03),http://ehrafworldcultures.yale.edu/collection?owc=SM03,-28.0,-50.0,-28.0,-50.0,Original,,BR
+433,Sj4,Canela,cane1242,Ramcocamecra (Sj4),"Ramcocamecra, Timbira, Canella",1930.0,Canela (SO08),http://ehrafworldcultures.yale.edu/collection?owc=SO08,-7.0,-45.0,-7.0,-45.0,Original,,BR
+434,Sj5,Aimoré,kren1239,Botocudo (Sj5),"Nac-nanuk, Nac-poruk, Botocudo",1880.0,,,-18.0,-42.0,-18.0,-42.0,Original,,BR
+435,Sj6,Tenetehara,temb1276,Tenetehara (Sj6),,1930.0,,,-3.0,-46.0,-3.0,-46.0,Original,,BR
+436,Sj7,Apinaye,apin1244,Apinaye (Sj7),,1920.0,,,-6.0,-49.0,-6.0,-49.0,Original,,BR
+437,Sj8,Tupinambá,tupi1273,Tupinamba (Sj8),Tupinamba,1600.0,Tupinamba (SO09),http://ehrafworldcultures.yale.edu/collection?owc=SO09,-8.0,-35.0,-8.0,-35.0,Original,,BR
+438,Sj9,Kayapo,kaya1330,Coroa (Sj9),"Coroa, Northern Cayapo",1950.0,,,-8.0,-52.0,-8.0,-52.0,Original,Note 8Feb2018: Changed based on note from HH: Unclear why this is not simply Kayapó [txu]?!,BR
+439,Ae23,Lalia,ngan1302,Lalia (Ae23),"Dzalia, Lolia",1930.0,,,-1.0,23.0,-1.0,23.0,Original,"Note, previously lali1242 but changed by non-KK DPLACE editor in early 2016 (before 8April2016); earlier KK note: ISO recognized by SIL, but considered bookkeeping by Glottolog; could POTENTIALLY be linked to nxd - ngan1302, as a few online sources suggest that Lalia people speak ""Longando"" (Ngando, nxd), which wikipedia reports is a sister(?) langage of Lalia (lal).",CD
+440,Ae24,Mongo,long1393,Mongo (Ae24),"Balolo, Bamongo, Lolo, Mbongo",1920.0,,,1.0,22.0,1.0,22.0,Original,"Note, dialect should be that spoken in Opala territory.",CD
+441,Ae25,Tetela,tete1250,Tetela (Ae25),Batetela,1920.0,,,-4.0,25.0,-4.0,25.0,Original,,CD
+442,Ae26,Topoke,poke1238,Topoke (Ae26),"Foma, Tofoke",1910.0,,,0.0,24.0,0.0,24.0,Original,,CD
+443,Ae27,Lokele,kele1255,Lokele (Ae27),"Likile, Lukelle",1910.0,,,1.0,25.0,1.0,25.0,Original,,CD
+444,Ae28,Ngala,ling1263,Ngala (Ae28),"Bangala, Boloki, Gens d'Eau",1900.0,,,1.0,18.0,1.0,18.0,Original,,CG
+445,Ae29,Poto,luse1252,Poto (Ae29),"Bapoto, Foto, Mafoto, Upoto",1900.0,,,2.0,22.0,2.0,22.0,Original,,CD
+446,Ae3,Fang,fang1246,Fang (Ae3),"Fan, Pahouin, Pangwe",1910.0,Fang (FH09),in process,1.0,11.0,1.0,11.0,Original,,GQ
+447,Ab14,Lovedu,lobe1242,Lovedu (Ab14),Balovedu,1930.0,Lovedu (FX14),in process,-24.0,31.0,-24.0,31.0,Original,,ZA
+448,Ae30,Bira,bila1255,Bira (Ae30),"Babeyru, Babira, Babila, Wabira",1920.0,,,1.0,29.0,1.0,29.0,Original,,CD
+449,Ae31,Budu,budu1250,Budu (Ae31),"Babudu, Banabuddu, Mabudu, Wabuddu",1920.0,,,2.0,28.0,2.0,28.0,Original,,CD
+450,Ae32,Kumu,komo1260,Kumu (Ae32),"Bakumu, Wakumu",1920.0,,,-1.0,27.0,-1.0,27.0,Original,,CD
+451,Ae33,Ndaka Babali,bali1274,Ndaka Babali (Ae33),"Bandaka, Bali, Babali, Mabali, Mobale (formerly erroneously called Ndaka)",1920.0,,,1.0,27.0,1.0,27.0,Original,,CD
+452,Ae34,Plains Bira,bera1259,Plains Bira (Ae34),Babira,1920.0,,,1.0,30.0,1.0,30.0,Original,,UG
+453,Ae35,Rumbi,lomb1254,Rumbi (Ae35),"Barumbi, Warumbi",1900.0,,,0.0,28.0,0.0,28.0,Original,,CD
+454,Ae36,Bombesa,mbes1238,Bombesa (Ae36),"Mbesa, Mombesa",1920.0,,,1.0,23.0,1.0,23.0,Original,,CD
+455,Ae37,Budja,budz1238,Budja (Ae37),"Babudza, Mbudja",1930.0,,,3.0,23.0,3.0,23.0,Original,,CD
+456,Ae38,Ndoko,doko1244,Ndoko (Ae38),Doko,1920.0,,,2.0,21.0,2.0,21.0,Original,,CD
+457,Ae39,Ngombe,binj1250,Ngombe (Ae39),Gombe,1920.0,,,2.0,20.0,2.0,20.0,Original,,CD
+458,Ab15,Pedi,tswe1238,Pedi (Ab15),Bapedi,1860.0,,,-25.0,30.0,-25.0,30.0,Original,,ZA
+459,Ae4,Nkundo,nkun1238,Nkundo (Ae4),,1930.0,Mongo (FO32),http://ehrafworldcultures.yale.edu/collection?owc=FO32,0.0,20.0,0.0,20.0,Original,,CD
+460,Ae40,Dzem,njye1238,Dzem (Ae40),"Djem, Ndjem, Nyem",1910.0,,,3.0,14.0,3.0,14.0,Original,,CM
+461,Ae41,Kota,ndas1238,Kota (Ae41),"Bakota, Ikota, Kuta",1940.0,,,1.0,14.0,1.0,14.0,Original,"Note 8Feb2018: Changed based on note from HH: The Kota (""Kota Sud"") described by Andersson matches better with Ndasa [nda].",CG
+462,Ae42,Ngumba,kwas1243,Ngumba (Ae42),Mvumba,1900.0,,,3.0,11.0,3.0,11.0,Original,,CM
+463,Ae43,Sanga,bomw1238,Sanga (Ae43),"Basanga, Bosanga, Masanga, Missanga",1900.0,,,2.0,16.0,2.0,16.0,Original,,CG
+464,Ae44,Bubi,bube1242,Bubi (Ae44),"Adija, Ediya",1920.0,,,4.0,9.0,3.54,8.72,Revised,,GQ
+465,Ae45,Kundu,orok1266,Kundu (Ae45),Bakundu,1900.0,,,10.0,9.0,10.0,9.0,Original,,NG
+466,Ae46,Mpongwe,myen1241,Mpongwe (Ae46),"Empongwe, Pongo",1870.0,,,-2.0,10.0,-2.0,10.0,Original,,GA
+467,Ae47,Puku,bata1285,Puku (Ae47),Bapuku,1900.0,,,2.0,10.0,2.0,10.0,Original,,GQ
+468,Ae48,Bafia,bafi1243,Bafia (Ae48),"Bekpa, Fia",1930.0,,,5.0,11.0,5.0,11.0,Original,,CM
+469,Ab16,Lenge,leng1257,Lenge (Ab16),Valenge,1930.0,,,-25.0,34.0,-25.0,34.0,Original,,MZ
+470,Ae49,Bali Nyonga,mung1266,Bali (Ae49),"Bali, Bulu, Bani, Li",1900.0,,,6.0,10.0,6.0,10.0,Original,,CM
+471,Ae5,Bamileke,fefe1239,Bamileke (Ae5),,1910.0,,,5.0,10.0,5.0,10.0,Original,,CM
+472,Ae50,Bamum,bamu1253,Bamum (Ae50),"Bamun, Mum",1920.0,,,6.0,11.0,6.0,11.0,Original,,CM
+473,Ae51,Banen,tune1261,Banen (Ae51),,1940.0,,,5.0,11.0,5.0,11.0,Original,,CM
+474,Ae52,Fungom,mmen1238,Fungom (Ae52),,1950.0,,,7.0,10.0,7.0,10.0,Original,,NG
+475,Ae53,Koko,bako1249,Koko (Ae53),"Bakoko, Betjek, Mwele",1920.0,,,4.0,11.0,4.0,11.0,Original,,CM
+476,Ae54,Kom,komc1235,Kom (Ae54),"Bahom, Bamekom, Bikom",1950.0,,,6.0,10.0,6.0,10.0,Original,,CM
+477,Ae55,Ndob,band1349,Ndob (Ae55),"Bandob, Mburukem, Ndop",1950.0,,,6.0,10.0,6.0,10.0,Original,,CM
+478,Ae56,Nsaw,lamn1239,Nsaw (Ae56),Bansaw,1950.0,,,6.0,11.0,6.0,11.0,Original,,CM
+479,Ae57,Nsungli,limb1268,Nsungli (Ae57),Dzungle,1930.0,,,6.0,11.0,6.0,11.0,Original,,CM
+480,Ab17,Ndau,ndau1241,Ndau (Ab17),Vandau,1920.0,,,-20.0,34.0,-20.0,34.0,Original,,MZ
+481,Ae58,Tikar,tige1238,Tikar (Ae58),,1910.0,,,6.0,12.0,6.0,12.0,Original,,CM
+482,Ae59,Widikum,meta1238,Eidekum (Ae59),"Eidekum, Widekum",1950.0,,,6.0,10.0,6.0,10.0,Original,,CM
+483,Ae6,Luba,luba1250,Luba (Ae6),Baluba,1930.0,,,-8.0,26.0,-8.0,26.0,Original,,CD
+484,Ae7,Baboa,bwaa1238,Babwa (Ae7),"Babwa, Ababwa, Bobua",1910.0,,,3.0,25.0,3.0,25.0,Original,Note 8Feb2018: Changed based on note from HH: These refs refer to Bwa [bww] not Kwa' [bko] (a completely different lg in Cameroon).,CD
+485,Ae8,Rundi,rund1242,Rundi (Ae8),"Barundi, Warundi",1910.0,Barundi (FO58),http://ehrafworldcultures.yale.edu/collection?owc=FO58,-3.0,30.0,-3.0,30.0,Original,,BI
+486,Ae9,Fut,bafu1246,Fut (Ae9),"Bafut, Fu",1950.0,,,6.0,10.0,6.0,10.0,Original,,CM
+487,Af1,Fon,fonn1241,Fon (Af1),"Dahomey, Dahomeans",1890.0,Fon (FA18),http://ehrafworldcultures.yale.edu/collection?owc=FA18,7.0,2.0,7.0,2.0,Original,,BJ
+488,Af10,Igbo,nucl1417,Ibo (Af10),Ibo,1930.0,Igbo (FF26),http://ehrafworldcultures.yale.edu/collection?owc=FF26,6.0,7.0,6.0,7.0,Original,,NG
+489,Af11,Toma,toma1245,Toma (Af11),,1920.0,,,11.0,-9.0,11.0,-9.0,Original,,GN
+490,Af12,Akyem,akye1239,Akyem (Af12),Akwahu,1930.0,Twi (FE12),http://ehrafworldcultures.yale.edu/collection?owc=FE12,7.0,-1.0,7.0,-1.0,Original,,GH
+491,Ab18,Shona,shon1251,Shona (Ab18),Mashona,1920.0,Shona (FS05),http://ehrafworldcultures.yale.edu/collection?owc=FS05,-19.0,31.0,-19.0,31.0,Original,"Note 8Feb2018: Note: HH notes that one of the cited ethnographic references (Prost 1956) refers to a completely different West African linguistic group. The assignment of Shona here appears to be correct. Focus is on ""Zezuru"", which is listed as a dialect of ""Shona"" (zezu1238 <- shon1251).",ZW
+492,Af13,Ebira,ebir1243,Igbira (Af13),"Igbira, Egbiri, Kotokori",1920.0,,,8.0,7.0,8.0,7.0,Original,,NG
+493,Af14,Sherbro,sher1258,Sherbro (Af14),Mampua,1930.0,,,7.0,-13.0,7.52,-12.69,Revised,,SL
+494,Af15,Kpelle,libe1247,Kpelle (Af15),"Guerse, Kpese",1920.0,Kpelle (FD06),http://ehrafworldcultures.yale.edu/collection?owc=FD06,7.0,-9.0,7.0,-9.0,Original,,LR
+495,Af16,Banyang,keny1279,Banyang (Af16),"Banjangi, Konguan, Manyang, Nyangi",1910.0,,,6.0,9.0,6.0,9.0,Original,,NG
+496,Af17,Boki,boky1238,Boki (Af17),Nki,1900.0,,,6.0,9.0,6.0,9.0,Original,,NG
+497,Af18,Ekoi,ejag1239,Ekoi (Af18),,1900.0,,,6.0,8.0,6.0,8.0,Original,,NG
+498,Af19,Efik,efik1245,Efik (Af19),Riverain Ibibio,1950.0,,,5.0,8.0,5.0,8.0,Original,,NG
+499,Af2,Kissi,nort2765,Kissi (Af2),Ghizi,1950.0,,,9.0,-10.0,9.0,-10.0,Original,,GN
+500,Af20,Ibibio,ibib1240,Ibibio (Af20),,1910.0,,,5.0,8.0,5.0,8.0,Original,,NG
+501,Af21,Ijaw,kala1381,Ijaw (Af21),Ijo,1920.0,,,2.0,6.0,4.37,6.58,Revised,,NG
+502,Aa2,Dorobo,okie1245,Dorobo (Aa2),"Andorobo, Okiek, Wandorobbo",1920.0,Okiek (FL20),http://ehrafworldcultures.yale.edu/collection?owc=FL20,0.0,36.0,0.0,36.0,Original,,KE
+503,Ab19,Ambo,ndon1254,Ambo (Ab19),Ovambo,1910.0,,,-17.0,16.0,-17.0,16.0,Original,,AO
+504,Af22,Itsekiri,isek1239,Itsekiri (Af22),"Awerri, Jekri, Warri",1940.0,,,6.0,5.0,6.0,5.0,Original,,NG
+505,Af23,Afikpo,afik1238,Afikpo (Af23),,1950.0,Igbo (FF26),http://ehrafworldcultures.yale.edu/collection?owc=FF26,6.0,8.0,6.0,8.0,Original,,NG
+506,Af24,Edo,bini1246,Edo (Af24),Bini,1900.0,,,6.0,6.0,6.0,6.0,Original,,NG
+507,Af25,Isoko,isok1239,Isoko (Af25),,1930.0,,,5.0,6.0,5.0,6.0,Original,,NG
+508,Af26,Kukuruku,yekh1238,Kukuruku (Af26),,1900.0,,,7.0,6.0,7.0,6.0,Original,,NG
+509,Af27,Eloyi,eloy1241,Afo (Af27),"Eloyi, Afo",1950.0,,,8.0,8.0,8.0,8.0,Original,,NG
+510,Af28,Gbagyi,gbar1246,Gbari (Af28),"Gbari, Gwali",1910.0,,,10.0,10.0,10.0,10.0,Original,,NG
+511,Af29,Idoma,idom1241,Idoma (Af29),,1950.0,,,7.0,8.0,7.0,8.0,Original,,NG
+512,Af3,Ashanti,asan1239,Ashanti (Af3),Twi,1900.0,Twi (FE12),http://ehrafworldcultures.yale.edu/collection?owc=FE12,7.0,-2.0,7.0,-2.0,Original,,GH
+513,Af30,Igala,igal1242,Igala (Af30),Igara,1920.0,,,7.0,7.0,7.0,7.0,Original,,NG
+514,Ab2,Swazi,swat1243,Swazi (Ab2),Amaswazi,1880.0,,,-27.0,32.0,-27.0,32.0,Original,,SZ
+515,Af31,Koro,ashe1269,Koro (Af31),,1960.0,,,18.0,8.0,18.0,8.0,Original,,NE
+516,Af32,Egba,egba1238,Egba (Af32),,1920.0,Yoruba (FF62),http://ehrafworldcultures.yale.edu/collection?owc=FF62,7.0,3.0,7.0,3.0,Original,,NG
+517,Af33,Ekiti,ekit1244,Ekiti (Af33),,1950.0,Yoruba (FF62),http://ehrafworldcultures.yale.edu/collection?owc=FF62,8.0,5.0,8.0,5.0,Original,,NG
+518,Af34,Ife,ifee1241,Ife (Af34),,1930.0,Yoruba (FF62),http://ehrafworldcultures.yale.edu/collection?owc=FF62,7.0,5.0,7.0,5.0,Original,,NG
+519,Af35,Adangme,adan1247,Adangme (Af35),Adampe,1940.0,,,6.0,0.0,6.0,0.0,Original,,GH
+520,Af36,Ewe,aguu1242,Ewe (Af36),,1900.0,,,7.0,1.0,7.0,1.0,Original,,TG
+521,Af37,Buem,siwu1238,Buem (Af37),,1900.0,,,3.0,1.0,7.22,0.46,Revised,"Note 8Feb2018: HH notes that ""Buem"" may not be an appropriate name for the group (""HH: Buem (the name) usually refers to Lelemi [lef], I don't know the refs but if they refer to Siwu, it's not clear why the name Buem is used as the name for this society.""). Indeed, focus is ""Akpafu"", which is a Siwu speaking group. KK suggests considering renaming group to ""Mawu"" -- see next: From Wikipedia (appears to be reliable, based on additional reading by KK): ""The speakers of Siwu call themselves the ""Mawu"". Siwu is spoken in a total of eight villages scattered about in the mountains north of Hohoe. [The land is divided into] Akpafu (West) [akpa1243] and Lolobi (East) [lolo1260], corresponding to a dialectal division. [...] Within the Ghana-Togo Mountain Languages, the closest relatives of Siwu are Lεlεmi (Buem), Sεlε (Santrokofi), and Sεkpεlε (Likpe); with Siwu, these languages form a group that has been called the Buem group (Heine 1969). (https://en.wikipedia.org/wiki/Siwu_language).""",GH
+522,Af38,Abron,abro1238,Abron (Af38),Brong,1900.0,,,5.0,-3.0,7.53,-2.15,Revised,,GH
+523,Af39,Anyi,anyi1245,Anyi (Af39),,1900.0,,,7.0,-4.0,7.0,-4.0,Original,,CI
+524,Af4,Yako,loka1252,Yako (Af4),,1930.0,,,6.0,8.0,6.0,8.0,Original,,NG
+525,Ab20,Ngumbi,nkhu1238,Ngumbi (Ab20),"Bangumbi, Humbe, Khumbi, Nkumbe, Ovakumbe, Vankumbe",1880.0,,,-15.0,15.0,-15.0,15.0,Original,,AO
+526,Af40,Assini,abur1243,Assini (Af40),Issinese,1890.0,,,5.0,-4.0,5.27,-3.58,Revised,,CI
+527,Af41,Attie,atti1239,Attie (Af41),,1890.0,,,6.0,-4.0,6.0,-4.0,Original,,CI
+528,Af42,Fante,fant1241,Fanti (Af42),Fanti,1900.0,Twi (FE12),http://ehrafworldcultures.yale.edu/collection?owc=FE12,6.0,-1.0,6.0,-1.0,Original,,GH
+529,Af43,Ga,gaaa1244,Ga (Af43),,1930.0,,,6.0,0.0,6.0,0.0,Original,,GH
+530,Af44,Alagya,alla1248,Alagya (Af44),Jackjack,1900.0,,,5.0,-4.0,5.22,-4.42,Revised,,CI
+531,Af45,Avikam,avik1243,Avikam (Af45),"Brignan, Kwakwa",1900.0,,,5.0,-5.0,5.15,-5.25,Revised,,CI
+532,Af46,Bakwe,bakw1243,Bakwe (Af46),,1900.0,,,5.0,-7.0,5.0,-7.0,Original,,CI
+533,Af47,Krahn,west2488,Kran (Af47),"Kran, Bush Kru",1940.0,,,6.0,-8.0,6.0,-8.0,Original,,LR
+534,Af48,Kru,klao1243,Kru (Af48),Krao,1850.0,,,5.0,-9.0,5.0,-9.0,Original,,LR
+535,Af49,Sapo,sapo1251,Sapo (Af49),"Pahn, Sapahn",1940.0,,,6.0,-9.0,6.0,-9.0,Original,,LR
+536,Ab21a,Kisama,sama1300,Kisama (Ab21a),"Cisama, Quissama",1930.0,,,-10.0,14.0,-10.0,14.0,Original,,AO
+537,Af5,Mende,mend1266,Mende (Af5),,1930.0,Mende (FC07),http://ehrafworldcultures.yale.edu/collection?owc=FC07,8.0,-11.0,8.0,-11.0,Original,,SL
+538,Af50,Dan,dann1241,Dan (Af50),,1920.0,,,8.0,8.0,8.0,-8.0,Original,,CI
+539,Af51,Gagu,gagu1242,Gagu (Af51),Gban,1920.0,,,7.0,-6.0,7.0,-6.0,Original,,CI
+540,Af52,Guro,guro1248,Guro (Af52),,1920.0,,,7.0,-6.0,7.0,-6.0,Original,,CI
+541,Af53,Tura,tour1242,Tura (Af53),Wen,1950.0,,,8.0,-7.0,8.0,-7.0,Original,,CI
+542,Af54,Gbande,band1352,Gbande (Af54),,1930.0,,,8.0,-10.0,8.0,-10.0,Original,,SL
+543,Af55,Gola,gola1255,Gola (Af55),,1950.0,,,7.0,-11.0,7.0,-11.0,Original,,LR
+544,Af56,Ngere,dann1241,Ngere (Af56),Guere,1930.0,,,7.0,-8.0,7.0,-8.0,Original,,CI
+545,Af57,Temne,timn1235,Temne (Af57),Time,1910.0,,,8.0,-13.0,8.46,-12.64,Revised,,SL
+546,Af58,Vai,vaii1241,Vai (Af58),Gallina,1900.0,,,7.0,-12.0,6.89,-11.2,Revised,,LR
+547,Ab21b,Bomvana,bomv1238,Bomvana (Ab21b),,1925.0,,,-32.0,28.0,-32.17,28.93,Revised_2Aug2021,,ZA
+548,Af6,Oyo Yoruba,oyoo1238,Oyo Yoruba (Af6),,1950.0,Yoruba (FF62),http://ehrafworldcultures.yale.edu/collection?owc=FF62,8.0,4.0,8.0,4.0,Original,2Aug2021 Dialect match updated by KK,NG
+549,Af7,Bete,dalo1238,Bete (Af7),,1950.0,,,6.0,-7.0,6.0,-7.0,Original,Note 8Feb2018: Changed based on note from HH: Bete of Hallouin and Paulme is Bété-Daloa [bev],CI
+550,Af8,Nupe,nupe1254,Nupe (Af8),,1930.0,Nupe (FF52),http://ehrafworldcultures.yale.edu/collection?owc=FF52,9.0,6.0,9.0,6.0,Original,,NG
+551,Af9,Baule,baou1238,Baule (Af9),,1900.0,,,8.0,-5.0,8.0,-5.0,Original,,CI
+552,Ag1,Bambara,bamb1269,Bambara (Ag1),Bamana,1920.0,Bambara (FA08),http://ehrafworldcultures.yale.edu/collection?owc=FA08,13.0,-7.0,13.0,-7.0,Original,,ML
+553,Ag10,Konkomba,konk1269,Konkomba (Ag10),"Bekpokpak, Konko, Kpankpam, Lekpokpam, Pangpana, Tyopo",1940.0,,,10.0,0.0,10.0,0.0,Original,,GH
+554,Ag11,Lobi,lobi1245,Lobi (Ag11),,1910.0,,,10.0,-4.0,10.0,-4.0,Original,,BF
+555,Ag12,Nankanse,nank1249,Nankanse (Ag12),Nankana,1910.0,,,10.0,-1.0,10.0,-1.0,Original,,GH
+556,Ag13,Kasena,kase1253,Kasena (Ag13),"Kasem, Kasuna",1910.0,,,11.0,-1.0,11.0,-1.0,Original,,GH
+557,Ag14,Baga,mbul1258,Baga (Ag14),,1950.0,,,10.0,-14.0,10.0,-14.0,Original,"Note 8Feb2018: Glottocode changed to mbul1258 [mbv] based on note from HH: Paulme deals with Baga Sitemou = Baga Sitemu[bsp] and Baga Foré = Mbulungish [mbv] rather than Baga Koga. KK: In fact, these two languages are not sisters. However, a third reference refers to Nalu (nalu1240/[naj]) which IS a sister to mbv. THerefore, mbv was selected over bsp. [ALSO note that some references appear to refer to ""Baga Dörbed"" (Kalmyk), a Mongol people, and need to be re-assigned to society ""Kalmyk"" (aberle1953; krader1963; vladimirtsov1948). ",GN
+558,Ab22,Chopi,copi1238,Chopi (Ab22),Vachopi,1920.0,,,-25.0,35.0,-24.76,34.47,Revised,,MZ
+559,Ag15,Balanta,bala1301,Balante (Ag15),Balante,1930.0,,,12.0,-16.0,12.0,-16.0,Original,,GW
+560,Ag16,Banyun,bain1259,Banyune (Ag16),"Bainuk, Banhun, Banyune",1930.0,,,12.0,-16.0,12.0,-16.0,Original,,GW
+561,Ag17,Biafada,biaf1240,Biafada (Ag17),,1940.0,,,12.0,-15.0,12.0,-15.0,Original,,GW
+562,Ag18,Bijogo,bidy1244,Bijogo (Ag18),Bijago,1930.0,,,11.0,-16.0,11.1,-16.15,Revised,,GW
+563,Ag19,Diola,ejam1238,Diola (Ag19),Jola-Felupe,1930.0,,,12.0,-17.0,12.88,-16.19,Revised,Note 8Feb2018: Changed based on note from HH: Cunha Taborde deals with Jola-Felupe [eja] rather than Diola-Fonyi,SN
+564,Ag2,Mossi (Yatenga),moss1236,Yatenga (Ag2),"Yatenga, Massi, Moshi, Mossi",1950.0,Mossi (FA28),http://ehrafworldcultures.yale.edu/collection?owc=FA28,13.0,-2.0,13.0,-2.0,Original,"I think this should be the ""Ouahigouya"" dialect of Mossi (mos), though there is no such dialect in Glottolog.",BF
+565,Ag20,Papel,pape1239,Pepel (Ag20),Pepel,1930.0,,,12.0,-16.0,12.0,-16.0,Original,,GW
+566,Ag21,Bassari,bass1258,Bassari (Ag21),Biyan,1910.0,,,12.0,-13.0,12.0,-13.0,Original,,GN
+567,Ag22,Serer,sere1260,Serer (Ag22),Kegueme,1920.0,,,14.0,-12.0,14.0,-12.0,Original,,ML
+568,Ag23,Kasonke,xaas1235,Kasonke (Ag23),,1910.0,,,13.0,-11.0,13.0,-11.0,Original,,ML
+569,Ab3,Lozi,lozi1239,Lozi (Ab3),,1890.0,Lozi (FQ09),http://ehrafworldcultures.yale.edu/collection?owc=FQ09,-15.0,23.0,-15.0,23.0,Original,,ZM
+570,Ag24,Koranko,kura1250,Koranko (Ag24),,1910.0,,,9.0,-11.0,9.0,-11.0,Original,,SL
+571,Ag25,Soninke,soni1259,Soninke (Ag25),Sarakole,1900.0,,,15.0,10.0,15.0,10.0,Original,,NE
+572,Ag26,Susu,susu1250,Susu (Ag26),Soso,1930.0,,,15.0,-13.0,15.0,-13.0,Original,,SN
+573,Ag27,Diula,dyul1238,Diula (Ag27),Dyoura,1910.0,,,9.0,-4.0,9.0,-4.0,Original,,CI
+574,Ag28,Nononke,jena1242,Nono (Ag28),"Nono, Marka, Marka-Dafing, Dafi",1930.0,,,14.0,-4.0,14.0,-4.0,Original,,ML
+575,Ag29,Samo,sout2844,Samo (Ag29),Samako,1910.0,,,13.0,-3.0,13.0,-3.0,Original,,BF
+576,Ag3,Dogon,bank1259,Dogon (Ag3),"Dagom, Habbe, Kado, Tombo",1930.0,Dogon (FA16),http://ehrafworldcultures.yale.edu/collection?owc=FA16,15.0,-3.0,15.0,-3.0,Original,,ML
+577,Ag30,Bobo,nort2819,Bobo (Ag30),,1910.0,,,13.0,-4.0,13.0,-4.0,Original,,BF
+578,Ag31,Minianka,mama1271,Minianka (Ag31),,1910.0,,,12.0,-6.0,12.0,-6.0,Original,,ML
+579,Ag32,Senufo,ceba1235,Senufo (Ag32),"Sene, Siena",1900.0,,,10.0,-6.0,10.0,-6.0,Original,,ML
+580,Ab4,Tsonga,tson1249,Thonga (Ab4),"Thonga, Tonga, Vatsonga",1920.0,Tsonga (FT06),http://ehrafworldcultures.yale.edu/collection?owc=FT06,-24.0,32.0,-24.0,32.0,Original,,ZA
+581,Ag33,Dyan,dyan1251,Dian (Ag33),"Dian, Dya",1920.0,,,11.0,-3.0,11.0,-3.0,Original,,BF
+582,Ag34,Dorosie,dogo1295,Dorosie (Ag34),Dorho,1930.0,,,11.0,-4.0,11.0,-4.0,Original,,BF
+583,Ag35,Kulango,boun1243,Kulango (Ag35),Parkhalla,1910.0,,,7.0,-3.0,7.0,-3.0,Original,,CI
+584,Ag36,Lowiili,sout2790,Lowiili (Ag36),,1950.0,,,11.0,-3.0,11.0,-3.0,Original,Note 8Feb2018: Changed based on note from HH: LoWiili or Goody is Birifor-Southern [biv],BF
+585,Ag37,Awuna,angl1262,Awuna (Ag37),"Atyulo, Frafra, Kassonfra, Yulu",1910.0,,,11.0,-2.0,11.0,-2.0,Original,,BF
+586,Ag38,Builsa,buli1254,Builsa (Ag38),"Bura, Kanjaga",1910.0,,,11.0,-2.0,11.0,-2.0,Original,,BF
+587,Ag39,Dagara,sout2789,Dagari (Ag39),"Dagari, Dagaba",1910.0,,,11.0,-3.0,11.0,-3.0,Original,,BF
+588,Ag4,Tallensi,taln1239,Tallensi (Ag4),,1930.0,Tallensi (FE11),http://ehrafworldcultures.yale.edu/collection?owc=FE11,11.0,-1.0,11.0,-1.0,Original,,GH
+589,Ag40,Isala,tumu1242,Isala (Ag40),"Debe, Gelebagu, Hisala, Pasala",1910.0,,,10.0,-2.0,10.0,-2.0,Original,,GH
+590,Ag41,Kusasi,kusa1250,Kusasi (Ag41),Kusal,1920.0,,,11.0,0.0,11.0,0.0,Original,,TG
+591,Ab5,Mbundu,umbu1257,Mbundu (Ab5),"Banano, Mbari, Nano, Ovimbundu",1930.0,Mbundu (FP13),http://ehrafworldcultures.yale.edu/collection?owc=FP13,-12.0,16.0,-12.0,16.0,Original,,AO
+592,Ag42,Nunuma,sout2795,Nunuma (Ag42),Gurunsi,1910.0,,,12.0,-3.0,12.0,-3.0,Original,,BF
+593,Ag43,Vagala,vagl1239,Vagala (Ag43),Siti,1920.0,,,8.0,-2.0,8.0,-2.0,Original,,GH
+594,Ag44,Dagomba,dagb1246,Dagomba (Ag44),Dagbamba,1910.0,,,9.0,0.0,9.0,0.0,Original,,GH
+595,Ag45,Gurma,gour1243,Gurma (Ag45),"bigourmantcheba, Gourmantche",1930.0,,,12.0,2.0,12.0,2.0,Original,,BF
+596,Ag46,Manprusi,mamp1244,Manprusi (Ag46),Mampelle,1920.0,,,10.0,-1.0,10.0,-1.0,Original,,GH
+597,Ag47,Mossi (Ouagadougou),moss1236,Mossi Ouagadou (Ag47),"Mossi Ouagadou, Massi, Moshi",1900.0,Mossi (FA28),http://ehrafworldcultures.yale.edu/collection?owc=FA28,12.0,-2.0,12.0,-2.0,Original,,BF
+598,Ag48,Basari,ntch1242,Basari (Ag48),,1890.0,,,9.0,1.0,9.0,1.0,Original,,TG
+599,Ag49,Kabre,kabi1261,Kabre (Ag49),"Bekaburum, Kabure",1930.0,,,10.0,2.0,10.0,2.0,Original,,BJ
+600,Ag5,Birifor,sout2790,Birifor (Ag5),Birifon,1930.0,,,10.0,-3.0,10.0,-3.0,Original,,BF
+601,Ag50,Moba,moba1244,Moba (Ag50),"Bmoba, Moab",1910.0,,,11.0,1.0,11.0,1.0,Original,,BF
+602,Ab6,Venda,vend1245,Venda (Ab6),"Bavenda, Bawenda",1900.0,,,-23.0,30.0,-23.0,30.0,Original,,ZA
+603,Ag51,Somba,dita1238,Somba (Ag51),"Betammadibe, Tamprusi",1940.0,,,11.0,1.0,11.0,1.0,Original,,BF
+604,Ag52,Tem,temm1241,Tem (Ag52),"Chancho, Kotokoli",1950.0,,,11.0,1.0,11.0,1.0,Original,,BF
+605,Ag53,Bisa,biss1248,Bisa (Ag53),Busanse,1960.0,,,12.0,0.0,12.0,0.0,Original,,BF
+606,Ag54,Yalunka,yalu1240,Yalunka (Ag54),Dialonke,1910.0,,,10.0,-12.0,10.0,-12.0,Original,,SL
+607,Ag6,Futajalonke,pula1262,Futajalonke (Ag6),Foutadjallonke,1890.0,,,11.0,-13.0,11.0,-13.0,Original,,GN
+608,Ag7,Bozo,tiey1235,Bozo (Ag7),,1930.0,,,14.0,-5.0,14.0,-5.0,Original,,ML
+609,Ag8,Coniagui,wame1240,Coniagui (Ag8),"Awunlen, Koniagi",1910.0,,,13.0,-13.0,13.0,-13.0,Original,,GN
+610,Ag9,Malinke,kita1249,Malinke (Ag9),"Mandingo, Wangara",1930.0,,,11.0,-9.0,11.0,-9.0,Original,"Note 8Feb2018: Glottocode changed to kita1249 [mwk], which is hte focus of Sidibe's work, and also has ""Central Malinke"" listed as an alternative language name. Another reference for this society is focused (according to HH's notes on the closely related [mnk], but whether it also touches on mwk, and/or might have been used for context/depth, should be verified.",GN
+611,Ah1,Katab,kata1265,Katab (Ah1),,1930.0,Katab (FF38),http://ehrafworldcultures.yale.edu/collection?owc=FF38,10.0,8.0,10.0,8.0,Original,,NG
+612,Ah10,Chawai,atsa1241,Chawai (Ah10),Atsam,1920.0,,,10.0,9.0,10.0,9.0,Original,,NG
+613,Aa3,Nama,nama1265,Nama Hottentot (Aa3),"Khoekhoe, Namaqua, Nama Hottentot",1840.0,Khoi (FX13),http://ehrafworldcultures.yale.edu/collection?owc=FX13,-26.0,18.0,-26.0,18.0,Original,,NA
+614,Ab7,Nyaneka,nyan1305,Nyaneka (Ab7),"Banianeka, Munyaneka, Ovanyaneka, Vanyaneka",1920.0,,,-15.0,14.0,-15.0,14.0,Original,,AO
+615,Ah11,Basa,basa1282,Basa (Ah11),Bassa,1950.0,,,8.0,8.0,8.0,8.0,Original,,NG
+616,Ah12,Basakomo,basa1282,Basakomo (Ah12),Bassa-Komo,1920.0,,,8.0,7.0,8.0,7.0,Original,,NG
+617,Ah13,Dakakari,clel1238,Dakakari (Ah13),,1930.0,,,12.0,5.0,12.0,5.0,Original,,NG
+618,Ah14,Kamuku,cind1241,Kamuku (Ah14),,1920.0,,,11.0,6.0,11.0,6.0,Original,,NG
+619,Ah15,Reshe,resh1242,Reshe (Ah15),"Bareshe, Gungawa, Yauri",1920.0,,,11.0,5.0,11.0,5.0,Original,,NG
+620,Ah16,Angas,ngas1240,Angas (Ah16),,1900.0,,,9.0,9.0,9.0,9.0,Original,,NG
+621,Ah17,Birom,bero1242,Birom (Ah17),"Burum, Kibo",1930.0,,,10.0,9.0,10.0,9.0,Original,,NG
+622,Ah18,Burmawa,bogh1241,Borrom (Ah18),Borrom,1930.0,,,10.0,10.0,10.0,10.0,Original,,NG
+623,Ah19,Adara,kada1284,Kadara (Ah19),Kadara,1930.0,,,10.0,8.0,10.0,8.0,Original,,NG
+624,Ah2,Jukun,juku1254,Jukun (Ah2),Juko,1920.0,,,8.0,10.0,8.0,10.0,Original,,NG
+625,Ab8,Sotho,sout2807,Sotho (Ab8),Basuto,1860.0,,,-29.0,28.0,-29.0,28.0,Original,,LS
+626,Ah20,Kagoro,kago1246,Kagoro (Ah20),,1920.0,Katab (FF38),http://ehrafworldcultures.yale.edu/collection?owc=FF38,10.0,8.0,10.0,8.0,Original,,NG
+627,Ah21,Kurama,kura1249,Kurama (Ah21),,1920.0,,,10.0,9.0,10.0,9.0,Original,,NG
+628,Ah22,Yergum,taro1263,Yergum (Ah22),,1900.0,,,9.0,10.0,9.0,10.0,Original,,NG
+629,Ah23,Jibu,jibu1239,Jibu (Ah23),Jubu,1920.0,,,8.0,11.0,8.0,11.0,Original,,NG
+630,Ah24,Kentu,etky1238,Kentu (Ah24),,1920.0,,,7.0,10.0,7.0,10.0,Original,,NG
+631,Ah25,Tigon,tigo1236,Tigon (Ah25),"Tukum, Thgon",1920.0,,,17.0,11.0,17.0,11.0,Original,,NE
+632,Ah26,Ndoro,ndoo1241,Ndoro (Ah26),,1920.0,,,7.0,11.0,7.0,11.0,Original,,NG
+633,Ah27,Zuande,bita1251,Zuande (Ah27),"Bitare, Yukutare",1920.0,,,7.0,11.0,7.0,11.0,Original,,NG
+634,Ah28,Chamba,samb1305,Chamba (Ah28),Tsamba,1920.0,,,8.0,11.0,8.0,11.0,Original,,NG
+635,Ah29,Daka,samb1311,Daka (Ah29),Dekka,1920.0,,,8.0,11.0,8.0,11.0,Original,,NG
+636,Ab9,Ndebele,nort2795,Ndebele (Ab9),"Amandebele, Matabele",1870.0,,,-20.0,28.0,-20.0,28.0,Original,,ZW
+637,Ah3,Tiv,tivv1240,Tiv (Ah3),Munshi,1920.0,Tiv (FF57),http://ehrafworldcultures.yale.edu/collection?owc=FF57,7.0,9.0,7.0,9.0,Original,,NG
+638,Ah30,Longuda,long1389,Longuda (Ah30),Nunguda,1920.0,,,10.0,12.0,10.0,12.0,Original,,NG
+639,Ah31,Mumuye,nucl1240,Mumuye (Ah31),,1910.0,,,9.0,12.0,9.0,12.0,Original,,NG
+640,Ah32,Vere,momj1237,Vere (Ah32),Were,1920.0,,,9.0,13.0,9.0,13.0,Original,,CM
+641,Ah33,Yungur,bena1260,Yungur (Ah33),Binna,1920.0,,,10.0,12.0,10.0,12.0,Original,Note 8Feb2018: HH: Yungur usually refers to Bena [yun] rather than its sister Voro [vor].,NG
+642,Ah34,Bata,bata1314,Bata (Ah34),,1920.0,,,10.0,13.0,10.0,13.0,Original,,NG
+643,Ah35,Bura,bura1292,Bura (Ah35),,1920.0,,,10.0,12.0,10.0,12.0,Original,,NG
+644,Ah36,Gude,gude1246,Gude (Ah36),Cheke,1920.0,,,10.0,13.0,10.0,13.0,Original,,NG
+645,Ah37,Hwana,hwan1240,Hona (Ah37),Hona,1920.0,,,10.0,13.0,10.0,13.0,Original,,NG
+646,Ah38,Kapsiki,psik1239,Kapsiki (Ah38),"Hiji, Hill Margi",1930.0,,,11.0,14.0,11.0,14.0,Original,,CM
+647,Ac1,Ila,ilaa1246,Ila (Ac1),Baila,1920.0,Ila (FQ06),http://ehrafworldcultures.yale.edu/collection?owc=FQ06,-16.0,27.0,-16.0,27.0,Original,,ZM
+648,Ah39,Podokwo,park1239,Podokwo (Ah39),Podogo,1950.0,,,11.0,14.0,11.0,14.0,Original,,CM
+649,Ah4,Mambila,came1252,Mambila (Ah4),Torbi,1920.0,,,7.0,12.0,7.0,12.0,Original,,CM
+650,Ah5,Margi,marg1265,Margi (Ah5),Marghi,1930.0,,,11.0,13.0,11.0,13.0,Original,,NG
+651,Ah6,Gure,gbir1241,Gure (Ah6),Agbiri,1920.0,,,10.0,8.0,10.0,8.0,Original,,NG
+652,Ah7,Mafa,mafa1239,Matakam (Ah7),Matakam,1940.0,,,11.0,14.0,11.0,14.0,Original,,CM
+653,Ah8,Bafute,vute1244,Wute (Ah8),"Wute, Bafute, Bute, Mfute",1910.0,,,6.0,12.0,6.0,12.0,Original,,CM
+654,Ah9,Anaguta,igut1238,Anaguta (Ah9),Naguta,1920.0,,,10.0,9.0,10.0,9.0,Original,,NG
+655,Ai1,Banda,west2458,Banda (Ai1),,1920.0,,,7.0,22.0,7.0,22.0,Original,,CF
+656,Ai10,Otoro,otor1240,Otoro (Ai10),"Otoro Nuba, Nuba",1940.0,,,12.0,31.0,12.0,31.0,Original,,SD
+657,Ai11,Mangbetu,nucl1420,Mangbetu (Ai11),Monbuttu,1900.0,,,3.0,28.0,3.0,28.0,Original,,CD
+658,Ac10,Chewa,chew1246,Chewa (Ac10),"Achewa, Cewa, Sheva",1920.0,,,-14.0,33.0,-14.0,33.0,Original,,MW
+659,Ai12,Fali,sout2782,Fali (Ai12),,1950.0,,,10.0,14.0,10.0,14.0,Original,Note 8Feb2018: Changed based on note from HH: Fali of Malzy is Fali from Tingelin = South Fali [fal],CM
+660,Ai13,Laka,laka1254,Laka (Ai13),,1920.0,,,8.0,16.0,8.0,16.0,Original,"Note 8Feb2018: Changed based on note from HH: Lakka of Tessmann refers to the Sara language Laka [lap] in Tchad/CAR, not Nigeria!",TD
+661,Ai14,Mbum,mbum1254,Mbum (Ai14),,1920.0,,,7.0,14.0,7.0,14.0,Original,,CM
+662,Ai15,Mundang,mund1325,Mundang (Ai15),Moundan,1900.0,,,10.0,14.0,10.0,14.0,Original,,CM
+663,Ai16,Namshi,doya1240,Namshi (Ai16),Doayo,1910.0,,,9.0,13.0,9.0,13.0,Original,,CM
+664,Ai17,Gisiga,sout3051,Gisiga (Ai17),Guissiga,1930.0,,,10.0,14.0,10.0,14.0,Original,,CM
+665,Ai18,Kotoko,lagw1237,Kotoko (Ai18),"Logone, Makari",1880.0,,,12.0,15.0,12.0,15.0,Original,,CM
+666,Ai19,Musgu,musg1254,Musgu (Ai19),Muzuk,1910.0,,,11.0,15.0,11.0,15.0,Original,,CM
+667,Ai2,Nyaro,kooo1244,Nyaro (Ai2),,1940.0,,,11.0,31.0,11.0,31.0,Original,,SD
+668,Ai20,Tupuri,tupu1244,Tuburi (Ai20),"Tuburi, Toupouri",1910.0,,,10.0,15.0,10.0,15.0,Original,,CM
+669,Ac11,Luvale,luva1239,Luvale (Ac11),"Aluena, Balovale, Lobare, Luena",1930.0,,,-12.0,22.0,-12.0,22.0,Original,,AO
+670,Ai21,Bagirmi,bagi1246,Bagirmi (Ai21),,1880.0,,,11.0,17.0,11.0,17.0,Original,,TD
+671,Ai22,Sara,sarr1246,Sara (Ai22),,1890.0,,,9.0,18.0,9.0,18.0,Original,,TD
+672,Ai23,Bwaka,ngba1284,Bwaka (Ai23),"Gbwaka, Mbaka, Ngbaka",1920.0,,,3.0,19.0,3.0,19.0,Original,,CD
+673,Ai24,Mandja,manz1243,Mandja (Ai24),,1900.0,,,6.0,18.0,6.0,18.0,Original,,CF
+674,Ai25,Mbandja,mban1263,Mbandja (Ai25),Banza,1950.0,,,4.0,21.0,4.0,21.0,Original,,CD
+675,Ai26,Ngbandi,nort2774,Ngbandi (Ai26),"Gbandi, Mogwandi",1920.0,,,4.0,22.0,4.0,22.0,Original,,CF
+676,Ai27,Abarambo,bara1361,Abarambo (Ai27),,1890.0,,,4.0,27.0,4.0,27.0,Original,,CD
+677,Ai28,Popoi,popo1291,Popoi (Ai28),"Bagunda, Bapopoie",1910.0,,,2.0,26.0,2.0,26.0,Original,,CD
+678,Ai29,Lendu,lend1245,Lendu (Ai29),"Bale, Walega, Walendu",1920.0,,,2.0,30.0,2.0,30.0,Original,,CD
+679,Ai3,Azande,zand1248,Azande (Ai3),Niam-Niam,1920.0,Azande (FO07),http://ehrafworldcultures.yale.edu/collection?owc=FO07,5.0,27.0,5.0,27.0,Original,,CF
+680,Ac12,Chokwe,chok1245,Chokwe (Ac12),"Badjok, Kioko, Tsokwe",1920.0,,,-10.0,21.0,-10.0,21.0,Original,,AO
+681,Ai30,Lese,lese1243,Lese (Ai30),"Balese, Walese",1920.0,,,2.0,29.0,2.0,29.0,Original,,CD
+682,Ai31,Logo,logo1259,Logo (Ai31),,1920.0,,,3.0,30.0,3.0,30.0,Original,,CD
+683,Ai32,Lugbara,lugb1240,Lugbara (Ai32),Lugware,1920.0,,,3.0,32.0,3.0,32.0,Original,,UG
+684,Ai33,Madi,madi1260,Madi (Ai33),,1940.0,,,4.0,32.0,4.0,32.0,Original,,UG
+685,Ai34,Moru,moru1253,Moru (Ai34),,1880.0,,,5.0,30.0,5.0,30.0,Original,,SS
+686,Ai35,Bongo,bong1285,Bongo (Ai35),Dor,1870.0,,,7.0,29.0,7.0,29.0,Original,,SS
+687,Ai36,Jur,luwo1239,Jur (Ai36),"Gour, Jo-Luo",1920.0,,,8.0,28.0,8.0,28.0,Original,"Changed again on 09Nov2018: Further reading suggests this Luo speaking group from South Sudan should actually be matched to language luwo1239 ""Dhe Luo"", not to luok1236. See Tucker (1931) “The tribal confusion around Wau [Sudan]” (Sudan Notes and Records 14(1): 49-60 for further disambiguation. Note 8Feb2018: Changed based on note from HH: Crazzolara and Santandrea (and probably the others) is about the Nilotic Luo [luo] which is a completely different language than SBB Jur Modo [bex]",SS
+688,Ai37,Koalib,koal1240,Koalib (Ai37),,1940.0,,,12.0,31.0,12.0,31.0,Original,,SD
+689,Ai38,Korongo,kron1241,Korongo (Ai38),,1930.0,,,10.0,30.0,10.0,30.0,Original,,SD
+690,Ai39,Mesakin,ngil1242,Mesakin (Ai39),,1940.0,,,11.0,30.0,11.0,30.0,Original,,SD
+691,Ac13,Tonga,tong1321,Lake Tonga (Ac13),"Lake Tonga, Batonga, Matoka",1950.0,Lakeshore Tonga (FR07),http://ehrafworldcultures.yale.edu/collection?owc=FR07,-12.0,34.0,-12.0,34.0,Original,,MW
+692,Ai4,Ingassana,gaam1241,Ingassana (Ai4),"Engassana, Metabe, Tabi",1920.0,,,11.0,34.0,11.0,34.0,Original,,SD
+693,Ai40,Moro,moro1285,Moro (Ai40),,1940.0,,,11.0,30.0,11.0,30.0,Original,,SD
+694,Ai41,Tira,tira1254,Tira (Ai41),,1930.0,,,11.0,30.0,11.0,30.0,Original,,SD
+695,Ai42,Tullishi,tuli1249,Tullishi (Ai42),,1940.0,,,12.0,29.0,12.0,29.0,Original,,SD
+696,Ai43,Nyimang,amas1236,Nyima (Ai43),"Nyima, Nyamang",1930.0,,,12.0,29.0,12.0,29.0,Original,,SD
+697,Ai44,Anuak,anua1242,Anuak (Ai44),Yambo,1920.0,,,8.0,34.0,8.0,34.0,Original,,ET
+698,Ai45,Meban,maba1273,Meban (Ai45),"Gura, Maban",1930.0,,,10.0,34.0,10.0,34.0,Original,,ET
+699,Ai46,Koma,komo1258,Koma (Ai46),"Gwama, Coma",1930.0,,,9.0,35.0,9.0,35.0,Original,,ET
+700,Ai47,Mao,hozo1236,Mao (Ai47),,1939.0,,,9.0,35.0,9.0,35.0,Original,,ET
+701,Ai5,Mamvu,mamv1243,Mamvu (Ai5),Mornvu,1920.0,,,3.0,29.0,3.0,29.0,Original,,CD
+702,Ac14,Bakongo,sans1272,Kongo (Ac14),Kongo,1900.0,,,-7.0,15.0,-7.0,15.0,Original,,AO
+703,Ai6,Shilluk,shil1265,Shilluk (Ai6),,1900.0,Shilluk (FJ23),http://ehrafworldcultures.yale.edu/collection?owc=FJ23,10.0,32.0,10.0,32.0,Original,,SS
+704,Ai7,Gbaya,nort2775,Baya (Ai7),"Baya, Baja",1910.0,,,6.0,16.0,6.0,16.0,Original,,CF
+705,Ai8,Dilling,dill1242,Dilling (Ai8),,1930.0,,,12.0,30.0,12.0,30.0,Original,,SD
+706,Ai9,Masa,masa1322,Masa (Ai9),Massa,1910.0,,,10.0,16.0,10.0,16.0,Original,,TD
+707,Aj1,Teso,teso1249,Teso (Aj1),"Bateso, Iteso, Kedi",1950.0,,,2.0,34.0,2.0,34.0,Original,,UG
+708,Aj10,Acholi,dhop1238,Acholi (Aj10),Acooli,1920.0,,,3.0,32.0,3.0,32.0,Original,,UG
+709,Aj11,Dinka,sout2832,Dinka (Aj11),Denkawi,1900.0,,,9.0,29.0,9.0,29.0,Original,"Note 8Feb2018: Glottocode left as sout2832, as most of the refs seem to refer to [dik]. Users should be aware that ethnographies relating to different Dinka languages are all listed as sources here, hopefully those not focused on the target group help provide context etc.",SS
+710,Aj12,Lotuko,otuh1238,Lotuko (Aj12),Latuka,1920.0,,,4.0,33.0,4.0,33.0,Original,,UG
+711,Aj13,Pojulu,poju1239,Fajulu (Aj13),Fajulu,1930.0,,,4.0,31.0,4.0,31.0,Original,,SS
+712,Aj14,Kakwa,kakw1240,Kakwa (Aj14),Kakuak,1931.0,,,4.0,31.0,4.0,31.0,Original,,SS
+713,Ac15,Mbala,mbal1257,Mbala (Ac15),"Ambala, Bambala",1900.0,,,-5.0,18.0,-5.0,18.0,Original,,CD
+714,Aj15,Kuku,kuku1285,Kuku (Aj15),,1900.0,,,4.0,32.0,4.0,32.0,Original,,UG
+715,Aj16,Mondari,mand1425,Mondari (Aj16),Mandari,1930.0,,,6.0,31.0,6.0,31.0,Original,,SS
+716,Aj17,Alur,alur1250,Alur (Aj17),"Aloro, Lur",1890.0,,,2.0,31.0,2.0,31.0,Original,,UG
+717,Aj18,Bodi,meen1242,Bodi (Aj18),,1950.0,,,5.0,35.0,5.0,35.0,Original,,ET
+718,Aj19,Didinga,didi1258,Didinga (Aj19),"Birra, Karoko, Toi",1920.0,,,4.0,34.0,4.0,34.0,Original,,UG
+719,Aj2,Maasi,masa1300,Masai (Aj2),Masai,1900.0,Masai (FL12),http://ehrafworldcultures.yale.edu/collection?owc=FL12,-2.0,36.0,-2.0,36.0,Original,,KE
+720,Aj20,Suri,suri1267,Suri (Aj20),"Churi, Kichepo, Thauk, Thuri",1940.0,,,6.0,35.0,6.0,35.0,Original,,ET
+721,Aj21,Jie,jiee1239,Jie (Aj21),,1930.0,,,3.0,34.0,3.0,34.0,Original,,UG
+722,Aj22,Labwor,labw1238,Labwor (Aj22),,1930.0,,,3.0,34.0,3.0,34.0,Original,,UG
+723,Aj23,Plains Suk,east2420,Plains Suk (Aj23),Pokot,1950.0,,,1.0,36.0,1.0,36.0,Original,,KE
+724,Aa4,Bergdama,dama1270,Bergdama (Aa4),"Hakouin, Mountain Damara",1920.0,,,-22.0,16.0,-22.0,16.0,Original,,NA
+725,Ac16,Mitsogho,tsog1243,Shogo (Ac16),"Shogo, Ashogo, Issogo, Mitsogo",1940.0,,,-1.0,12.0,-1.0,12.0,Original,,GA
+726,Aj24,Toposa,topo1242,Topotha (Aj24),"Topotha, Dabosa",1930.0,,,5.0,34.0,5.0,34.0,Original,,SS
+727,Aj25,Keyu,keiy1238,Keyu (Aj25),Elgeyu,1920.0,,,0.0,36.0,0.0,36.0,Original,,KE
+728,Aj26,Hill Suk,west2492,Hill Suk (Aj26),Pokot,1910.0,,,1.0,36.0,1.0,36.0,Original,,KE
+729,Aj27,Sapei,kups1238,Sapei (Aj27),Sabei,1920.0,,,1.0,35.0,1.0,35.0,Original,,KE
+730,Aj28,Tatoga,dato1239,Tatoga (Aj28),"Datoga, Mangati, Taturu",1940.0,,,-5.0,35.0,-5.0,35.0,Original,,TZ
+731,Aj29,Samburu,samb1315,Samburu (Aj29),"Lokop, Loikop",1950.0,,,1.0,37.0,1.0,37.0,Original,,KE
+732,Aj3,Nuer,nuer1246,Nuer (Aj3),Nath,1930.0,Nuer (FJ22),http://ehrafworldcultures.yale.edu/collection?owc=FJ22,8.0,32.0,8.0,32.0,Original,,SS
+733,Aj30,Karamojong,nucl1430,Karamojong (Aj30),,1950.0,,,2.0,34.0,2.0,34.0,Original,,UG
+734,Aj31,Pari,pari1256,Pari (Aj31),"Jo-Pari, Beri, Fori",1920.0,,,5.0,33.0,5.0,33.0,Original,,SS
+735,Aj4,Lango,lang1324,Lango (Aj4),Umiro,1920.0,,,2.0,33.0,2.0,33.0,Original,,UG
+736,Ac17,Suku,suku1259,Suku (Ac17),,1910.0,Suku (FO46),http://ehrafworldcultures.yale.edu/collection?owc=FO46,-6.0,18.0,-6.0,18.0,Original,,CD
+737,Aj5,Turkana,turk1308,Turkana (Aj5),"ŋiTurkana, Elgume",1920.0,Turkana (FL17),http://ehrafworldcultures.yale.edu/collection?owc=FL17,4.0,35.0,4.0,35.0,Original,,UG
+738,Aj6,Luo,luok1236,Luo (Aj6),"Jaluo, Luwo, Nilotic Kavirondo, Nyifwa",1940.0,Luo (FL11),http://ehrafworldcultures.yale.edu/collection?owc=FL11,-1.0,34.0,-1.0,34.0,Original,,KE
+739,Aj7,Nandi,nand1266,Nandi (Aj7),,1910.0,,,0.0,35.0,0.0,35.0,Original,,KE
+740,Aj8,Bari,ligo1238,Bari (Aj8),,1920.0,,,5.0,32.0,5.0,32.0,Original,,SS
+741,Aj9,Kipsigis,kips1239,Kipsigis (Aj9),"Lumbwa, Sikisi",1920.0,,,-1.0,36.0,-1.0,36.0,Original,,KE
+742,Ca1,Konso,kons1243,Konso (Ca1),,1930.0,Konso (MP17),http://ehrafworldcultures.yale.edu/collection?owc=MP17,6.0,37.0,6.0,37.0,Original,,ET
+743,Ca10,Somali (Esa),nort3051,Esa (Ca10),"Eissa, Isa",1880.0,Somali (MO04),http://ehrafworldcultures.yale.edu/collection?owc=MO04,10.0,43.0,10.0,43.0,Original,,SO
+744,Ca11,Arusi,bora1271,Arusi (Ca11),,1890.0,,,8.0,40.0,8.0,40.0,Original,,ET
+745,Ca12,Gibe,west2721,Gibe (Ca12),Oromo of Gibe Region,1880.0,,,8.0,37.0,8.0,37.0,Original,"Note 8Feb2018: Changed after note from HH: ""Haven't checked the details of the refs but very difficult to see how Gibe (= a region) best matches with Koorete rather than Oromo or Kaffa"". KK: indeed, an alt_name for this group is ""Oromo of Gibe Region"".",ET
+746,Ca13,Macha,west2721,Macha (Ca13),Mecca,1950.0,,,9.0,37.0,9.0,37.0,Original,,ET
+747,Ac18,Sundi,koon1244,Sundi (Ac18),Basundi,1910.0,,,-5.0,14.0,-5.0,14.0,Original,Note 8Feb2018: Changed based on note from HH: Hutereau's Kimanyanga refers to Koongo [kng],CD
+748,Ca14,Burji,burj1242,Burji (Ca14),,1950.0,,,5.0,38.0,5.0,38.0,Original,,ET
+749,Ca15,Darasa,gede1246,Darasa (Ca15),,1930.0,,,6.0,38.0,6.0,38.0,Original,,ET
+750,Ca16,Sidama,sida1246,Sidamo (Ca16),Sidamo,1930.0,,,7.0,38.0,7.0,38.0,Original,,ET
+751,Ca17,Tsamai,tsam1247,Tsamai (Ca17),Tsamako,1950.0,,,5.0,37.0,5.0,37.0,Original,,ET
+752,Ca18,Arbore,arbo1245,Arbore (Ca18),Harbora,1940.0,,,5.0,37.0,5.0,37.0,Original,,ET
+753,Ca19,Banna,hame1242,Banna (Ca19),Bunna,1950.0,,,6.0,36.0,6.0,36.0,Original,,ET
+754,Ca2,Somali (Dolbahanta),nort3051,Somali (Ca2),,1950.0,Somali (MO04),http://ehrafworldcultures.yale.edu/collection?owc=MO04,8.0,48.0,8.0,48.0,Original,,SO
+755,Ca20,Galab,daas1238,Galab (Ca20),"Darthanaic, Geleba, Reshiat",1890.0,,,5.0,36.0,5.0,36.0,Original,,ET
+756,Ca21,Hamar,hame1242,Hammar (Ca21),"Hammar, Amar, Amarcocche, Hamarkoke",1950.0,,,5.0,36.0,5.0,36.0,Original,,ET
+757,Ca22,Male,male1284,Male (Ca22),Maale,1950.0,,,6.0,37.0,6.0,37.0,Original,,ET
+758,Ac19,Teke,teke1278,Teke (Ac19),Bateke,1880.0,,,-3.0,15.0,-3.0,15.0,Original,"Note, previously nzu and teke1279, but glottocode teke1279 is considered ""bookkeeping"", and SIL says nzu and ebo are said to be neighbouring dialects. Therefore, switched to ebo.",CG
+759,Ca23,Bako,aari1239,Bako (Ca23),"Ari, Baka",1950.0,,,6.0,37.0,6.0,37.0,Original,,ET
+760,Ca24,Dime,dime1235,Dime (Ca24),,1950.0,,,6.0,36.0,6.0,36.0,Original,,ET
+761,Ca25,Shangama,aari1239,Shangama (Ca25),,1950.0,,,6.0,37.0,6.0,37.0,Original,,ET
+762,Ca26,Ubamer,aari1239,Ubamer (Ca26),Wubahamer,1950.0,,,6.0,37.0,6.0,37.0,Original,,ET
+763,Ca27,Anfillo,anfi1235,Anfillo (Ca27),Southern Mao,1930.0,,,9.0,35.0,9.0,35.0,Original,,ET
+764,Ca28,Basketo,bask1236,Basketo (Ca28),,1950.0,,,6.0,37.0,6.0,37.0,Original,,ET
+765,Ca29,Yem,toba1264,Janjero (Ca29),Janjero,1920.0,,,8.0,38.0,8.0,38.0,Original,,ET
+766,Ca3,Tigrinya,tigr1271,Tigrinya (Ca3),,1950.0,,,14.0,39.0,14.0,39.0,Original,,ET
+767,Ca30,Kafa,kafa1242,Kafa (Ca30),"Kafecho, Kaffa",1890.0,Kaffa (MP14),http://ehrafworldcultures.yale.edu/collection?owc=MP14,7.0,36.0,7.0,36.0,Original,,ET
+768,Ca31,Beta Israel,qima1242,Falasha (Ca31),"Falasha, Black Jews",1860.0,,,12.0,37.0,12.0,37.0,Original,,ET
+769,Ac2,Pende,phen1239,Pende (Ac2),Bapende,1920.0,,,-6.0,20.0,-6.0,20.0,Original,,CD
+770,Ca32,Nara,nara1262,Barea (Ca32),"Barea, Baria",1860.0,,,16.0,38.0,16.0,38.0,Original,,ER
+771,Ca33,Kunama,kuna1268,Kunama (Ca33),Cunama,1860.0,,,15.0,37.0,15.0,37.0,Original,,ER
+772,Ca34,Ababda,abab1239,Ababda (Ca34),,1920.0,,,24.0,34.0,24.0,34.0,Original,,EG
+773,Ca35,Amarar,amar1281,Amarar (Ca35),,1930.0,,,20.0,36.0,20.0,36.0,Original,,SD
+774,Ca36,Beni-Amer,mans1267,Beni Amer (Ca36),Beni Amer,1860.0,,,18.0,38.0,18.0,38.0,Original,,SD
+775,Ca37,Blin,bili1260,Bogo (Ca37),"Bogo, Belen, Bilin",1850.0,,,16.0,36.0,16.0,36.0,Original,,SD
+776,Ca38,Tigre,mans1267,Tigre (Ca38),,1860.0,,,17.0,39.0,17.0,39.0,Original,,ER
+777,Ca39,Jimma,west2721,Jimma (Ca39),,1930.0,,,8.0,37.0,8.0,37.0,Original,Change 15Dec2017: fuga1235 replaced with west2721 [gaz] based on comment by HH: Lewis (1965) refers to ethnographic data from the Jimma kingdom I guess it should be attributed to Mec'a Galla = Western Oromo [gaz]. Maybe there are facts in there about Giangero also but it merely mentions the Fuga without giving any data on them.,ET
+778,Ca4,Iraqw,iraq1241,Iraqw (Ca4),"Erokh, Mbulu, Wambulu",1950.0,,,-4.0,35.0,-4.0,35.0,Original,,TZ
+779,Ca40,Baditu,koor1239,Baditu (Ca40),"Amarro, Koira",1950.0,,,6.0,38.0,6.0,38.0,Original,,ET
+780,Ac20,Yaka,yaka1269,Yaka (Ac20),"Bayaka, Giaka, Maiaca",1920.0,,,-7.0,17.0,-7.0,17.0,Original,,CD
+781,Ca41,Dorse,dorz1235,Dorse (Ca41),Dorze,1950.0,,,6.0,38.0,6.0,38.0,Original,,ET
+782,Ca42,Shako,shek1245,Shako (Ca42),"Chako, Shekke, Tschako",1950.0,,,7.0,36.0,7.0,36.0,Original,,ET
+783,Ca43,Hadendowa,hade1248,Hadendowa (Ca43),Hendawa,1930.0,,,18.0,36.0,18.0,36.0,Original,,SD
+784,Ca5,Bisharin,bish1251,Bisharin (Ca5),,1930.0,,,20.0,35.0,20.0,35.0,Original,,SD
+785,Ca6,Afar,afar1241,Afar (Ca6),"Danakil, Dankali",1880.0,,,12.0,42.0,12.0,42.0,Original,,DJ
+786,Ca7,Amhara,amha1245,Amhara (Ca7),,1950.0,Amhara (MP05),http://ehrafworldcultures.yale.edu/collection?owc=MP05,13.0,38.0,13.0,38.0,Original,,ET
+787,Ca8,Gurage,seba1251,Gurage (Ca8),,1940.0,,,8.0,38.0,8.0,38.0,Original,,ET
+788,Ca9,Goroa,goro1270,Goroa (Ca9),"Fiome, Guruma",1890.0,,,-4.0,36.0,-4.0,36.0,Original,,TZ
+789,Cb1,Maguzawa,kano1249,Maguzawa (Cb1),Pagan Hausa,1940.0,Hausa (MS12),http://ehrafworldcultures.yale.edu/collection?owc=MS12,12.0,10.0,12.0,10.0,Original,,NG
+790,Cb10,Karekare,kare1348,Karekare (Cb10),,1920.0,,,12.0,11.0,12.0,11.0,Original,,NG
+791,Ac21,Bunda,mpuo1241,Bunda (Ac21),"Ambundu, Babunda",1910.0,,,-5.0,19.0,-5.0,19.0,Original,,CD
+792,Cb11,Midobi,mido1240,Midobi (Cb11),Meidob,1900.0,,,16.0,27.0,16.0,27.0,Original,,SD
+793,Cb12,Gimma,nort3133,Gimma (Cb12),Gimaa,1920.0,,,13.0,32.0,13.0,32.0,Original,,SD
+794,Cb13,Habbaniya,nort3133,Habbania (Cb13),Habbania,1930.0,,,11.0,25.0,11.0,25.0,Original,,SD
+795,Cb14,Hemat,bath1248,Hemat (Cb14),"Baggara, Heimad",1910.0,,,11.0,20.0,11.0,20.0,Original,,TD
+796,Cb15,Messiria Humr,tama1331,Messiria Humr (Cb15),,1940.0,,,11.0,28.0,11.0,28.0,Original,Note 8Feb2018: Changed based on note from HH: This may/may not be the intended attribution. Messiria are switching towards Sudanese Arabic but their ancestral language is Tama [tma].,SD
+797,Cb16,Shuwa,char1283,Shuwa (Cb16),"Chiwa, Shoa",1920.0,,,13.0,15.0,13.0,15.0,Original,,TD
+798,Cb17,Fur,furr1244,Fur (Cb17),Darfur,1880.0,,,12.0,24.0,12.0,24.0,Original,,SD
+799,Cb18,Kanembu,kane1243,Kanembu (Cb18),,1930.0,,,14.0,14.0,14.0,14.0,Original,,TD
+800,Cb19,Kanuri,cent2050,Kanuri (Cb19),,1870.0,Kanuri (MS14),http://ehrafworldcultures.yale.edu/collection?owc=MS14,12.0,13.0,12.0,13.0,Original,Note 8Feb2018: Changed based on note from HH: Cohen's works refer to the Kanuri of Bornu = Central Kanuri [knc],NG
+801,Cb2,Wolof,nucl1347,Wolof (Cb2),,1950.0,Wolof (MS30),http://ehrafworldcultures.yale.edu/collection?owc=MS30,15.0,-17.0,15.0,-17.0,Original,,SN
+802,Ac22,Dzing,ding1239,Dzing (Ac22),"Badinga, Dinga",1930.0,,,-4.0,20.0,-4.0,20.0,Original,,CD
+803,Cb20,Zerma,zarm1239,Zerma (Cb20),Dyerma,1920.0,,,13.0,3.0,13.0,3.0,Original,,NE
+804,Cb21,Djafun,adam1253,Djafun (Cb21),Djafun Fulani,1930.0,,,8.0,13.0,8.0,13.0,Original,,CM
+805,Cb22,Liptako,west2454,Liptako (Cb22),,1920.0,,,14.0,0.0,14.0,0.0,Original,,BF
+806,Cb23,Tukulor,pula1263,Tukulor (Cb23),"Tekrur, Torado",1930.0,,,1.0,-14.0,14.73,-14.32,Revised,,SN
+807,Cb24,Wodaabe Fulani,boro1274,Wodaabe Fulani (Cb24),"Pastoral Fulani, Wodaabe",1950.0,,,12.0,12.0,12.0,12.0,Original,,NG
+808,Cb25,Tazarawa Hausa,arew1238,Tazarawa (Cb25),,1930.0,,,14.0,8.0,14.0,8.0,Original,"Note 22Jul2021 - language match changed by KK to dialect arew1238 (from haus1257). The Tazarawa Hausa are a northern group of Hausa, and this dialect seems a good match.",NE
+809,Cb26,Zazzagawa Hausa,haus1257,Zazzagawa Hausa (Cb26),"Hausa, Zazzagawa, Hausa of Zaria, Hausa of Zazzau",1950.0,Hausa (MS12),http://ehrafworldcultures.yale.edu/collection?owc=MS12,11.0,8.0,11.0,8.0,Original,"Note 22Jul2021 - matched to language haus1257, replacing previous match to dialect araw1280 (this match was deemed inaccurate - according to Wikipedia, araw1280 is a northern dialect, when instead the best match would be a southern dialect. No southern dialect was found in Glottolog, hence the language-level match.) Suggestion: Glottolog should add a southern dialect. According to wikipedia page for Hausa Language,  ""Zazzaganci in Zazzau is the major Southern dialect""; according to SCCS pinpointing sheets, Zazzagawa Hausa are those in the Zaria (also known as the 'Zazzau Emirate') region.",NG
+810,Cb27,Bachama,baca1246,Bachama (Cb27),,1920.0,,,10.0,12.0,10.0,12.0,Original,,NG
+811,Cb28,Dera,dera1248,Dera (Cb28),Kanakuru,1920.0,,,10.0,12.0,10.0,12.0,Original,,NG
+812,Cb29,Ngizim,ngiz1242,Ngizim (Cb29),,1920.0,,,12.0,10.0,12.0,10.0,Original,,NG
+813,Ac23,Lele,lele1265,Lele (Ac23),"Bashilele, Wongo",1950.0,,,-5.0,21.0,-5.0,21.0,Original,,CD
+814,Cb3,Songhai,koyr1242,Songhai (Cb3),,1940.0,Songhai (MS20),http://ehrafworldcultures.yale.edu/collection?owc=MS20,17.0,-1.0,17.0,-1.0,Original,"Changed to koyr1242 from zarm1239 on 3Oct2018. Reason: The SCCS focus is on the ""Bamba, or central division"" Songhai. The Bamba dialect of Koyraboro Senni Songhai appears to dominate in the Bamba area. (""The major dialectal differences [in Koyraboro Senni Songhai] involve the Bamba area in the west versus the mainstream dialect (from the Gao area to the border). [...] Bamba [dialect] is represented by 66 pages of texts [in Heath's ""Texts in Koroboro Senni Songhay of Gao, Mali""] , enough to bring out the grammatical particularities of this variety."") (Note previous D-PLACE changes include a change on 8Feb2018 from Humburi Senni Songhay (humb1243) to Zarma-Kaado-Dendi (zarm1239). This change was incorrect, and is superceded by the change to koyr1242). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",ML
+815,Cb4,Hasania,khar1296,Hasania (Cb4),Hassanyeh,1920.0,,,14.0,32.0,14.0,32.0,Original,,SD
+816,Cb5,Buduma,budu1265,Buduma (Cb5),"Yedina, Yedina",1910.0,,,13.0,15.0,13.0,15.0,Original,,TD
+817,Cb6,Tera,tera1251,Tera (Cb6),,1920.0,,,11.0,12.0,11.0,12.0,Original,,NG
+818,Cb7,Bolewa,nucl1695,Bolewa (Cb7),"Bole, Borlawa, Fika",1920.0,,,11.0,11.0,11.0,11.0,Original,,NG
+819,Cb8,Bororo Fulani,boro1274,Bororo Fulani (Cb8),"Fulbe, Fuel",1920.0,,,13.0,5.0,13.0,5.0,Original,,NG
+820,Cb9,Hausa Kanawa,kano1249,Hausa Kanawa (Cb9),Hausa,1940.0,Hausa (MS12),http://ehrafworldcultures.yale.edu/collection?owc=MS12,12.0,9.0,12.0,9.0,Original,,NG
+821,Cc1,Regeibat,hass1238,Regeibat (Cc1),Rgibat,1950.0,,,22.0,-13.0,22.0,-13.0,Original,,MR
+822,Cc10,Asben,taya1257,Asben (Cc10),"Air Tuareg, Kel Air",1900.0,,,18.0,8.0,18.0,8.0,Original,"Note 8Feb2018: Glottocode changed to [thz] (Tayart Tamajeq) based on note from HH. At least 3 of the references refer to the Air Tuareg (=[thz], and the society name itself is ""Asben"", which some googling suggests was a synonym for Air/Tuareg Kingdom (p. 125 of Robinson and Smith 1979). However, at least one reference refers to the ""Kel Tadele"" in its title; Wikipedia lists the Kel Tadele as a group ""to the west of Aïr [i.e., thz] in the Tamesna plain"". Thus, the user may wish to investigate whether cultural descriptions combine the practices of more than one Touareg language group.",NE
+823,Cc11,Azjer,ghat1242,Azjer (Cc11),Adjeur,1860.0,,,25.0,10.0,25.0,10.0,Original,,LY
+824,Ac24,Sakata,saka1287,Sakata (Ac24),"Balesa, Basakata, Lesa",1910.0,,,-3.0,18.0,-3.0,18.0,Original,,CD
+825,Cc12,Ifora,tadh1242,Ifora (Cc12),,1944.0,,,20.0,2.0,20.0,2.0,Original,,ML
+826,Cc13,Udalan Tuareg,timb1263,Udalan (Cc13),Udalan,1920.0,,,16.0,0.0,16.0,0.0,Original,,ML
+827,Cc14,Daza,daza1242,Daza (Cc14),"Dasa, Dazagada",1880.0,,,17.0,18.0,17.0,18.0,Original,,TD
+828,Cc15,Drawa,susi1238,Drawa (Cc15),,1920.0,,,31.0,-7.0,31.0,-7.0,Original,,MA
+829,Cc16,Chaambra,algi1247,Chaambra (Cc16),Schanba,1930.0,,,32.0,3.0,32.0,3.0,Original,,DZ
+830,Cc17,Delim,hass1238,Delim (Cc17),Oulad Delim,1930.0,,,22.0,-15.0,22.0,-15.0,Original,,EH
+831,Cc18,Kunta,hass1238,Kunta (Cc18),Kounta,1910.0,,,19.0,-1.0,19.0,-1.0,Original,,ML
+832,Cc19,Trarza,hass1238,Trarza (Cc19),,1950.0,,,18.0,-15.0,18.0,-15.0,Original,,MR
+833,Cc2,Teda,teda1241,Teda (Cc2),Toubou,1950.0,Teda (MS22),http://ehrafworldcultures.yale.edu/collection?owc=MS22,21.0,17.0,21.0,17.0,Original,,TD
+834,Cc20,Zenaga,zena1248,Zenaga (Cc20),,1910.0,,,18.0,-8.0,18.0,-8.0,Original,,MR
+835,Aa5,Mbuti,bila1255,Mbuti (Aa5),"Sua, BaSua, Kango, BaKango, Bambuti, BaMbuti Pygmies",1930.0,Mbuti (FO04),http://ehrafworldcultures.yale.edu/collection?owc=FO04,2.0,28.0,2.0,28.0,Original,"Note 8Feb2018: Changed. Focus is ""Epulu net-hunters, Ituri forest"". From White pinpointing sheets: ""The Pygmies and Pygmoid peoples of the Congo have been pushed into smaller and smaller areas of the tropical forest since the invasions of Bantu and Sudanic tribes in the 16-17th centuries, and most of the groups have adopted the languages of invading tribes with whom they allied themselves. Mbuti pygmies have adopted the languages of the Bira to the south of them, the Lese to the east, the Mangbetu and Azande to the northwest, and the Mamvu-Mangutu to the north. The [...] Epulu group studied by Turnbull situated to the north of the Ituri and Epulu Rivers, and the majority of the other groups to the south of the Ituri River [...] are net-hunters, and speak a language largely influenced by the Forest Bira."" Note, though, that Ember concordance lists the language as Lese.",CD
+836,Ac25,Songo,song1299,Songo (Ac25),Basongo,1930.0,,,-5.0,18.0,-5.0,18.0,Original,,CD
+837,Cc3,Siwans,siwi1239,Siwans (Cc3),,1920.0,Siwans (MR14),in process,29.0,26.0,29.0,26.0,Original,,EG
+838,Cc4,Mzab,tumz1238,Mzab (Cc4),"Beni Mzab, Mozabites",1920.0,,,33.0,4.0,33.0,4.0,Original,,DZ
+839,Cc5,Kel Antessar,timb1263,Antessar (Cc5),"Antessar, Kel Antessar, Tuareg north of Timbuctoo",1910.0,,,18.0,-3.0,18.0,-3.0,Original,,ML
+840,Cc6,Kababish,nort3133,Kababish (Cc6),Kubbabish,1910.0,,,17.0,31.0,17.0,31.0,Original,,SD
+841,Cc7,Barabish,hass1238,Barabish (Cc7),,1950.0,,,20.0,-5.0,20.0,-5.0,Original,,ML
+842,Cc8,Aulliminden,ioul1238,Aulliminden (Cc8),Oulliminden,1890.0,,,8.0,2.0,8.0,2.0,Original,,BJ
+843,Cc9,Tuareg Ahaggar,hogg1238,Tuareg Ahaggar (Cc9),Tuareg,1920.0,Tuareg (MS25),http://ehrafworldcultures.yale.edu/collection?owc=MS25,23.0,6.0,23.0,6.0,Original,,DZ
+844,Cd1,Barabra,kenu1236,Barabra (Cd1),Kenuzi Nubians,1920.0,,,23.0,33.0,23.0,33.0,Original,,EG
+845,Cd10,Zekara,tari1263,Zekara (Cd10),Zkara,1900.0,,,34.0,-2.0,34.0,-2.0,Original,"Changed 2Aug2021: After additional research, this cultural data appears to a group speaking tari1263, even though one of the references refers to Beni Snous (previously changed on 8Feb2018 based on note from HH: Beni Snous = Western Algerian Berber [cnu] chen1266).",MA
+846,Cd11,Guanche,guan1277,Guanche (Cd11),,1500.0,,,28.0,-16.0,27.99,-15.62,Revised,,ES
+847,Ac26,Yanzi,yans1239,Yanzi (Ac26),"Bayansi, Wachanzi",1920.0,,,-4.0,18.0,-4.0,18.0,Original,,CD
+848,Cd12,Algerians,algi1247,Algerians (Cd12),,1870.0,,,31.0,2.0,31.0,2.0,Original,,DZ
+849,Cd13,Hamama,sout3114,Hamama (Cd13),,1930.0,,,30.0,9.0,30.0,9.0,Original,,LY
+850,Cd14,Hamyan,oran1236,Hamyan (Cd14),Hamian,1870.0,,,35.0,2.0,35.0,2.0,Original,,DZ
+851,Cd15,Jebala,jebl1238,Jebala (Cd15),Djebala,1910.0,,,35.0,-5.0,35.0,-5.0,Original,,MA
+852,Cd16,Moroccans,sout3117,Moroccans (Cd16),,1930.0,,,33.0,-8.0,33.0,-8.0,Original,,MA
+853,Cd17,Nail,cons1245,Nail (Cd17),Ulad Nail,1920.0,,,35.0,5.0,35.0,5.0,Original,,DZ
+854,Cd18,Saadi,said1239,Saadi (Cd18),,1920.0,Libyan Bedouin (MT09),http://ehrafworldcultures.yale.edu/collection?owc=MT09,30.0,28.0,30.0,28.0,Original,,EG
+855,Cd19,Sahel,sahi1245,Sahel (Cd19),Eastern Tunisians (Sahel Region),1920.0,,,35.0,11.0,35.0,10.94,Revised,,TN
+856,Cd2,Egyptians,egyp1253,Egyptians (Cd2),"Fellahin, Fellaheen",1950.0,Fellahin (MR13),http://ehrafworldcultures.yale.edu/collection?owc=MR13,25.0,33.0,25.0,33.0,Original,,EG
+857,Cd20,Sanusi,liby1240,Sanusi (Cd20),Cyrenaican Bedouin,1940.0,Libyan Bedouin (MT09),http://ehrafworldcultures.yale.edu/collection?owc=MT09,31.0,22.0,31.0,22.0,Original,,LY
+858,Ac27,Luchazi,luch1239,Luchazi (Ac27),"Balochasi, Kaluchazi, Valuchazi",1930.0,,,-13.0,23.0,-13.0,23.0,Original,,ZM
+859,Cd21,Tunisians,tuni1260,Tunisians (Cd21),,1930.0,,,37.0,10.0,37.0,10.0,Original,,TN
+860,Cd3,Riffians,tari1263,Riffians (Cd3),,1920.0,Berbers of Morocco (MX03),http://ehrafworldcultures.yale.edu/collection?owc=MX03,35.0,-4.0,35.0,-4.0,Original,,MA
+861,Cd4,Kabyle,kaby1243,Kabyle (Cd4),,1890.0,,,36.0,4.0,36.0,4.0,Original,,DZ
+862,Cd5,Shluh,susi1238,Shluh (Cd5),"Shilha, Islhiyn, Chleuch",1920.0,Shluh (MW11),http://ehrafworldcultures.yale.edu/collection?owc=MW11,30.0,-9.0,30.0,-9.0,Original,,MA
+863,Cd6,Ancient Egyptians,egyp1246,Ancient Egypt (Cd6),Ancient Egypt,-1400.0,,,30.0,31.0,30.0,31.0,Original,,EG
+864,Cd7,Beraber,cent2194,Beraber (Cd7),,1910.0,,,33.0,-7.0,33.0,-7.0,Original,,MA
+865,Cd8,Shawiya,tach1249,Shawiya (Cd8),Chaouia,1910.0,,,36.0,7.0,36.0,7.0,Original,,DZ
+866,Cd9,Tekna,hass1238,Tekna (Cd9),Tekena,1900.0,,,28.0,-11.0,28.0,-11.0,Original,,MA
+867,Ce1,Gheg,gheg1238,Gheg (Ce1),Albanians,1900.0,Albanians (EG01),http://ehrafworldcultures.yale.edu/collection?owc=EG01,42.0,20.0,42.0,20.0,Original,,AL
+868,Ce2,Portuguese,gali1257,Portuguese (Ce2),,1950.0,,,42.0,-7.0,42.0,-7.0,Original,,ES
+869,Ac28,Luimbe,luim1238,Luimbe (Ac28),"Baluimbi, Valuimbe",1930.0,,,-12.0,18.0,-12.0,18.0,Original,,AO
+870,Ce3,Ancient Romans,lati1261,Romans (Ce3),Romans,100.0,Imperial Romans (EI09),http://ehrafworldcultures.yale.edu/collection?owc=EI09,42.0,12.0,42.0,12.0,Original,,IT
+871,Ce4,French Basques,labo1236,Basques (Ce4),"Euskaldunak, Basques, French Basques",1930.0,Basques (EX08),http://ehrafworldcultures.yale.edu/collection?owc=EX08,43.0,-1.0,43.0,-1.0,Original,,ES
+872,Ce5,Neapolitans,neap1235,Neapolitians (Ce5),Neapolitians,1960.0,,,41.0,13.0,40.89,14.25,Revised,,IT
+873,Ce6,Spaniards,stan1288,Spaniards (Ce6),,1950.0,,,37.0,-6.0,37.0,-6.0,Original,,ES
+874,Ce7,Greeks,mode1248,Greeks (Ce7),Hellenes,1950.0,Greece (EH01),http://ehrafworldcultures.yale.edu/collection?owc=EH01,39.0,23.0,39.0,23.0,Original,,GR
+875,Ce8,Spanish Basques,west1508,Spanish Basques (Ce8),Spanish Basques,1934.0,Basques (EX08),http://ehrafworldcultures.yale.edu/collection?owc=EX08,43.0,-2.0,43.0,-2.0,Original,,ES
+876,Cf1,New Englanders,stan1293,New England (Cf1),New England,1920.0,,,42.0,-73.0,42.0,-73.0,Original,"Note, should probably be matched to a dialect other than 'standard english'",US
+877,Cf2,Boers,afri1274,Boers (Cf2),Afrikanders,1850.0,,,-16.0,28.0,-16.0,28.0,Original,,ZM
+878,Cf3,Tristan da Cunha,stan1293,Tristan da Cunha (Cf3),,1930.0,,,-37.0,-12.0,-37.11,-12.27,Revised,"Note, should probably be matched to a dialect other than 'standard english'",SH
+879,Cf4,Brazilians,braz1246,Brazilians (Cf4),,1940.0,,,-43.0,-47.0,-23.68,-46.64,Revised,,BR
+880,Ac29,Luwa,sond1250,Luwa (Ac29),Balua,1930.0,,,-7.0,19.0,-7.0,19.0,Original,,CD
+881,Cf5,French Canadians,queb1247,French Canadians (Cf5),,1930.0,,,47.0,-72.0,47.0,-72.0,Original,stan1290 replaced with queb1247 in Oct 2017 because it is a better match,CA
+882,Cg1,Dutch,dutc1256,Dutch (Cg1),,1950.0,,,53.0,7.0,53.0,7.0,Original,,NL
+883,Cg2,Icelanders,icel1247,Icelanders (Cg2),,1100.0,Early Icelanders (EQ02),http://ehrafworldcultures.yale.edu/collection?owc=EQ02,64.0,-20.0,64.0,-20.0,Original,,IS
+884,Cg3,Irish,iris1253,Irish (Cg3),Gaelic,1930.0,Rural Irish (ER06),http://ehrafworldcultures.yale.edu/collection?owc=ER06,53.0,-9.0,53.0,-9.0,Original,,IE
+885,Cg4,Sami,nort2671,Lapps (Cg4),Lapps,1950.0,Lapps (EP04),http://ehrafworldcultures.yale.edu/collection?owc=EP04,68.0,22.0,68.0,22.0,Original,"25Sept2018 - glotto id changed from nort2671 to lule1254 on 25Sept2018 as previous change was only applied to ISO code. 8April2017 - Changed from smj to sme based on comment from H. Hammarström: Haglund worked with Karesuando Saami, which is Northern Sami [sme]. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",NO
+886,Cg5,Walloons,wall1255,Walloons (Cg5),,1950.0,,,50.0,5.0,50.0,5.0,Original,,BE
+887,Ch1,Serbs,serb1264,Serbs (Ch1),Serbians,1950.0,Serbs (EF06),http://ehrafworldcultures.yale.edu/collection?owc=EF06,44.0,20.0,44.0,20.0,Original,,RS
+888,Ch10,Romanians,baya1255,Romanians (Ch10),,1910.0,,,45.0,26.0,45.0,26.0,Original,"Note, previously baya1254 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",RO
+889,Ch11,Russians,russ1263,Russians (Ch11),,1955.0,,,53.0,41.0,53.0,41.0,Original,,RU
+890,ch12,Bashkir,bash1264,Bashkir (ch12),"Basquort, Bashkort, Bashkiry",1899.0,,,54.0,56.0,54.0,56.0,Original,,RU
+891,Ac3,Bemba,town1238,Bemba (Ac3),Awemba,1900.0,Bemba (FQ05),http://ehrafworldcultures.yale.edu/collection?owc=FQ05,-11.0,31.0,-11.0,31.0,Original,,ZM
+892,ch13,Besermyan,nort2676,Besermyan (ch13),"Beserman, Besermen, Besermyane",1894.0,,,58.0,52.0,58.0,52.0,Original,,RU
+893,ch14,Chuvash,chuv1255,Chuvash (ch14),"Chavash, Chuvashy",1908.0,,,57.0,53.0,57.0,53.0,Original,,RU
+894,ch15,Erzya Mordvins,erzy1239,Erzia mordva (ch15),"Erzia mordva, Erzia Mordvins, Erzja Mordvins, Mordva, Mordvinians, Mordovians, erzät",1895.0,,,53.0,50.0,53.0,50.0,Original,,RU
+895,ch16,Estonians,esto1258,Estonians (ch16),"Eestlased, Maarahvas, Hiumaases, Saaremaased, Setu, Estontsy, Chud",1908.0,,,59.0,26.0,59.0,26.0,Original,,EE
+896,ch17,Gagauz,gaga1249,Gagauz (ch17),"Christian Bulgars, Hıristiyan-Bulgar, Gagauzi, Gagauzy",1894.0,,,45.0,29.0,45.44,29.32,Revised,,RO
+897,ch18,Ingrians,ingr1248,Ingrians (ch18),"Izhorians, Izhora, Inkerilainen, Inkeroine, Izhoralaine, Karjalain, Inkerin Suomalainen, Ingrian Finns, Izhortsy",1927.0,,,59.0,29.0,59.0,29.0,Original,,RU
+898,ch19,Karelians,livv1243,Karelians (ch19),"Karjalaizet, Karjalaini, Karely, Livgilyajne, Livvikjoj, Lyuudilaine, Lyuudikjo",1874.0,,,64.0,33.0,64.0,33.0,Original,,RU
+899,Ch2,Hutsuls,sout2604,Hutsul (Ch2),"Hutsul, Hucul, Huzul",1890.0,,,49.0,24.0,49.0,24.0,Original,,UA
+900,ch20,Kazan tatar,midd1325,Kazan tatar (ch20),"Kazanskie Tatary, Kazanly, Tatarlar",1910.0,,,55.0,50.0,55.0,50.0,Original,,RU
+901,ch21,Latvians,latv1249,Latvians (ch21),"Latvieshi, Latyshi",1881.0,,,57.0,24.0,57.0,24.0,Original,,LV
+902,Ac30,Plateau Tonga,tong1318,Plateau Tonga (Ac30),Batonga,1940.0,Tonga (FQ12),http://ehrafworldcultures.yale.edu/collection?owc=FQ12,-18.0,28.0,-18.0,28.0,Original,,ZW
+903,ch22,Lithuanian Karaim,kara1464,Lithuanian Karaim (ch22),"Karaites, Karaila",1895.0,,,55.0,23.0,55.0,23.0,Original,,LT
+904,ch23,Lithuanian Tatar,west2405,Lithuanian Tatar (ch23),,1905.0,,,55.0,24.0,55.0,24.0,Original,,LT
+905,ch24,Livs,livv1244,Livs (ch24),"Livians, Livonians, Liivod, Liibod, Liivnikad, Liivlist, Kalamied, Raandalis",1847.0,,,57.0,23.0,57.0,23.0,Original,,LV
+906,ch25,Moldovans,mold1248,Moldovans (ch25),"Moldoven, Moldavans, Moldavane",1900.0,,,47.0,29.0,47.0,29.0,Original,"Note, previously mold1247 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",MD
+907,ch26,Udmurt,sout2681,Udmurt (ch26),"Utmort, Ukmort, Udmurty, Votiak, Votyak, Votjaki",1890.0,,,57.0,53.0,57.0,53.0,Original,,RU
+908,ch27,Veps,veps1250,Veps (ch27),"Vepsians, Chudy, Chukhari, Chuhari, Bepsya, Bepsja, Veps' Lyudinikad, Tyagalazhet, Tjagalazhet",1900.0,,,61.0,35.0,61.0,35.0,Original,,RU
+909,ch28,Votes,voti1245,Votes (ch28),"Vod', Maavaitchi, Vod",1900.0,,,59.0,29.0,59.0,29.0,Original,,RU
+910,Ch3,Czechs,czec1258,Czechs (Ch3),,1940.0,,,50.0,16.0,50.0,16.0,Original,,CZ
+911,Ch4,Mari,east2328,Cheremis (Ch4),Cheremis,1900.0,,,43.0,46.0,43.0,46.0,Original,,RU
+912,Ch5,Bulgarians,bulg1262,Bulgarians (Ch5),,1940.0,Bulgarians (EE01),in process,43.0,24.0,43.0,24.0,Original,,BG
+913,Ac31,Buye,buyu1239,Buye (Ac31),Babui,1910.0,,,-7.0,28.0,-7.0,28.0,Original,,CD
+914,Ch6,Byelorussians,bela1254,Byelorussians (Ch6),White Russians,1910.0,,,55.0,28.0,55.0,28.0,Original,,BY
+915,Ch7,Ukrainians,east2270,Ukrainians (Ch7),Ukranians,1930.0,Ukraine (RD01),in process,48.0,36.0,48.0,36.0,Original,,UA
+916,Ch8,Magyar,hung1274,Hungarian (Ch8),"Magyarok, Hungarian",1940.0,Hungary (EC01),in process,47.0,20.0,47.0,20.0,Original,,HU
+917,Ch9,Lithuanians,lith1251,Lithuanians (Ch9),,1930.0,,,55.0,24.0,55.0,24.0,Original,,LT
+918,Ci1,Kalmyk,kalm1243,Kalmyk (Ci1),Kalmuck,1920.0,,,46.0,46.0,46.0,46.0,Original,"Note 8Feb2018: Note that some of the references that are almost certainly associated with this case (focus is ""Baga Dorbed"") were originally listed after Ag14 ""Baga"" (aberle1953; krader1963; vladimirtsov1948)",RU
+919,Ci10,Armenians,nucl1235,Armenians (Ci10),,1900.0,,,40.0,45.0,40.0,45.0,Original,,AM
+920,Ci11,Kurd,cent1972,Kurd (Ci11),,1940.0,Kurd (MA11),http://ehrafworldcultures.yale.edu/collection?owc=MA11,32.0,44.0,32.0,44.0,Original,,IQ
+921,Ci12,Abkhaz,abkh1244,Abkhaz (Ci12),,1880.0,Abkhaz (RI03),http://ehrafworldcultures.yale.edu/collection?owc=RI03,43.0,41.0,43.0,41.0,Original,,GE
+922,Ci2,Khevsur,xevs1238,Khevsur (Ci2),Chevsur,1930.0,,,43.0,45.0,43.0,45.0,Original,,RU
+923,Ci3,Kumyk,kumy1244,Kumyk (Ci3),Kumuk,1900.0,,,42.0,48.0,42.0,48.0,Original,,RU
+924,Ac32,Kaonde,kaon1241,Kaonde (Ac32),Bakaonde,1920.0,,,-13.0,26.0,-13.0,26.0,Original,,ZM
+925,Ci4,Cherkess,kaba1278,Cherkess (Ci4),Circassians,1920.0,,,44.0,42.0,44.0,42.0,Original,,RU
+926,Ci5,Turks,nucl1301,Turks (Ci5),,1950.0,Turks (MB01),http://ehrafworldcultures.yale.edu/collection?owc=MB01,38.0,30.0,38.0,30.0,Original,,TR
+927,Ci6,Ossetians,digo1242,Osset (Ci6),"Osset, Ossete",1880.0,,,43.0,44.0,43.0,44.0,Original,,RU
+928,Ci7,Chechen,chec1245,Chechen (Ci7),,1900.0,,,43.0,46.0,43.0,46.0,Original,,RU
+929,Ci8,Georgians,imer1248,Georgians (Ci8),"Kartvelebi, Grusians, Kartveli",1850.0,Georgia (RI01),in process,42.0,45.0,42.0,45.0,Original,,GE
+930,Ci9,Svan,svan1243,Svan (Ci9),Mushüan,1910.0,,,43.0,43.0,43.0,43.0,Original,,GE
+931,Cj1,Syrians,nort3142,Syrians (Cj1),,1950.0,Syria (MD01),in process,36.0,36.0,36.0,36.0,Original,"Note, previously matched to a dialect of nort3139 (nort3140); corrected to [nort3142][ayp] on 5Sept2018. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",TR
+932,Cj10,Madan,meso1252,Madan (Cj10),"Marsh Arabs, Ma'dan, Ma'adan",1950.0,,,31.0,47.0,31.0,47.0,Original,,IQ
+933,Cj2,Rwala,east2690,Rwala (Cj2),Rwala Bedouin,1920.0,Rwala (MD04),http://ehrafworldcultures.yale.edu/collection?owc=MD04,33.0,37.0,33.0,37.0,Original,"Changed from ars to avl on 8 April 2017 based on comment from H. Hammarström: The sources pertain to edouin tribes of the Sinai (like the Rwala) they are covered in the Eastern Egyptian Bedawi Arabic entry in Ethnologue [avl]. April 2019: Note that HRAF summary suggests a link to najd1235 (ars) is more appropriate, however najd1235 is spoken further East than the territory described by the same HRAF summary (which reports Rwala Bedouin as grazing their livestock along the Jordan-Saudia Arabia border, North to Damascus (or even Homs), South to the Nafud desert, east (sometimes) to Karbala, Iraq).",SY
+934,Cj3,Hebrews,anci1244,Hebrews (Cj3),,-800.0,,,32.0,35.0,32.0,35.0,Original,Changed from hebr [hbr] to anci1244 [hbo] in Nov 2018 based on date of cultural observations,PS
+935,Ac33,Lala,lala1264,Lala (Ac33),Balala,1940.0,,,-15.0,31.0,-15.0,31.0,Original,,ZM
+936,Cj4,Babylonians,akka1240,Babylonians (Cj4),,-2000.0,,,32.0,45.0,32.0,45.0,Original,Changed from tmr to akk on 8 April 2017 based on comment from H. Hammarström: several [of the sources] deal with Babylonia in Hammurabi's time. The language spoken by this culture was Akkadian [akk].,IQ
+937,Cj5,Mutair,sout3119,Mutair (Cj5),,1930.0,,,28.0,47.0,28.0,47.0,Original,,SA
+938,Cj6,Jordanians,sout3123,Jordanians (Cj6),,1950.0,Jordan (MG01),in process,32.0,36.0,32.0,36.0,Original,,JO
+939,Cj7,Lebanese,nort3139,Lebanese (Cj7),,1950.0,Lebanon (ME01),in process,34.0,36.0,34.0,36.0,Original,"Note, previously matched to a dialect of nort3139 (nort3141); rematched to [nort3139] after ""Syrians"" linked to a different language (so no longer sharing tip of nort3139 with ""Lebanese"" (5Sept2018). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",LB
+940,Cj8,Druze,sunn1238,Druze (Cj8),,1930.0,,,33.0,35.0,32.77,35.03,Revised,,IL
+941,Cj9,Yemeni,sana1295,Yemeni (Cj9),,1950.0,Yemen (ML01),http://ehrafworldcultures.yale.edu/collection?owc=ML01,15.0,45.0,15.0,45.0,Original,,YE
+942,Ea1,Sindhi,sind1272,Sindhi (Ea1),Hindu Sindhi,1950.0,,,25.0,68.0,25.0,68.0,Original,,PK
+943,Ea10,Marri,east2304,Marri (Ea10),,1950.0,,,30.0,69.0,30.0,69.0,Original,,PK
+944,Ea11,Ghilzai,ghil1238,Afghans (Ea11),"Pashtuns, Pushtun, Afghans",1950.0,,,33.0,68.0,33.0,68.0,Original,,AF
+945,Ea12,Qashqui,qash1240,Quahgai (Ea12),"Quahgai, Qashgai",1940.0,,,30.0,52.0,30.0,52.0,Original,,IR
+946,Aa6,Sandawe,sand1273,Sandawe (Aa6),Wasandaui,1920.0,,,-5.0,36.0,-5.0,36.0,Original,,TZ
+947,Ac34,Luapula,luun1238,Luapula (Ac34),Bena Kazembe,1940.0,,,-10.0,29.0,-10.0,29.0,Original,,ZM
+948,Ea13,Punjabi,west2386,"Punjabi, West (Ea13)",Punjabi (West),1950.0,,,32.0,73.0,32.0,73.0,Original,"Note 8Feb2018: Changed based on note by HH: ""References look more like Western Panjabi [pnb] in Pakistan"". Focus does indeed seem to be in Western Pakistan. Note that there is an unclear note in the White SCCS pinpointing sheet for this society: ""Representative of West Punjabi (not in the Ethnographic Atlas) [sic]; Focus: Village of Mohla, Punjabi of southern Rawalpindi and northern Lahore Divisions, 32°30N and 74°E, about 1952 [...] The village of Mohla, studied by Eglar, is the most fully described, and represents the less developed form of agriculture, lacking irrigation. Coders should be careful in inferring from other village studies, since each village is highly distinctive in terms of caste composition and economic position. Honigmann's village, in the desert of southwest Rawalpindi, was founded very recently by East Punjabi are close [sic]; this village utilizes newly constructed irrigation works. The village surveys by Dass and Ghulam Yasim have not been evaluated.""",PK
+949,Ea2,Yusufzai,yusu1238,Pathan (Ea2),"Pukhtun, Pathan, Yusufsai, Yūsufzai, Yousafzai",1950.0,Pashtun (AU04),http://ehrafworldcultures.yale.edu/collection?owc=AU04,35.0,72.0,35.0,72.0,Original,,PK
+950,Ea3,Hazara,haza1239,Hazara (Ea3),,1930.0,,,35.0,66.0,35.0,66.0,Original,,AF
+951,Ea4,Kohistani,indu1241,Kohistani (Ea4),"Kohistei, Mayan",1950.0,,,35.0,73.0,35.0,73.0,Original,,PK
+952,Ea5,Nuristani,kamv1242,Nuri (Ea5),"Nuri, Kafirs, Kafiristanis",1890.0,,,36.0,71.0,36.0,71.0,Original,Changed to Kamviri (xvi) from pbu based on village in which one of two main sources spent most of his time (Kamdesh),AF
+953,Ea6,Basseri,bass1257,Basseri (Ea6),,1958.0,Basseri (MA10),http://ehrafworldcultures.yale.edu/collection?owc=MA10,30.0,34.0,30.0,34.0,Original,,IL
+954,Ea7,Moghol,mogh1245,Moghol (Ea7),Mongols of Afghanistan,1950.0,,,34.0,63.0,34.0,63.0,Original,,AF
+955,Ea8,Bakhtiari,bakh1245,Bakhtiari (Ea8),,1920.0,,,33.0,48.0,33.0,48.0,Original,,IR
+956,Ea9,Iranians,tehr1242,Iranians (Ea9),,1950.0,,,36.0,52.0,36.0,52.0,Original,,IR
+957,Eb1,Kazakh,kaza1248,Kazak (Eb1),Kazak,1910.0,Kazakh (RQ02),http://ehrafworldcultures.yale.edu/collection?owc=RQ02,48.0,70.0,48.0,70.0,Original,,KZ
+958,Ac35,Shila,luba1250,Shila (Ac35),"Awasira, Bashila, Wasira",1900.0,,,-10.0,28.0,-10.0,28.0,Original,Note 8Feb2018: Changed based on note from HH: References indicate Bashila i.e. Luba-Katanga [lub] rather than Taabwa,ZM
+959,Eb2,Tu,tuuu1240,Monguor (Eb2),Monguor,1920.0,Monguor (AE09),http://ehrafworldcultures.yale.edu/collection?owc=AE09,39.0,100.0,39.0,100.0,Original,,CN
+960,Eb3,Khalka,halh1238,Khalka (Eb3),"Xanx, Khalka Mongols",1940.0,Mongolia (AH01),http://ehrafworldcultures.yale.edu/collection?owc=AH01,46.0,97.0,46.0,97.0,Original,,MN
+961,Eb4,Dagur,daur1238,Dagur (Eb4),Dagor,1940.0,,,49.0,125.0,49.0,125.0,Original,,CN
+962,Eb5,Turkmen,turk1304,Turkmen (Eb5),,1910.0,,,38.0,62.0,38.0,62.0,Original,,TM
+963,Eb6,Buryat,russ1264,Buryat (Eb6),,1900.0,,,52.0,107.0,52.0,107.0,Original,,RU
+964,Eb7,Chahar,peri1253,Chahar (Eb7),,1930.0,,,41.0,115.0,41.0,115.0,Original,,CN
+965,Eb8,Uzbek,nort2690,Uzbek (Eb8),,1800.0,,,43.0,60.0,43.0,60.0,Original,,UZ
+966,Ec1,Nivkh,gily1242,Gilyak (Ec1),Gilyak,1920.0,Nivkh (RX02),http://ehrafworldcultures.yale.edu/collection?owc=RX02,53.0,142.0,53.0,142.0,Original,,RU
+967,Ec10,Ob Ostyak,khan1273,Ob Ostyak (Ec10),,1880.0,,,62.0,74.0,62.0,74.0,Original,,RU
+968,Ec11,Selkup,selk1253,Selkup (Ec11),Ostyak Samoyed,1900.0,,,59.0,90.0,59.0,90.0,Original,,RU
+969,Ac36,Tumbuka,tumb1250,Tumbuka (Ac36),"Atimbuka, Batumbaka, Watumbaka",1920.0,,,-12.0,34.0,-12.0,34.0,Original,,MW
+970,ec12,Nganasan,ngan1291,Nganasan (ec12),Tavgi Samoyed,1930.0,Samoyed_with_notes_on_Nganasan (RU04),http://ehrafworldcultures.yale.edu/collection?owc=RU04,72.0,90.0,72.0,90.0,Original,,RU
+971,ec13,Itelmen,itel1242,Itelmen (ec13),"Itelymem, Kamchadal",1710.0,,,55.0,168.0,54.98,161.79,Revised,,RU
+972,ec14,Ungazikmit,cent2128,Ungazikmit (ec14),"Eskaleut, Asian Eskimo",1880.0,,,64.0,173.0,64.0,-173.0,Revised,"9May2019 - longitude updated to place society in western rather than eastern hemisphere. 1Oct2018 - the update to Glottolog 3.3.2 forced re-mapping from dialect chap1266 (which no longer exists) to language (cent2128) (always the language-level match for this society). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",RU
+973,ec15,Mansi,mans1258,Mansi (ec15),"Vogul, Gogulich, Mansiy, Voguly",1880.0,,,63.0,62.0,63.0,62.0,Original,,RU
+974,ec16,Evenk,even1259,Evenk (ec16),"Ewenki, Tungus, Chapogir, Avanki, Avankil, Solon, Khamnigan",1890.0,,,55.0,112.0,55.0,112.0,Original,,RU
+975,ec17,Negidal,negi1245,Negidal (ec17),"Negidaly, Neghidal",1890.0,,,52.0,134.0,52.0,134.0,Original,,RU
+976,ec18,Ulch,ulch1241,Ulch (ec18),"Ulchi, Ulcha, Ulych, Olch, Olcha, Olchis, Hoche, Hol-Chih.",1890.0,,,50.0,136.0,50.0,136.0,Original,,RU
+977,ec19,Orok,orok1265,Orok (ec19),"Uilta, Ul'ta, Nani, Oroki, Oroc, Ulta, Ujlta",1890.0,,,54.0,142.0,54.01,142.71,Revised,,RU
+978,Ec2,Yakut,yaku1245,Yakut (Ec2),Sakha,1900.0,Yakut (RV02),http://ehrafworldcultures.yale.edu/collection?owc=RV02,65.0,125.0,65.0,125.0,Original,,RU
+979,ec20,Oroch,oroc1248,Oroch (ec20),Orochi,1890.0,,,51.0,138.0,51.0,138.0,Original,,RU
+980,Ac37,Kunda,kund1255,Kunda (Ac37),Achikunda,1950.0,,,-15.0,32.0,-15.0,32.0,Original,,ZM
+981,ec21,Udihe,udih1248,Udihe (ec21),"Udeghes, Udyhe, Udekhe, Udegeis",1890.0,,,47.0,136.0,47.0,136.0,Original,,RU
+982,Ec3,Chukchi,chuk1273,Chukchee (Ec3),"lygoravetlyan, Ankalyn, Chavchu, Chukchee",1900.0,Chukchee (RY02),http://ehrafworldcultures.yale.edu/collection?owc=RY02,66.0,177.0,66.0,177.0,Original,,RU
+983,Ec4,Yurak-Samoyeds,nene1249,Yurak (Ec4),"Nenets, Yurak",1900.0,Samoyed and/or Nenets (RU04/RU41),http://ehrafworldcultures.yale.edu/collection?owc=RU04,68.0,75.0,68.0,75.0,Original,,RU
+984,Ec5,Koryak,kory1246,Koryak (Ec5),,1900.0,Koryak (RY04),http://ehrafworldcultures.yale.edu/collection?owc=RY04,62.0,164.0,61.99,164.24,Revised,,RU
+985,Ec6,Yukaghir,nort2745,Yukaghir (Ec6),,1850.0,,,70.0,145.0,70.0,145.0,Original,,RU
+986,Ec7,Ainu,ainu1240,Ainu (Ec7),"Ainu (Hokkaido), Hokkaido",1900.0,Ainu (AB06),http://ehrafworldcultures.yale.edu/collection?owc=AB06,44.0,144.0,44.0,144.0,Original,,JP
+987,Ec8,Ket,kett1243,Ket (Ec8),"Yenisei Ostyak, Yeniseians",1900.0,,,62.0,90.0,62.0,90.0,Original,,RU
+988,Ec9,Nanai,nana1257,Goldi (Ec9),"Goldi, Gold",1920.0,,,47.0,132.0,47.0,132.0,Original,,CN
+989,Ed1,Koreans,kore1280,Koreans (Ed1),,1950.0,Korea (AA01),http://ehrafworldcultures.yale.edu/collection?owc=AA01,35.0,102.0,38.134147,126.960754,Original,,KR
+990,Ed10,Shantung,mand1415,Shantung (Ed10),,1930.0,,,37.0,118.0,37.0,118.0,Original,,CN
+991,Ac38,Nyanja,nucl1395,Nyanja (Ac38),"Nyanja, Anyanja, Wanyanja, Waanyanja",1910.0,,,-16.0,36.0,-16.0,36.0,Original,,MW
+992,Ed13,Ishigakians,yaey1239,Ishigakians (Ed13),,1940.0,,,24.0,124.0,24.46,124.14,Revised,,JP
+993,Ed14,Man,kimm1245,Man (Ed14),Yao,,,,22.0,105.0,22.0,105.0,Original,,VN
+994,Ed15a,Miyakans,miya1259,Miyakans (Ed15a),,1950.0,,,24.0,125.0,24.79,125.32,Revised,,JP
+995,Ed15b,Chekiang,wuch1236,Chekiang (Ed15b),Chinese,1936.0,,,31.0,120.0,31.0,120.0,Original,,CN
+996,Ed16,Cantonese,yuec1235,Cantonese (Ed16),,1940.0,,,23.0,113.0,23.0,113.0,Original,,CN
+997,Ed2,Lolo,sich1238,Lolo (Ed2),"Yi, Nosu",1940.0,Yi (AE04),http://ehrafworldcultures.yale.edu/collection?owc=AE04,29.0,103.0,29.0,103.0,Original,,CN
+998,Ed3,Manchu,manc1252,Manchu (Ed3),,1920.0,Manchu (AG01),http://ehrafworldcultures.yale.edu/collection?owc=AG04,45.0,126.0,45.0,126.0,Original,,CN
+999,Ed4,Miao,horn1235,Miao (Ed4),,1940.0,Miao (AE05),http://ehrafworldcultures.yale.edu/collection?owc=AE05,26.0,107.0,26.0,107.0,Original,"Changed from hea to hrm on 8 April 2017 based on comment by H. Hammarström: Based on where Ruey worked, language should be cqd or hrm (they are intelligible, which is why glottolog only has one entry for them).",CN
+1000,Ed5,Japanese,nucl1643,Japanese (Ed5),,1950.0,Okayama (AB43),http://ehrafworldcultures.yale.edu/collection?owc=AB43,35.0,136.0,35.0,136.0,Original,,JP
+1001,Ed6,Min Chinese,chao1239,Min Chinese (Ed6),,1920.0,,,24.0,115.0,24.0,115.0,Original,"7Nov2018-changed to Chaoshan dialect (from Min Nan Chinese language) based on consultation of primary source, and with the addition of dialects of Min Nan Chinese via new eHRAF societies",CN
+1002,Ac39,Nyasa,mwer1247,Nyasa (Ac39),"Anyassa, Wanyassa",1920.0,,,-13.0,35.0,-13.0,35.0,Original,"Note 8Feb2018: Glottocode changed to mwer1247 based on note from HH questioning the previous match (to Mande). mwer1247s is a sister to Chewa, which was the other possible match. KK logic: The EA tells us only that the alternate names for the group are Wanyassa and Anyassa. The Johnson reference describes the Nyasa of Lake Nyasa (Lake Malawi in Tanzania). Carol Ember's concordance tells us the group is in Tanzania [note that the Concordance also selects Mande/mand1423 as a match, but not for a clear reason]. The uzh.ch EA site quotes Tew (1950:31) [the other ethnographic reference for this case]: ""Nyasa, on the east littoral of Lake Nyasa, extending as far north as the Matengo mountains (and including a settlement of freed Nyasa slaves at Masasi in Tanganyika), and southwards until they mingle with Yao settlements on the upper Msinje and Luchulingo rivers."" From Wikipedia: ""The people who are called Nyanja [in Malawi] – when the term is used as an ethnic designation to identify those who speak Nyanja or related languages called Nyanja – are known as Nyasa or Wanyasa in neighbouring Tanzania. The Chewa are the largest ethnic group among the people who speak these related languages."" KK summary: Thus, Chewa looks to be a defensible match, but glottolog provides a sister language to Chewa for Tanzania: ""Mwera (Nyasa)"" [mwer1247], which was selected.",MZ
+1003,Ed7,Okinawans,cent2126,Okinawans (Ed7),,1950.0,Okinawa (AC07),http://ehrafworldcultures.yale.edu/collection?owc=AC07,26.0,128.0,26.16,127.8,Revised,,JP
+1004,Ed8,Minchia,cent2004,Minchia (Ed8),,1930.0,,,26.0,100.0,26.0,100.0,Original,,CN
+1005,Ed9,Li,hlai1239,Li (Ed9),"Sai, Hlai, Lai, Loi",1930.0,,,19.0,109.0,19.0,109.0,Original,,CN
+1006,Ee1,Adi,bori1243,Abor (Ee1),Abor,1940.0,,,28.0,95.0,28.0,95.0,Original,,IN
+1007,Ee2,Burusho,buru1296,Burusho (Ee2),,1930.0,Burusho (AV07),http://ehrafworldcultures.yale.edu/collection?owc=AV07,37.0,75.0,37.0,75.0,Original,,PK
+1008,Ee3,Lepcha,lepc1244,Lepcha (Ee3),Rong,1930.0,Lepcha (AK05),http://ehrafworldcultures.yale.edu/collection?owc=AK05,28.0,89.0,28.0,89.0,Original,,CN
+1009,Ee4,Central Tibetans,dbus1238,Tibetans (Ee4),,1920.0,Tibetans (AJ01),http://ehrafworldcultures.yale.edu/collection?owc=AJ01,30.0,91.0,30.0,91.0,Original,"12 Nov 2018 Assigned specific dialect to differentiate it from eHRAF society ""Western Tibetans"". From wikipedia: ""Central Tibetan, also known as Dbus, Ü or Ü-Tsang, is the most widely spoken Tibetic language and the basis of Standard Tibetan. There are many mutually intelligible Central Tibetan dialects besides that of Lhasa, with particular diversity along the border and in Nepal.""",CN
+1010,Ee5,Shina,shin1264,Dard (Ee5),Dard,1870.0,,,35.0,73.0,35.0,73.0,Original,,PK
+1011,Ee6,Sherpa,sher1255,Sherpa (Ee6),,1950.0,Sherpa (AK06),http://ehrafworldcultures.yale.edu/collection?owc=AK06,28.0,87.0,28.0,87.0,Original,,NP
+1012,Ee7,Kachari,kach1279,Kachari (Ee7),Bodo,1840.0,,,27.0,90.0,27.0,90.0,Original,,BT
+1013,Ac4,Kuba,bush1247,Kuba (Ac4),Bakuba,1910.0,,,-5.0,22.0,-5.0,22.0,Original,,CD
+1014,Ee8,Magar,west2418,Magar (Ee8),,1950.0,,,28.0,84.0,28.0,84.0,Original,"Note 8Feb2018: Changed to [mrd] based on comment by HH: ""Banyan Hill is close to latitude 84 and so is clearly Western Magar [mrd] on Ethnologue's division.""",NP
+1015,Ef1,Santal,sant1410,Santal (Ef1),"Santhal, Saontal",1940.0,Santal (AW42),http://ehrafworldcultures.yale.edu/collection?owc=AW42,24.0,87.0,24.0,87.0,Original,,IN
+1016,Ef10,Bihari,mait1250,Bihari (Ef10),"Bihar, Behari",1880.0,Bihar (AW02),in process,25.0,86.0,25.0,86.0,Original,,IN
+1017,Ef11,Uttar Pradesh,bhoj1244,Uttar Pradesh (Ef11),,1945.0,Uttar (AW19),http://ehrafworldcultures.yale.edu/collection?owc=AW19,26.0,83.0,26.0,83.0,Original,,IN
+1018,Ef2,Bengali,beng1280,Bengali (Ef2),,1940.0,Bengali (AW69),http://ehrafworldcultures.yale.edu/collection?owc=AW69,23.0,88.0,23.0,88.0,Original,,IN
+1019,Ef3,Indo-Iranian,sans1269,Aryans (Ef3),"Aryans, Indo-Aryans",-800.0,,,30.0,75.0,30.0,75.0,Original,,IN
+1020,Ef4,Ho,hooo1248,Ho (Ef4),,1920.0,,,22.0,85.0,22.0,85.0,Original,,IN
+1021,Ef5,Bhil,bhil1251,Bhil (Ef5),,1900.0,Bhil (AW25),http://ehrafworldcultures.yale.edu/collection?owc=AW25,22.0,74.0,22.0,74.0,Original,,IN
+1022,Ef6,Kurukh,kuru1302,Oraon (Ef6),Oraon,1940.0,,,23.0,85.0,23.0,85.0,Original,,IN
+1023,Ef7,Pahari,maha1287,Pahari (Ef7),,1950.0,,,30.0,78.0,30.0,78.0,Original,,IN
+1024,Ac40,Sena,nucl1396,Sena (Ac40),"Asena, Wasena",1900.0,,,-18.0,35.0,-18.0,35.0,Original,,MW
+1025,Ef8,Kashmiri,kash1277,Kashmir (Ef8),"Kashmir, Kashmiri, Pandit, Sarasvati Brahmans",1950.0,Kashmiri (AV04),in process,34.0,75.0,34.0,75.0,Original,,IN
+1026,Ef9,Gujarati,guja1252,Gujarati (Ef9),,1136.0,Gujarati (AW07),in process,20.0,77.0,20.0,77.0,Original,,IN
+1027,Eg1,Chenchu,chen1255,Chenchu (Eg1),,1940.0,,,16.0,79.0,16.0,79.0,Original,,IN
+1028,Eg10,Telugu,telu1262,Telugu (Eg10),,1950.0,Telugu (AW17),http://ehrafworldcultures.yale.edu/collection?owc=AW17,18.0,79.0,18.0,79.0,Original,,IN
+1029,Eg11,Koya,koya1251,Koya (Eg11),Koitur,1960.0,,,19.0,78.0,19.0,78.0,Original,,IN
+1030,Eg12,Khond,kuii1252,Khond (Eg12),,1940.0,,,18.0,82.0,18.0,82.0,Original,,IN
+1031,Eg13,Muria Gond,west2408,Muria Gond (Eg13),,1941.0,Gond (AW32),http://ehrafworldcultures.yale.edu/collection?owc=AW32,20.0,81.0,20.0,81.0,Original,"Note 8Feb2018: Changed based on note by HH: ""Elwin's book concerns Muria of Kondagaon and Narayanpur Tahsil = Muria-Western [mut]"". Also, White SCCS pinpointing sheets for Hill Maria provide this detail on the location of the Muria Gond: ""the north-eastern plateau of Bastar, Kondagaon Tahsil.""",IN
+1032,Eg14,Reddi,mukh1238,Reddi (Eg14),,1940.0,,,18.0,82.0,18.0,82.0,Original,,IN
+1033,Eg2,Tamil,tami1289,Tamil (Eg2),,1880.0,Tamil (AW16),http://ehrafworldcultures.yale.edu/collection?owc=AW16,11.0,79.0,11.0,79.0,Original,,IN
+1034,Eg3,Madia,mari1414,Maria Gond (Eg3),"Maria Gond, Gond",1938.0,Gond (AW32),http://ehrafworldcultures.yale.edu/collection?owc=AW32,19.0,81.0,19.0,81.0,Original,"Note 8Feb2018: Changed based on note by HH: Unclear why this is attributed to Dandami Maria rather than Maria [mrr]. Focus according to White SCCS pinpointing sheets: ""Hill Maria Gond of Antagarh and northern Kutru Districts, Bastar State.""",IN
+1035,Ac41,Makonde,mako1251,Makonde (Ac41),Wamakonde,1900.0,,,-11.0,40.0,-11.0,40.0,Original,,TZ
+1036,Eg4,Toda,toda1252,Toda (Eg4),,1900.0,Toda (AW60),http://ehrafworldcultures.yale.edu/collection?owc=AW60,12.0,77.0,12.0,77.0,Original,,IN
+1037,Eg5,Kodavas,koda1255,Coorg (Eg5),Coorg,1930.0,Kodava (AW05),in process,12.0,76.0,12.0,76.0,Original,,IN
+1038,Eg6,Kerala,mala1464,Kerala (Eg6),,1799.0,Kerala (AW11),in process,11.0,76.0,11.0,76.0,Original,"reclassified another society from [mal] to [xuj] on 26 May 2016; as a result, matched this society to the glottolog language [mala1464] (which we are more certain of), replacing match to dialect [cent1998] (less certain)",IN
+1039,Eg7,Hill Bhuiya,oriy1255,Hill Bhuiya (Eg7),Pauri,1930.0,,,21.0,85.0,21.0,85.0,Original,"Note, previously nucl1284 but changed by non-KK DPLACE editor in early 2016 (before 8April2016)",IN
+1040,Eg8,Kol,mund1320,Kol (Eg8),,1940.0,Kol (AW37),http://ehrafworldcultures.yale.edu/collection?owc=AW37,22.0,85.0,22.0,85.0,Original,,IN
+1041,Eg9,Baiga,chha1249,Baiga (Eg9),,1930.0,,,22.0,81.0,22.0,81.0,Original,,IN
+1042,Eh1,Andamanese,akab1249,Andamese (Eh1),"Big Andaman Island, Andamese",1870.0,Andamans (AZ02),http://ehrafworldcultures.yale.edu/collection?owc=AZ02,12.0,93.0,12.0,93.0,Original,Changed to abj from apq on 8 April 2017 based on comments from H. Hammarström: Man (1885) worked most with (and whose variety he spoke best) Bojingya or Aka-Bea [abj],IN
+1043,Eh10,Betsileo,bets1235,Betsileo (Eh10),,,,,-22.0,47.0,-22.0,47.0,Original,,MG
+1044,Eh2,Merina,meri1243,Merina (Eh2),"Antimerina, Hova, Imerina",1900.0,,,-19.0,46.0,-19.0,46.0,Original,,MG
+1045,Eh3,Tanala,tana1285,Tanala (Eh3),,1930.0,Tanala (FY08),http://ehrafworldcultures.yale.edu/collection?owc=FY08,-22.0,47.0,-22.0,47.0,Original,,MG
+1046,Ac42,Makua,makh1264,Makua (Ac42),Wamakua,1900.0,,,-15.0,39.0,-15.0,39.0,Original,,MZ
+1047,Eh4,Vedda,vedd1240,Vedda (Eh4),"Wanniyalaeto, Veddah",1900.0,Vedda (AX05),http://ehrafworldcultures.yale.edu/collection?owc=AX05,8.0,81.0,8.0,81.0,Original,,LK
+1048,Eh5,Nicobarese,carn1240,Nicobarese (Eh5),Holchu,1890.0,Nicobarese (AZ07),http://ehrafworldcultures.yale.edu/collection?owc=AZ07,9.0,92.0,9.17,92.77,Revised,,IN
+1049,Eh6,Sinhalese,sinh1246,Sinhalese (Eh6),,1950.0,Sinhalese (AX04),http://ehrafworldcultures.yale.edu/collection?owc=AX04,7.0,80.0,7.0,80.0,Original,,LK
+1050,Eh7,Antandroy,tand1256,Antandroy (Eh7),Tandroy,1900.0,,,-25.0,46.0,-25.0,46.0,Original,,MG
+1051,Eh8,Sakalava,saka1291,Sakalava (Eh8),,1900.0,,,-21.0,41.0,-21.0,43.93,Revised,,MG
+1052,Eh9,Antaisaka,tesa1236,Antaisaka (Eh9),,1930.0,,,-23.0,48.0,-22.9,47.75,Revised,,MG
+1053,Ei1,Garo,garo1247,Garo (Ei1),A.Chik,1900.0,Garo (AR05),http://ehrafworldcultures.yale.edu/collection?owc=AR05,26.0,91.0,26.0,91.0,Original,,IN
+1054,Ei10,Chakma,chak1266,Chakma (Ei10),Chuckmah,1870.0,,,23.0,92.0,23.0,92.0,Original,,BD
+1055,Ei11,Aimol,aimo1244,Aimol (Ei11),,1910.0,,,25.0,94.0,25.0,94.0,Original,,IN
+1056,Ei12,Thado,thad1238,Thado (Ei12),,1910.0,,,25.0,94.0,25.0,94.0,Original,,IN
+1057,Aa7,Naron,naro1249,Naron (Aa7),Aikwe,1910.0,,,-20.0,24.0,-20.0,24.0,Original,,BW
+1058,Ac43,Mambwe,mamb1296,Mambwe (Ac43),Amambwe,1910.0,,,9.0,32.0,9.0,32.0,Original,,SS
+1059,Ei13,Angami,anga1288,Angami (Ei13),,1910.0,,,26.0,94.0,26.0,94.0,Original,,IN
+1060,Ei14,Ao,aona1235,Ao (Ei14),,1920.0,,,27.0,94.0,27.0,94.0,Original,,IN
+1061,Ei15,Rengma,sout2732,Rengama (Ei15),"Rengama, Rengma Naga",1930.0,,,26.0,94.0,26.0,94.0,Original,,IN
+1062,Ei16,Sema,sumi1235,Sema (Ei16),,1910.0,,,26.0,95.0,26.0,95.0,Original,,IN
+1063,Ei17,Karbi,karb1241,Mikir (Ei17),"Arleng, Mikir",1900.0,,,26.0,94.0,26.0,94.0,Original,,IN
+1064,Ei18,Palaung,shwe1236,Palaung (Ei18),,1920.0,,,23.0,97.0,23.0,97.0,Original,"Note 8Feb2018: HH notes that it is unusual that an ethnography by Lowis be associated with [pll] rather than Rumai [rbb]. However, EA focus is “Katurr subtribe,” and this group was the focus of Milne's work. They are described as living “in or near Namhsan”. Her dictionary deals mainly with the dialect of Namhsan >> Shwe Palaung >> [pll]. Thus, I have left the language as [pll], assuming Lowis' work was used for context. However, users should be aware that this case may combine data for groups speaking different Palaung languages.",MM
+1065,Ei19,Chin,asho1236,Chin (Ei19),Khyang,1940.0,,,22.0,94.0,22.0,94.0,Original,"Note 8Feb2018: Changed based on note from HH: Bernot's Khyang is ""Khyang of Gongru village rattachent au groupe des Chin du Sud etudies par Houghton"" = Asho Chin [csh]",MM
+1066,Ei2,Lhota,loth1237,Lhota (Ei2),,1920.0,,,27.0,94.0,27.0,94.0,Original,,IN
+1067,Ei20,Kuki,lush1249,Kuki (Ei20),"Chin, Mizo, Kuki",1940.0,,,23.0,92.0,23.0,92.0,Original,,BD
+1068,Ei3,Burmese,nucl1310,Burmese (Ei3),Bamar people,1950.0,Burmans (AP04),http://ehrafworldcultures.yale.edu/collection?owc=AP04,20.0,95.0,20.0,95.0,Original,,MM
+1069,Ac5,Lamba,lamb1271,Lamba (Ac5),"Balamba, Walamba",1920.0,,,-13.0,28.0,-13.0,28.0,Original,,ZM
+1070,Ei4,Maras,mara1382,Lakher (Ei4),Lakher,1930.0,,,22.0,93.0,22.0,93.0,Original,,IN
+1071,Ei5,Kachin,kach1280,Kachin (Ei5),,1940.0,Kachin (AP06),http://ehrafworldcultures.yale.edu/collection?owc=AP06,26.0,97.0,26.0,97.0,Original,,MM
+1072,Ei6,Purum,puru1266,Purum (Ei6),,1930.0,,,25.0,94.0,25.0,94.0,Original,,IN
+1073,Ei7,Karen,pwow1235,Karen (Ei7),,1910.0,Karen (AP07),http://ehrafworldcultures.yale.edu/collection?owc=AP07,17.0,97.0,17.12,97.19,Revised,,MM
+1074,Ei8,Khasi,khas1269,Khasi (Ei8),,1900.0,Khasi (AR07),http://ehrafworldcultures.yale.edu/collection?owc=AR07,26.0,92.0,26.0,92.0,Original,,IN
+1075,Ei9,Mogh,rakh1245,Mogh (Ei9),"Marma, Morma, Mog, Magh",1880.0,,,20.0,92.0,20.49,92.64,Revised,,MM
+1076,Ej1,Lamet,lame1256,Lamet (Ej1),,1940.0,,,20.0,101.0,20.0,101.0,Original,,TH
+1077,Ej10,Rade,rade1240,Rhade (Ej10),Rhade,1950.0,,,13.0,108.0,13.0,108.0,Original,,VN
+1078,Ej11,Cham,east2563,Cham (Ej11),,1950.0,,,11.0,108.0,11.0,108.0,Original,,VN
+1079,Ej12,Lawa,west2396,Lawa (Ej12),Lua,1960.0,,,18.0,98.0,18.0,98.0,Original,,TH
+1080,Ac6,Ndembu,lund1266,Ndembu (Ac6),"Andembu, Southern Lunda",1930.0,,,-11.0,26.0,-11.0,26.0,Original,,CD
+1081,Ej13,Muong,muon1246,Muong (Ej13),,1940.0,,,21.0,105.0,21.0,105.0,Original,,VN
+1082,Ej14,Senoi,sema1266,Senoi (Ej14),,1960.0,Semai (AN06),http://ehrafworldcultures.yale.edu/collection?owc=AN06,4.0,102.0,4.0,102.0,Original,,MY
+1083,Ej15,Ancient Khmer,oldk1249,Khmer (Ej15),Khmer,1292.0,,,13.0,104.0,13.0,104.0,Original,"Changed to [oldk1249][qok] by kk on 5Sept2018. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",KH
+1084,Ej16,Negri Sembilan,nege1240,Negri Sembilan (Ej16),Negeri Sembilan,1958.0,,,21.0,102.0,2.58,102.25,Original,,MY
+1085,Ej2,Mnong Gar,east2333,Mnong Gar (Ej2),,1940.0,,,12.0,107.0,12.0,107.0,Original,,VN
+1086,Ej3,Semang,kens1248,Semang (Ej3),,1920.0,Semang (AN07),http://ehrafworldcultures.yale.edu/collection?owc=AN07,5.0,101.0,5.0,101.0,Original,,MY
+1087,Ej4,Annamese,viet1252,Annamese (Ej4),Vietnamese,1950.0,Vietnam (AM11),http://ehrafworldcultures.yale.edu/collection?owc=AM11,17.0,107.0,17.0,107.0,Original,,VN
+1088,Ej5,Khmer,cent1989,Cambodians (Ej5),Cambodians,1950.0,Cambodians (AM04),http://ehrafworldcultures.yale.edu/collection?owc=AM04,12.0,105.0,12.0,105.0,Original,"Note, previously matched to a dialect of cent1989 (sout2688); rematched to [cent1989] after ""Ancient Khmer"" linked to a different language (so no longer sharing tip of cent1989 with ""Cambodians"" (5Sept2018). Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",KH
+1089,Ej6,Moken,moke1242,Selung (Ej6),"Selung, Mawken, Salon, Sea Gypsies",1920.0,,,12.0,98.0,11.78,98.28,Revised,,MM
+1090,Ej7,Akha,akha1245,Akha (Ej7),"e-Kaw, Kaw",1950.0,,,21.0,100.0,21.0,100.0,Original,,TH
+1091,Ac7,Yao,yaoo1241,Yao (Ac7),"Achawa, Wayao",1920.0,Yao (FT07),in process,-13.0,36.0,-13.0,36.0,Original,,MZ
+1092,Ej8,Malays,mala1479,Malays (Ej8),,1940.0,Malays (AN05),http://ehrafworldcultures.yale.edu/collection?owc=AN05,5.0,103.0,5.0,103.0,Original,,MY
+1093,Ej9,Thai,thai1261,Siamese (Ej9),"Siamese, Central Thai",1940.0,,,15.0,100.0,15.0,100.0,Original,,TH
+1094,Ia1,Atayal,atay1247,Atayal (Ia1),,1930.0,,,24.0,121.0,24.0,121.0,Original,,TW
+1095,Ia10,Bunun,bunu1267,Bunun (Ia10),,1930.0,,,24.0,121.0,24.0,121.0,Original,,TW
+1096,Ia11,Puyuma,puyu1239,Puyuma (Ia11),,1930.0,,,23.0,121.0,23.0,121.0,Original,,TW
+1097,Ia12,Sugbuanon,cebu1242,Sugbuhanon (Ia12),"Cebuanos, Sugbuhanon, Cebuan Bisaya, Cebuans",1950.0,Central (OA14),in process,10.0,124.0,10.2,123.65,Revised,,PH
+1098,Ia13,Badjau Tawi-Tawi,sout2918,Badjau Tawi-Tawi (Ia13),"Tawi-Tawi Badjaw, Badjau",1960.0,,,5.0,120.0,5.09,119.97,Revised,,PH
+1099,Ia14,Tao,yami1254,Yami (Ia14),Yami,1930.0,,,22.0,122.0,22.05,121.55,Revised,,TW
+1100,Ia15,Manobo,agus1235,Manobo (Ia15),,1920.0,,,8.0,126.0,8.0,126.0,Original,Note 8Feb2018: Changed based on note from HH: Why W Bukidnon Manobo rather than e.g. Agusan Manobo [msm]?,PH
+1101,Ia16,Kalinga,lubu1243,Kalinga (Ia16),,1910.0,,,18.0,121.0,18.0,121.0,Original,,PH
+1102,Ac8,Yombe,yomb1244,Yombe (Ac8),"Bayombe, Mayombe",1930.0,,,-5.0,13.0,-5.0,13.0,Original,,CD
+1103,Ia17,Bilaan,koro1310,Bilaan (Ia17),,1910.0,,,6.0,125.0,6.0,125.0,Original,,PH
+1104,Ia18,Bisayan,akla1241,Bisayan (Ia18),Visayan,1950.0,,,10.0,123.0,10.0,123.0,Original,,PH
+1105,Ia2,Sagada,nort2877,Sagada (Ia2),Sagada Igorot,1950.0,,,17.0,121.0,17.0,121.0,Original,,PH
+1106,Ia3,Ifugao,tuwa1243,Ifugao (Ia3),,1920.0,Ifugao (OA19),http://ehrafworldcultures.yale.edu/collection?owc=OA19,17.0,121.0,17.0,121.0,Original,"Changed to ifk from ifb on 8 April 2017 based on comment from H. Hammarström: Barton is source, and while he doesn't say specifically which group his observations pertain to, he was working using Kiangan as his base, which would make it Ifugao-Tuwali [ifk]",PH
+1107,Ia4,Subanun,cent2089,Subanun (Ia4),,1950.0,,,8.0,123.0,8.0,123.0,Original,,PH
+1108,Ia5,Hanunoo,hanu1241,Hanunoo (Ia5),,1950.0,,,13.0,121.0,13.0,121.0,Original,,PH
+1109,Ia6,Paiwan,paiw1248,Paiwan (Ia6),,1930.0,,,22.0,121.0,22.44,120.77,Revised,,TW
+1110,Ia7,Tagbanua,tagb1258,Tagbanua (Ia7),,1950.0,,,10.0,119.0,10.0,119.0,Original,,PH
+1111,Ia8,Bontok,cent2292,Bontok (Ia8),,1900.0,,,17.0,121.0,17.0,121.0,Original,,PH
+1112,Ia9,Ami,amis1246,Ami (Ia9),Pangcah,1930.0,,,22.0,121.0,22.7,121.05,Revised,,TW
+1113,Ac9,Ngoni,ngon1269,Ngoni (Ac9),Angoni,1940.0,Ngoni (FR05),in process,-12.0,33.0,-12.0,33.0,Original,,ZM
+1114,Ib1,Iban,iban1264,Iban (Ib1),"Dayak, Sea Dayak",1950.0,Iban (OC06),http://ehrafworldcultures.yale.edu/collection?owc=OC06,2.0,112.0,2.0,112.0,Original,,MY
+1115,Ib2,Javanese,java1254,Javanese (Ib2),,1950.0,Javanese (OE05),http://ehrafworldcultures.yale.edu/collection?owc=OE05,-7.0,110.0,-7.0,110.0,Original,"Note, previously linked to language iso ""jas"" (New Caledonian Javanese); on 3Mar2016 Hannah Haynie checked refs/coordinates and concluded ""jav"" was a better match; it was temporarily switched back to [jas/newc1244] on 8Aug2018 but that was a mistake, should be [jav]/[java1254] (updated note: 5Sept2018 kk)",ID
+1116,Ib3,Balinese,bali1278,Balinese (Ib3),,1950.0,Bali (OF07),http://ehrafworldcultures.yale.edu/collection?owc=OF07,-8.0,115.0,-8.18,115.02,Revised,"Note, previously linked to language iso ""mhp"" (Malay, Balinese). Hannah Haynie checked refs/coordinates and concluded ""ban"" (Bali, glottocode bali1278) was a better match (3 Mar 2016)",ID
+1117,Ib4,Toba Batak,bata1289,Batak (Ib4),"Toba, Batak",1930.0,,,2.0,99.0,2.0,99.0,Original,,ID
+1118,Ib5,Kadazan-Dusun,cent2100,Dusun (Ib5),Dusun,1920.0,,,6.0,117.0,6.0,117.0,Original,,MY
+1119,Ib6,Minangkabau,mina1268,Minangkabau (Ib6),,1920.0,,,-1.0,101.0,-1.0,101.0,Original,,ID
+1120,Ib7,Mentaweians,ment1249,Mentaweians (Ib7),,1920.0,Mentawaians (OD09),http://ehrafworldcultures.yale.edu/collection?owc=OD09,-3.0,100.0,-2.93,100.23,Revised,,ID
+1121,Ib8,Anak Dalam,kubu1239,Kubu (Ib8),"Orang Batin Sembilan, Orang Rimba, Kubu",1900.0,,,-3.0,103.0,-3.0,103.0,Original,,ID
+1122,Ib9,Punan,puna1275,Punan (Ib9),,1950.0,,,3.0,115.0,3.0,115.0,Original,"Note, previously this xd_id was associated with language iso sge (Segai); Hannah Haynie reviewed references and coordinates and concluded should be matched to language iso ""pna"", glottolog language puna1275 (3 Mar 2016)",MY
+1123,Ic1,Macassarese,maka1311,Macassarese (Ic1),,1940.0,Makassar (OG06),in process,-5.0,119.0,-5.31,119.69,Revised,,ID
+1124,Ad1,Bajuni,baju1245,Bajun (Ad1),"Wabajuni, Bajun, Bagiuni, Barjun, Wagunya",1950.0,,,-2.0,41.0,-2.0,41.0,Original,,KE
+1125,Ic10,Tobelorese,tobe1252,Tobelorese (Ic10),Togutil,1910.0,,,1.0,128.0,1.0,128.0,Original,,ID
+1126,Ic11,Ambonese,ambo1250,Ambonese (Ic11),,1950.0,,,-4.0,128.0,-3.71,128.18,Revised,,ID
+1127,Ic12,Sumbawanese,sumb1241,Sumbawanese (Ic12),,1951.0,,,-4.0,118.0,-8.63,117.27,Revised,,ID
+1128,Ic13,Kodi,kodi1247,Kodi (Ic13),West Sumbanese,1950.0,,,-10.0,119.0,-9.66,119.07,Revised,,ID
+1129,Ic2,Alorese,abui1241,Alorese (Ic2),Abui,1940.0,Alor (OF05),http://ehrafworldcultures.yale.edu/collection?owc=OF05,-8.0,125.0,-8.22,124.26,Revised,Changed from aol to abz on 8 April 2017 based on comment from H. Hammarström: Sources are DuBois and Nicolspeyer. They both worked with Abui (abz) speakers.,ID
+1130,Ic3,Belu,tetu1245,Belu (Ic3),,1950.0,,,-9.0,126.0,-9.0,126.0,Original,,TL
+1131,Ic4,Rotinese,term1237,Rotinese (Ic4),"Atahori Rote, Hataholi Lote",1920.0,,,-11.0,123.0,-10.71,123.18,Revised,,ID
+1132,Ic5,Toradja,pamo1252,Toradja (Ic5),,1910.0,Toradja (OG11),http://ehrafworldcultures.yale.edu/collection?owc=OG11,-2.0,121.0,-2.0,121.0,Original,"Changed to pamo1252 (pmf, Pamona) from tora1261 (sda, Sa'dan) on 3Oct2018. Reason: the SCCS focus is on the Bare'e subgroup, which is the focus of (Adriani and Kruijt, 1912). Harald Hammarstrom notes that this group speaks Pamona [pmf], not Sa'dan [sda]. Note, this change may not be incorporated to Bouckaert/Atkinson global tree because of timing of correction.",ID
+1133,Ic6,Tanimbarese,sela1259,Tanimbarese (Ic6),,1930.0,,,-8.0,131.0,-8.19,130.96,Revised,,ID
+1134,Ic7,Ili-Mandiri,lama1277,Ili-Mandiri (Ic7),,1920.0,,,-8.0,123.0,-8.33,122.85,Revised,,ID
+1135,Ad10,Shambaa,sham1280,Shambala (Ad10),"Wasambaa, Shambala, Sambara, Waschambala",1910.0,,,-5.0,38.0,-5.0,38.0,Original,,TZ
+1136,Ic8,Kei,keii1239,Kei (Ic8),Kei Islanders,1890.0,,,-6.0,133.0,-5.58,133.07,Revised,,ID
+1137,Ic9,Sumbanese,kamb1299,Sumbanese (Ic9),Tau Humba,1930.0,,,-10.0,120.0,-10.0,120.0,Original,,ID
+1138,Id1,Northern Aranda,east2379,Aranda (Id1),"Aranda (Northern), Northern Arenda, Arunta",1900.0,Aranda (OI08),http://ehrafworldcultures.yale.edu/collection?owc=OI08,-24.0,134.0,-24.0,134.0,Original,"Note 8Feb2018: Not changed, despite note from HH: ""Why is Strehlow not associated rather with Western Arrarnta [are]"". According to White SCCS Pinpointing sheets, focus is ""The Arunta Mbainda of Alice Springs: [...] closely studied by Spencer and Gillen in 1896, restudied in 1901, and visited by Spencer in 1926 for some follow-up reconstruction work with several informants."" [So, Strehlow was perhaps used for supporting materials?]",AU
+1139,Id10,Walbiri,warl1254,Walbiri (Id10),Warlpiri,1930.0,,,-22.0,132.0,-22.0,132.0,Original,,AU
+1140,Id11,Gidjingali,gunn1248,Gidjingali (Id11),"Burarra, Gun-nartpa",1950.0,,,-12.0,135.0,-12.29,134.32,Revised,,AU
+1141,Id12,Yir Yoront,jirj1239,Yir Yoront (Id12),,1930.0,,,-15.0,142.0,-15.0,142.0,Original,"Note, previously yiy and yiry1245, however both codes have been retired",AU
+1142,Id13,Anindilyagwa,anin1240,Groote Eylandt (Id13),"Enindilywakwa, Groote Eylandt, Groote Eyelandt",1930.0,,,-14.0,137.0,-13.99,136.6,Revised,,AU
+1143,Id2,"Yolngu, Dhuwal",dhuw1249,Murngin (Id2),"Murngin, Wulamba, Dhuwal",1930.0,Murngin (OI17),in process,-12.0,136.0,-12.48,135.96,Revised,,AU
+1144,Id3,Tiwi,tiwi1244,Tiwi (Id3),,1920.0,Tiwi (OI20),http://ehrafworldcultures.yale.edu/collection?owc=OI20,-12.0,131.0,-11.56,130.81,Revised,,AU
+1145,Id4,Diyari,dier1241,Dieri (Id4),"Dieri, Dieri",1900.0,,,-28.0,138.0,-28.0,138.0,Original,,AU
+1146,Ad11,Bena,bena1262,Bena (Ad11),Wabena,1930.0,Bena (FN31),http://ehrafworldcultures.yale.edu/collection?owc=FN31,-9.0,36.0,-9.0,36.0,Original,,TZ
+1147,Id5,Kariyarra,kari1304,Kariera (Id5),Kariera,1910.0,,,-21.0,118.0,-21.0,118.0,Original,,AU
+1148,Id6,Wikmunkan,wikm1247,Wikmunkan (Id6),Wikmunkun,1920.0,,,-14.0,142.0,-14.0,142.0,Original,,AU
+1149,Id7,Murriny Patha,murr1258,Murinbata (Id7),"Murriny Patha, Murinbata",1940.0,,,-14.0,130.0,-14.0,130.0,Original,,AU
+1150,Id8,Tasmanians (northwestern),port1278,Tasmanians (Id8),"Palawa, Tasmanians (northwestern), Tasmanians (Western), Tasmanians (West Coast)",1830.0,Tasmanians (OI19),in process,-42.0,146.0,-42.0,146.0,Original,"Note, previously tasm1247, but languages difficult to assign with certainty, so chose another western tasmanian language not considered a ""bookkeeping"" language by glottolog",AU
+1151,Id9,Ngiyambaa,wang1291,Wongaibon (Id9),Wongaibon,1910.0,,,-32.0,146.0,-32.0,146.0,Original,,AU
+1152,Ie1,Mee,ekar1243,Kapauku (Ie1),Kapauku,1950.0,Kapauku (OJ29),http://ehrafworldcultures.yale.edu/collection?owc=OJ29,-4.0,136.0,-4.0,136.0,Original,,ID
+1153,Ie10,Motu,motu1246,Motu (Ie10),,1950.0,,,-9.0,147.0,-9.0,147.0,Original,,PG
+1154,Ie11,Kakoli,umbu1258,Kakoli (Ie11),,1950.0,,,-6.0,144.0,-6.0,144.0,Original,,PG
+1155,Ie12,Kwoma,kwom1262,Kwoma (Ie12),,1930.0,Kwoma (OJ13),http://ehrafworldcultures.yale.edu/collection?owc=OJ13,-4.0,142.0,-4.0,142.0,Original,,PG
+1156,Ie13,Kiwai,sout2949,Kiwai (Ie13),,1920.0,,,-9.0,143.0,-9.0,143.0,Original,,PG
+1157,Ad12,Gusii,gusi1247,Gusii (Ad12),"Abagusii, Gizii, Kissi, Kosova",1940.0,Gusii (FL08),http://ehrafworldcultures.yale.edu/collection?owc=FL08,-1.0,35.0,-1.0,35.0,Original,,KE
+1158,Ie14,Miriam,meri1244,Miriam (Ie14),,1900.0,,,-10.0,144.0,-9.91,144.06,Revised,,PG
+1159,Ie15,Abelam,ambu1247,Abelam (Ie15),,1930.0,,,4.0,-145.0,-3.79,143.09,Revised,,PG
+1160,Ie16,Kutubu,foii1241,Kutubu (Ie16),,1940.0,,,-6.0,143.0,-6.0,143.0,Original,,PG
+1161,Ie17,Siane,sian1257,Siane (Ie17),,1940.0,,,-6.0,145.0,-6.0,145.0,Original,,PG
+1162,Ie18,Kimam,kima1246,Kimam (Ie18),Frederik-Hendrik Islanders,1940.0,,,-7.0,138.0,-7.52,138.46,Revised,,ID
+1163,Ie19,Marind-Amin,nucl1622,Marindamin (Ie19),"Marindamin, Tugeri",1910.0,,,-8.0,139.0,-8.0,139.0,Original,,ID
+1164,Ie2,Wantoat,want1252,Wantoat (Ie2),,1920.0,,,-7.0,147.0,-6.15,146.53,Revised,,PG
+1165,Ie20,Koita,koit1244,Koita (Ie20),,1900.0,,,-9.0,147.0,-9.0,147.0,Original,,PG
+1166,Ie21,Mailu,mail1248,Mailu (Ie21),,1900.0,,,-10.0,149.0,-10.0,149.0,Original,,PG
+1167,Ie22,Mekeo,meke1243,Mekeo (Ie22),,1900.0,,,-9.0,147.0,-9.0,147.0,Original,,PG
+1168,Aa8,/Xam,xamm1241,Xam (Aa8),"Xam, Cape Bushman",1850.0,,,-30.0,23.0,-30.0,23.0,Original,,ZA
+1169,Ad13,Kiga,chig1238,Chiga (Ad13),"Chiga, Bachiga, Ciga, Kyiga",1930.0,,,-3.0,30.0,-3.0,30.0,Original,,BI
+1170,Ie23,Muju,sout2940,Muju (Ie23),,1950.0,,,-6.0,141.0,-6.0,141.0,Original,,PG
+1171,Ie24,Koiari,gras1249,Koiari (Ie24),,1870.0,,,-9.0,148.0,-9.0,148.0,Original,,PG
+1172,Ie25,Mafulu,fuyu1242,Mafulu (Ie25),,1920.0,,,-8.0,147.0,-8.0,147.0,Original,,PG
+1173,Ie26,Ngarawapum,adze1240,Ngarawapum (Ie26),,1940.0,,,-6.0,146.0,-6.0,146.0,Original,,PG
+1174,Ie27,Banaro,bana1292,Banaro (Ie27),,1910.0,,,-4.0,145.0,-4.56,144.34,Revised,,PG
+1175,Ie28,Busama,buga1250,Busama (Ie28),,1940.0,,,-7.0,147.0,-6.69,147.26,Revised,,PG
+1176,Ie29,Manam,mana1295,Manam (Ie29),,1930.0,,,-4.0,145.0,-4.08,145.03,Revised,,PG
+1177,Ie3,Arapesh,buki1249,Arapesh (Ie3),,1930.0,,,-4.0,144.0,-4.0,144.0,Original,Note 8Feb2018: Changed based on note from HH: Why is Mead's Arapesh associated with Bumbita rather than Bukiyip [ape]?,PG
+1178,Ie30,Mimika,kamo1255,Mimika (Ie30),,1950.0,,,-4.0,135.0,-4.0,135.0,Original,,ID
+1179,Ie31,Fore,fore1270,Fore (Ie31),,1950.0,,,-6.0,145.0,-6.0,145.0,Original,,PG
+1180,Ad14,Luguru,lugu1238,Luguru (Ad14),Waluguru,1930.0,,,-8.0,38.0,-8.0,38.0,Original,,TZ
+1181,Ie32,Sio,sioo1240,Sio (Ie32),,1964.0,,,-6.0,147.0,-6.0,147.0,Original,,PG
+1182,Ie33,Soromadja,nucl1595,Soromadja (Ie33),Tor,1950.0,,,-2.0,138.0,-2.0,138.0,Original,,ID
+1183,Ie34,Bgu,bong1287,Bgu (Ie34),,1960.0,,,-2.0,140.0,-2.34,139.6,Revised,,ID
+1184,Ie35,Iatmul,iatm1242,Iatmul (Ie35),,1930.0,,,-4.0,143.0,-4.0,143.0,Original,,PG
+1185,Ie36,Samarokena,sama1240,Samarokena (Ie36),,1950.0,,,-3.0,140.0,-3.0,140.0,Original,,ID
+1186,Ie37,Star Mountain,ngal1298,Star Mountain (Ie37),Star Mountain Papuans,1960.0,,,-5.0,141.0,-5.0,141.0,Original,,ID
+1187,Ie38,Dani,midg1235,Dani (Ie38),,1960.0,,,-4.0,139.0,-4.0,139.0,Original,,ID
+1188,Ie39,Elema,orok1267,Elema (Ie39),,1920.0,,,-8.0,145.0,-7.82,145.31,Revised,,PG
+1189,Ie4,Wogeo,woge1237,Wogeo (Ie4),,1930.0,Wogeo (OJ27),http://ehrafworldcultures.yale.edu/collection?owc=OJ27,-3.0,144.0,-3.24,144.1,Revised,,PG
+1190,Ie5,Keraki,namb1293,Keraki (Ie5),,1930.0,,,-9.0,142.0,-9.0,142.0,Original,,PG
+1191,Ad15,Iwa,nyam1275,Iwa (Ad15),"Awiwa, Wawiwa, Wiwa",1900.0,,,-10.0,32.0,-10.0,32.0,Original,,ZM
+1192,Ie6,Waropen,waro1242,Waropen (Ie6),,1930.0,,,-2.0,137.0,-2.14,137.23,Revised,,ID
+1193,Ie7,Enga,enga1252,Enga (Ie7),,1950.0,,,-6.0,144.0,-6.0,144.0,Original,,PG
+1194,Ie8,Purari,pura1257,Purari (Ie8),,1910.0,,,-7.0,145.0,-7.0,145.0,Original,,PG
+1195,Ie9,Orokaiva,orok1269,Orokaiva (Ie9),,1920.0,Orokaiva (OJ23),http://ehrafworldcultures.yale.edu/collection?owc=OJ23,-9.0,148.0,-9.0,148.0,Original,,PG
+1196,If1,Palauans,pala1344,Palauans (If1),,1940.0,Belau (OR15),http://ehrafworldcultures.yale.edu/collection?owc=OR15,7.0,135.0,7.45,134.54,Revised,,PW
+1197,If10,Nomoians,mort1237,Nomoians (If10),Mortlock Islanders,1940.0,,,6.0,153.0,6.89,152.74,Revised,,FM
+1198,If11,Kosraeans,kosr1238,Kusaians (If11),Kusaians,1860.0,,,5.0,163.0,5.31,162.98,Revised,,FM
+1199,If12,Bikinians,rali1241,Bikinians (If12),,1940.0,Marshalls (OR11),http://ehrafworldcultures.yale.edu/collection?owc=OR11,12.0,165.0,11.7,165.29,Revised,,MH
+1200,If13,Nauruans,naur1243,Nauruans (If13),,1900.0,,,-1.0,166.0,-0.53,166.92,Revised,,NR
+1201,If14,Makin,bana1287,Makin (If14),Gilbertese,1890.0,,,3.0,173.0,3.38,172.99,Revised,,KI
+1202,Ad16,Ngonde,ngon1268,Ngonde (Ad16),"Konde, Nkonde, Wangonde",1920.0,Ngonde (FN17),http://ehrafworldcultures.yale.edu/collection?owc=FN17,-10.0,34.0,-10.0,34.0,Original,,MW
+1203,If15,Carolinians,caro1242,Carolinians (If15),,1930.0,,,15.0,146.0,15.21,145.76,Revised,,MP
+1204,If16,Lamotrek,lamo1243,Lamotrek (If16),,1960.0,,,7.0,146.0,7.46,146.38,Revised,,FM
+1205,If17,Marshallese - Jaluit atoll,rali1241,Marshallese (If17),,1900.0,Marshallese (OR11),http://ehrafworldcultures.yale.edu/collection?owc=OR11,6.0,169.0,6.28,169.49,Revised,"12 Nov 2018 - dialect assigment corrected (should have been Ralik, rali1241, not Ratak, rata1243).",MH
+1206,If2,Trukese,chuu1238,Trukese (If2),Chuukese,1940.0,Truk (OR19),http://ehrafworldcultures.yale.edu/collection?owc=OR19,7.0,152.0,7.34,151.6,Revised,,FM
+1207,If3,Majuro,rata1243,Majuro (If3),Marshallese,1940.0,Marshalls (OR11),http://ehrafworldcultures.yale.edu/collection?owc=OR11,7.0,171.0,7.09,171.13,Revised,,MH
+1208,If4,Ifaluk,nucl1479,Ifuluk (If4),Ifuluk,1940.0,Woleai (OR21),http://ehrafworldcultures.yale.edu/collection?owc=OR21,7.0,147.0,7.25,144.46,Revised,,FM
+1209,If5,Ponapeans,pohn1238,Ponapeans (If5),Pohnpeian,1910.0,,,7.0,158.0,6.88,158.22,Revised,,FM
+1210,If6,Yapese,yape1248,Yapese (If6),,1910.0,Yap (OR22),http://ehrafworldcultures.yale.edu/collection?owc=OR22,9.0,138.0,9.55,138.13,Revised,,FM
+1211,If7,Gilbert Onotoa,nuii1237,Gilbert Onotoa (If7),"Onotoa, Gilbertese",1940.0,,,-2.0,174.0,-1.47,175.06,Revised,,KI
+1212,If8,Chamorro,cham1312,Chamorro (If8),,1950.0,,,15.0,145.0,15.13,145.71,Revised,,MP
+1213,Ad17,Safwa,safw1238,Safwa (Ad17),Wassafwa,1920.0,,,-8.0,33.0,-8.0,33.0,Original,,TZ
+1214,If9,Ulithians,ulit1238,Ulithians (If9),,1900.0,,,10.0,140.0,10.02,139.79,Revised,,FM
+1215,Ig1,Siuai,siwa1245,Siuai (Ig1),,1940.0,Siwai (ON19),http://ehrafworldcultures.yale.edu/collection?owc=ON19,-6.0,155.0,-6.0,155.0,Original,,PG
+1216,Ig10,Usiai,lele1270,Usiai (Ig10),,1950.0,,,-2.0,147.0,-2.0,147.0,Original,,PG
+1217,Ig11,Rossel Islanders,yele1255,Rossel (Ig11),Rossel,1920.0,,,-9.0,154.0,-11.36,154.14,Revised,,PG
+1218,Ig12,Choiseulese,vagh1249,Choiseulese (Ig12),,1900.0,,,-6.0,156.0,-6.69,156.52,Revised,,PG
+1219,Ig13,Aua,wuvu1239,Aua (Ig13),,1900.0,,,-2.0,143.0,-1.74,142.85,Revised,,PG
+1220,Ig14,Dahuni,suau1242,Dahuni (Ig14),,1900.0,,,-10.0,150.0,-10.41,149.91,Revised,,PG
+1221,Ig15,Bakovi,bola1250,Bakovi (Ig15),,1950.0,,,-5.0,150.0,-5.42,150.05,Revised,,PG
+1222,Ig16,Bwaidoga,bwai1242,Bwaidoga (Ig16),,1950.0,,,-9.0,150.0,-9.44,150.33,Revised,,PG
+1223,Ig17,Kombe,mudu1242,Koobe (Ig17),Koobe,1950.0,,,-5.0,149.0,-4.67,149.53,Revised,,PG
+1224,Ad18,Bende,bend1258,Bende (Ad18),"Vende, Wabende",1910.0,,,-7.0,31.0,-7.0,31.0,Original,,TZ
+1225,Ig18,Kwaio,kwai1243,Kwaio (Ig18),,1960.0,,,-9.0,161.0,-9.0,161.0,Original,,SB
+1226,Ig19,Molima,moli1248,Molima (Ig19),,1950.0,,,-10.0,151.0,-10.0,151.0,Original,,PG
+1227,Ig2,Trobriands,kili1267,Trobriands (Ig2),,1910.0,Trobriands (OL06),http://ehrafworldcultures.yale.edu/collection?owc=OL06,-8.0,151.0,-8.43,151.09,Revised,,PG
+1228,Ig20,Kaoka,long1395,Kaoka (Ig20),Kaukau,1920.0,,,-10.0,161.0,-9.49,159.82,Revised,,SB
+1229,Ig21,Tangu,tang1348,Tangu (Ig21),Tanga,1930.0,,,-3.0,153.0,-3.38,153.31,Revised,,PG
+1230,Ig3,Kurtatchi,tinp1237,Kurtatchi (Ig3),Buka,1930.0,Tinputz (ON06),http://ehrafworldcultures.yale.edu/collection?owc=ON06,-5.0,154.0,-5.6,154.91,Revised,,PG
+1231,Ig4,Lesu,nots1237,Lesu (Ig4),New Irelanders,1930.0,Lesu (OM24),http://ehrafworldcultures.yale.edu/collection?owc=OM24,-3.0,153.0,-3.06,151.66,Revised,,PG
+1232,Ig5,Dobuans,dobu1241,Dobuans (Ig5),,1920.0,,,-10.0,151.0,-10.0,151.0,Original,,PG
+1233,Ig6,Ulawans,saaa1240,Ulawans (Ig6),,1900.0,,,-10.0,161.0,-9.63,161.44,Revised,,SB
+1234,Ig7,Lakalai,naka1262,Lakalai (Ig7),Western Nakanai,1950.0,,,-5.0,151.0,-5.5,150.81,Revised,,PG
+1235,Ad19,Fipa,fipa1238,Fipa (Ad19),Wafipa,1910.0,,,-8.0,31.0,-8.0,31.0,Original,,TZ
+1236,Ig8,Simboese,simb1256,Simboese (Ig8),Eddystone Islanders,1910.0,,,-8.0,157.0,-8.0,157.0,Original,,SB
+1237,Ig9,Manus,tita1241,Manus (Ig9),,1920.0,Manus (OM06),http://ehrafworldcultures.yale.edu/collection?owc=OM06,-2.0,147.0,-2.0,147.0,Original,,PG
+1238,Ih1,Mota,mota1237,Mota (Ih1),,1890.0,,,-14.0,168.0,-13.84,167.7,Revised,,VU
+1239,Ih10,Tannese,sout2869,Tannese (Ih10),,1920.0,,,-20.0,168.0,-19.6,169.44,Revised,,VU
+1240,Ih11,Epi,lame1260,Epi (Ih11),,1920.0,,,-17.0,168.0,-16.61,168.17,Revised,,VU
+1241,Ih12,Eromangans,siee1239,Eromangans (Ih12),,1920.0,,,-19.0,169.0,-18.85,169.16,Revised,,VU
+1242,Ih13,Ranon,nort2839,Ranon (Ih13),,1920.0,,,-16.0,168.0,-16.18,168.15,Revised,,VU
+1243,Ih14,Mbau Fijians,bauu1243,Mbau Fijians (Ih14),,1840.0,,,-18.0,179.0,-17.81,178.32,Revised,,FJ
+1244,Ih2,Seniang,sout2857,Seniang (Ih2),,1930.0,,,-17.0,167.0,-16.51,167.47,Revised,,VU
+1245,Ih3,Bunlap,saaa1241,Bunlap (Ih3),Pentecost,1950.0,,,-16.0,168.0,-15.95,168.22,Revised,,VU
+1246,Ad2,Nyoro,nyor1246,Nyoro (Ad2),"Banyoro, Kitara",1950.0,Banyoro (FK11),http://ehrafworldcultures.yale.edu/collection?owc=FK11,2.0,32.0,2.0,32.0,Original,,UG
+1247,Ih4,Lau,laua1243,Lau (Ih4),,1920.0,Lau (OQ06),http://ehrafworldcultures.yale.edu/collection?owc=OQ06,-18.0,179.0,-17.74,-179.31,Revised,,WF
+1248,Ih5,Ajie,ajie1238,Ajie (Ih5),,1860.0,,,-22.0,165.0,-21.37,165.47,Revised,,NC
+1249,Ih6,Rotumans,rotu1241,Rotumans (Ih6),,1890.0,,,-13.0,177.0,-12.5,177.07,Revised,,FJ
+1250,Ih7,Lifu,dehu1237,Lifu (Ih7),Lifu Islanders,1910.0,,,-21.0,163.0,-20.94,167.23,Revised,,NC
+1251,Ih8,Vanua Levu,nort2843,Vanua Levu (Ih8),,1940.0,,,-17.0,179.0,-17.81,178.32,Revised,,FJ
+1252,Ih9,Santa Cruz Islanders,natu1246,Santa Cruz (Ih9),Santa Cruz,1930.0,Santa Cruz (ON13),http://ehrafworldcultures.yale.edu/collection?owc=ON13,-11.0,166.0,-10.73,165.85,Revised,,SB
+1253,Ii1,American Samoans,samo1305,Samoans (Ii1),,1920.0,,,-14.289155,-170.706485,-13.68,-172.41,Revised,,WS
+1254,Ii10,Rennell Islanders,renn1242,Rennell (Ii10),"Mugaba, Rennell",1950.0,,,-12.0,160.0,-11.74,160.42,Revised,,SB
+1255,Ii12,Tongans,tong1325,Tongans (Ii12),,1920.0,Tongans (OU09),http://ehrafworldcultures.yale.edu/collection?owc=OU09,-20.0,-174.0,-19.74,-175.07,Revised,,TO
+1256,Ii13,Uveans,wall1257,Uveans (Ii13),Wallis Islanders,1830.0,,,-13.0,-176.0,-13.28,-176.17,Revised,,WF
+1257,Ad20,Nyamwezi,nyam1276,Nyamwezi (Ad20),"Banyamwezi, Wanyamwezi",1920.0,,,-5.0,33.0,-5.0,33.0,Original,,TZ
+1258,Ii14,Upolu Samoans,samo1305,Upolu (Ii14),"Upolu, Western Samoans",1829.0,Samoans (OU08),http://ehrafworldcultures.yale.edu/collection?owc=OU08,-14.0,172.0,-13.94,-171.77,Revised,,WS
+1259,Ii2,Tikopia,tiko1237,Tikopia (Ii2),,1930.0,Tikopia (OT11),http://ehrafworldcultures.yale.edu/collection?owc=OT11,-12.0,168.0,-12.29,168.83,Revised,,VU
+1260,Ii3,Pukapukans,puka1242,Pukapukans (Ii3),Danger Islanders,1930.0,Pukapuka (OZ11),in process,-11.0,-166.0,-10.89,-165.84,Revised,,AS
+1261,Ii4,Ellice,tuva1244,Ellice (Ii4),Tuvalu Islanders,1890.0,,,-8.0,178.0,-7.48,178.68,Revised,,TV
+1262,Ii5,Ontong Java,onto1237,Ontong Java (Ii5),"Leuenuwa, Lord Howe's Islanders",1920.0,,,-5.0,160.0,-5.48,159.7,Revised,,SB
+1263,Ii6,Tokelau,toke1240,Tokelau (Ii6),,1900.0,,,-9.0,-172.0,-9.2,-171.85,Revised,,TK
+1264,Ii7,Kapingamarangi,kapi1249,Kapingamarang (Ii7),Kapingamarang,1910.0,,,1.0,155.0,1.09,154.8,Revised,,FM
+1265,Ii8,Futunans,east2447,Futunans (Ii8),Horne Islanders,1840.0,,,-14.0,-178.0,-14.31,-178.11,Revised,,WF
+1266,Ii9,Niueans,niue1239,Niueans (Ii9),,1840.0,,,-19.0,-169.0,-19.05,-169.86,Revised,,NU
+1267,Ij1,Mangaians,raro1241,Mangaians (Ij1),,1820.0,,,-22.0,-158.0,-21.93,-157.91,Revised,,CK
+1268,Ad21,Pimbwe,pimb1238,Pimbwe (Ad21),Bapimbwe,1930.0,,,-7.0,31.0,-7.0,31.0,Original,,TZ
+1269,Ij10,Tongarevans,penr1237,Tongarevans (Ij10),Penrhyn Islanders,1900.0,,,-9.0,-158.0,-9.02,-158.03,Revised,,PF
+1270,Ij2,Māori,maor1246,Maori (Ij2),Maori,1820.0,Maori (OZ04),http://ehrafworldcultures.yale.edu/collection?owc=OZ04,-35.0,175.0,-38.41,176.31,Revised,,NZ
+1271,Ij3,Marquesans,nort2845,Marquesans (Ij3),,1900.0,Marquesas (OX06),http://ehrafworldcultures.yale.edu/collection?owc=OX06,-9.0,-140.0,-8.9,-140.08,Revised,,PF
+1272,Ij4,Manihikians,raka1237,Manihikians (Ij4),,1850.0,,,-10.0,-160.0,-10.41,-160.98,Revised,,AS
+1273,Ij5,Raroians,tuam1242,Raroians (Ij5),Rareians,1900.0,,,-16.0,-142.0,-15.94,-142.31,Revised,,PF
+1274,Ij6,Hawaiians,hawa1245,Hawaiians (Ij6),,1800.0,Hawaiians (OV05),http://ehrafworldcultures.yale.edu/collection?owc=OV05,20.0,-156.0,19.89,-155.83,Revised,,US
+1275,Ij7,Mangarevans,mang1401,Mangarevans (Ij7),,1900.0,,,-20.0,-134.0,-23.12,-134.97,Revised,,PF
+1276,Ij8,Tahitians,tahi1242,Tahitians (Ij8),Society Islanders,1900.0,,,-18.0,-150.0,-17.71,-149.54,Revised,,PF
+1277,Ij9,Easter Islanders,rapa1244,Easter Island (Ij9),Easter Island,1860.0,Rapa nui (OY02),http://ehrafworldcultures.yale.edu/collection?owc=OY02,-27.0,-190.0,-27.12,-109.36,Revised,,CL
+1278,Aa9,Hadza,hadz1240,Hatsa Kindiga (Aa9),"Hadzabe, Hatsa Kindiga, Hadza, Kindiga",1910.0,,,-3.0,35.0,-3.0,35.0,Original,,TZ
+1279,Ad22,Sukuma,suku1261,Sukuma (Ad22),"Basukuma, Wassukuma",1950.0,,,-3.0,34.0,-3.0,34.0,Original,,TZ
+1280,Ad23,Sangu,sang1330,Sangu (Ad23),Rori,1910.0,,,-8.0,34.0,-8.0,34.0,Original,,TZ
+1281,Ad24,Gogo,gogo1263,Gogo (Ad24),Wagogo,1910.0,,,-7.0,36.0,-7.0,36.0,Original,,TZ
+1282,Ad25,Rangi,lang1320,Rangi (Ad25),"Irangi, Langi, Warangi",1900.0,,,-5.0,36.0,-5.0,36.0,Original,,TZ
+1283,Ad26,Turu,nyat1246,Turu (Ad26),"Lima, Walimi, Waniaturu",1910.0,,,-5.0,34.0,-5.0,34.0,Original,,TZ
+1284,Ad27,Kwere,kwer1261,Kwere (Ad27),Wakwere,1880.0,,,-7.0,39.0,-7.0,39.0,Original,,TZ
+1285,Ad28,Zigula,zigu1242,Zigula (Ad28),"Seguha, Wazigua, Zegura",1880.0,,,-6.0,39.0,-5.84,38.79,Revised,,TZ
+1286,Ad29,Hadimu,pemb1239,Hadimu (Ad29),Wahadimu,1930.0,,,-6.0,40.0,-6.07,39.43,Revised,,TZ
+1287,Ad3,Chagga,moch1256,Chagga (Ad3),"Dschagga, Wachagga",1910.0,Chagga (FN04),http://ehrafworldcultures.yale.edu/collection?owc=FN04,-3.0,37.0,-3.0,37.0,Original,,TZ
+1288,Ad30,Digo,digo1243,Digo (Ad30),"Adigo, Wadigo",1890.0,,,-4.0,39.0,-4.0,39.0,Original,,KE
+1289,Nd26,Wadatkuht,sout2967,Wadatkuht (Nd26),Honey Lake Paiute,1870.0,Northern Paiute (NR13),http://ehrafworldcultures.yale.edu/collection?owc=NR13,41.0,-120.0,41.0,-120.0,Original,,US
+1290,Nd39,Spring Valley Shoshoni,west2622,Spring Valley (Nd39),"Spring Valley, Snake Valley Shoshoni, Antelope Valley Shoshoni",1870.0,,,40.0,-115.0,40.0,-115.0,Original,,US
